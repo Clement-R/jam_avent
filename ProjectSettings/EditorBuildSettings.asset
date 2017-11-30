@@ -4,4 +4,82 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/splash_screen.unity
+    guid: 1bd9d7f027935f747bccad7832a2c514
+  - enabled: 1
+    path: Assets/Scenes/main_menu.unity
+    guid: 7b6cb3bd7c86269499e7eac9a7c1c696
+  - enabled: 1
+    path: Assets/Scenes/Games/1.unity
+    guid: fde0749736c14334aa90bf8de90a9abf
+  - enabled: 1
+    path: Assets/Scenes/Games/2.unity
+    guid: ac4c9512c3efdab49bf4ba8ff7d7ff3f
+  - enabled: 1
+    path: Assets/Scenes/Games/3.unity
+    guid: 94f8b78109e82534bb436c3fee0aa007
+  - enabled: 1
+    path: Assets/Scenes/Games/4.unity
+    guid: 702a467dd710dd0418c84824a00456cb
+  - enabled: 1
+    path: Assets/Scenes/Games/5.unity
+    guid: 8e9f44a5151f6784b805b684b83546ca
+  - enabled: 1
+    path: Assets/Scenes/Games/6.unity
+    guid: 628e3bec98d6e55478292526b993b31a
+  - enabled: 1
+    path: Assets/Scenes/Games/7.unity
+    guid: 22a122de265992f4e8cdae4e8369b3e8
+  - enabled: 1
+    path: Assets/Scenes/Games/8.unity
+    guid: 97f10f31d632cc14db43e2e2281fd4e1
+  - enabled: 1
+    path: Assets/Scenes/Games/9.unity
+    guid: 606321303e504a047b4b13417c47985e
+  - enabled: 1
+    path: Assets/Scenes/Games/10.unity
+    guid: a0a52d6aa8a54c740b19c95d8b35503d
+  - enabled: 1
+    path: Assets/Scenes/Games/11.unity
+    guid: c64b410a10ac559479125067ae6b6063
+  - enabled: 1
+    path: Assets/Scenes/Games/12.unity
+    guid: 86e6bba5c62dc1d4783aff59392c2393
+  - enabled: 1
+    path: Assets/Scenes/Games/13.unity
+    guid: 898864d9993e34d47bda4f0aa99253b4
+  - enabled: 1
+    path: Assets/Scenes/Games/14.unity
+    guid: 0e1364b623bf22b41bab51b07288f1c6
+  - enabled: 1
+    path: Assets/Scenes/Games/15.unity
+    guid: ce917b8e5e0cc744191c2b5ea0781505
+  - enabled: 1
+    path: Assets/Scenes/Games/16.unity
+    guid: 0120a8677aa24ee47961cc60778a478f
+  - enabled: 1
+    path: Assets/Scenes/Games/17.unity
+    guid: a1cb13bafb9a39e4c86eac0f674645ae
+  - enabled: 1
+    path: Assets/Scenes/Games/18.unity
+    guid: 464cb7420f9146e4885396d3e33b579a
+  - enabled: 1
+    path: Assets/Scenes/Games/19.unity
+    guid: 917ace44a7ea20e40832538b28ce1035
+  - enabled: 1
+    path: Assets/Scenes/Games/20.unity
+    guid: 68dad203e69729f4e85174d2086a642b
+  - enabled: 1
+    path: Assets/Scenes/Games/21.unity
+    guid: 6d95f6929d6da5c4a93797065ea77eb2
+  - enabled: 1
+    path: Assets/Scenes/Games/22.unity
+    guid: a65c93d60d896e948bce7143623ebb28
+  - enabled: 1
+    path: Assets/Scenes/Games/23.unity
+    guid: 2ee968a7ea75e09459d34eebdd55f4ee
+  - enabled: 1
+    path: Assets/Scenes/Games/24.unity
+    guid: 267540e498754fb479b7d45dd502989a
