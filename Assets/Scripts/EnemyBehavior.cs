@@ -20,4 +20,12 @@ public class EnemyBehavior : MonoBehaviour {
         transform.right = _player.transform.position - transform.position;
         _rb.velocity = (_player.transform.position - transform.position).normalized * _speed;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            print("You lose");
+        }
+    }
 }
