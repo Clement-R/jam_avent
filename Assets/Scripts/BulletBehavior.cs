@@ -22,7 +22,8 @@ public class BulletBehavior : MonoBehaviour {
         }
         else if(collision.gameObject.tag == "Enemy")
         {
-
+            Destroy(gameObject);
+            Destroy(collision.gameObject);
         }
     }
 }
