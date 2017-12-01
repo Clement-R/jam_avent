@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E85ECF67-23AF-4CD1-A413-FBA513D5879C}" SchemaVersion="80" RootDocumentID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}">
+	<Events>
+		<WorkUnit Name="Game1" ID="{E85ECF67-23AF-4CD1-A413-FBA513D5879C}" OwnerID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Game1_Shoot" ID="{A79849F0-24CE-46B7-B5C8-6DAB3E0765FD}">
+					<ChildrenList>
+						<Action Name="" ID="{D17A74EE-7A5A-48CB-A303-7C73C3FE9831}" ShortID="787575362">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game1_Shoot" ID="{5F4EB0A9-C661-4842-BDFB-8D2B6D1BB421}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Game1_Music" ID="{EC0E696D-4B5A-4330-9B7F-C11B69421CEF}">
+					<ChildrenList>
+						<Action Name="" ID="{B7E5E6F2-5A4E-40B1-8193-1DFD7B588BAB}" ShortID="34848423">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{D513FC81-8F51-4458-99B6-69177E3E22CA}" ShortID="383764132">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game1_Music" ID="{F3F72FFC-3FC6-4195-9E4C-FC45C9193703}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Game1_Hit" ID="{D7AC8423-F67C-4D65-BE41-9ACF6CE2254A}">
+					<ChildrenList>
+						<Action Name="" ID="{A2718AAF-2191-4EEB-99F3-753719F1288E}" ShortID="512445314">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game1_Hit" ID="{815659A4-CA30-4BE5-B7F8-D11F9DD61977}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Game1_lose" ID="{B281ADAD-CA97-47A9-9551-7EB3A95B7F8E}">
+					<ChildrenList>
+						<Action Name="" ID="{2B142BF7-ADF3-47AE-B73C-AF7E4944A774}" ShortID="746578627">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game1_lose" ID="{65C89446-066F-4D78-A558-A78F542197BF}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Game1_win" ID="{B2BF83B0-73E9-4BD9-9551-B9DB7D9402AB}">
+					<ChildrenList>
+						<Action Name="" ID="{DEA6569D-CC1E-440D-9386-040CAE86FA82}" ShortID="566648809">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game1_win" ID="{F6474392-E777-4F58-9013-4EB210B55132}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

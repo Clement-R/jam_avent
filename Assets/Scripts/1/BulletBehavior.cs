@@ -22,6 +22,7 @@ public class BulletBehavior : MonoBehaviour {
         }
         else if(collision.gameObject.tag == "Enemy")
         {
+            AkSoundEngine.PostEvent("Play_Game1_Hit", gameObject);
             Destroy(gameObject);
             Destroy(collision.gameObject);
         }

@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835ffa6293f72a540a260cd4171a8005, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: 
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{A710DE66-4291-4ABC-BEF5-9D41C31A9467}'
+    m_lastTimePsrt1: 608437056
+    m_lastTimePart2: -1999292150
+    List: []
+  - PhysicalPath: Events\Game1.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    Guid: '{E85ECF67-23AF-4CD1-A413-FBA513D5879C}'
+    m_lastTimePsrt1: -1350493649
+    m_lastTimePart2: -1999292148
+    List:
+    - Name: Play_Game1_Hit
+      Path: Default Work Unit\Game1\Play_Game1_Hit
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game1
+        ObjectType: 12
+      - ElementName: Play_Game1_Hit
+        ObjectType: 3
+      ID: -214957009
+      Guid: 2384acd77cf6654dbe419acf6ce2254a
+      maxAttenuation: 0
+    - Name: Play_Game1_lose
+      Path: Default Work Unit\Game1\Play_Game1_lose
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game1
+        ObjectType: 12
+      - ElementName: Play_Game1_lose
+        ObjectType: 3
+      ID: -1321038133
+      Guid: adad81b297caa94795517eb3a95b7f8e
+      maxAttenuation: 0
+    - Name: Play_Game1_Music
+      Path: Default Work Unit\Game1\Play_Game1_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game1
+        ObjectType: 12
+      - ElementName: Play_Game1_Music
+        ObjectType: 3
+      ID: -727114423
+      Guid: 6d690eec5a4b30439b7fc11b69421cef
+      maxAttenuation: 0
+    - Name: Play_Game1_Shoot
+      Path: Default Work Unit\Game1\Play_Game1_Shoot
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game1
+        ObjectType: 12
+      - ElementName: Play_Game1_Shoot
+        ObjectType: 3
+      ID: -725759203
+      Guid: f04998a7ce24b746b5c86dab3e0765fd
+      maxAttenuation: 0
+    - Name: Play_Game1_win
+      Path: Default Work Unit\Game1\Play_Game1_win
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game1
+        ObjectType: 12
+      - ElementName: Play_Game1_win
+        ObjectType: 3
+      ID: -80883150
+      Guid: b083bfb2e973d94b9551b9db7d9402ab
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{FACB1810-1367-497F-A6B1-AA76852501DF}'
+    m_lastTimePsrt1: -1101926649
+    m_lastTimePart2: -1999292153
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{D6EEC0EF-92BB-4DA2-8D47-832A9C5B3C55}'
+    m_lastTimePsrt1: -1101946663
+    m_lastTimePart2: -1999292153
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{FE32996E-DCDD-410B-A69D-4E6150A26C1D}'
+    m_lastTimePsrt1: -1101896619
+    m_lastTimePart2: -1999292153
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{4F62B987-CCF6-4B01-AE53-B880E4EE2E5C}'
+    m_lastTimePsrt1: 608457079
+    m_lastTimePart2: -1999292150
+    List:
+    - Name: SndBnk_Game1
+      Path: Default Work Unit\SndBnk_Game1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SndBnk_Game1
+        ObjectType: 7
+      ID: -1669154749
+      Guid: c6975bc98f8cad47bb44d95a9859e0bd
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{206586C5-1A1B-49AE-AEAB-E08555A61FB9}'
+    m_lastTimePsrt1: -1101866587
+    m_lastTimePart2: -1999292153
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{FEDE0912-DA6F-444E-B742-C213973D87CC}'
+    m_lastTimePsrt1: -1101806531
+    m_lastTimePart2: -1999292153
+    List: []
+  ExpandedItems:
+  - /jam_de_l_Avent_WwiseProject
+  - /jam_de_l_Avent_WwiseProject/Events
+  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit
+  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit/Game1
+  - /jam_de_l_Avent_WwiseProject/SoundBanks
+  - /jam_de_l_Avent_WwiseProject/SoundBanks/Default Work Unit
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95
+  callbackManagerBufferSize: 4

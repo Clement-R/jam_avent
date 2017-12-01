@@ -25,6 +25,7 @@ public class EnemyBehavior : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Player")
         {
+            AkSoundEngine.PostEvent("Play_Game1_lose", gameObject);
             collision.gameObject.GetComponent<PlayerController>().Lose();
         }
     }

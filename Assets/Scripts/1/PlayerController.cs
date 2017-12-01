@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour {
 
         // Shoot !
         if (Input.GetMouseButton(0) && Time.time >= _nextShot) {
+            AkSoundEngine.PostEvent("Play_Game1_Shoot", gameObject);
             _nextShot = Time.time + _shotCooldown;
             Instantiate(_bullet, transform.GetChild(0).transform.position, transform.rotation);
         }

@@ -37,6 +37,7 @@ public class SplashScreenBehavior : MonoBehaviour {
             if(!_particleSystem.isPlaying)
             {
                 print("Go!");
+                AkSoundEngine.PostEvent("Play_Game1_win", gameObject);
                 _particleSystem.Play();
                 StartCoroutine(ShowNames());
             }
@@ -72,7 +73,7 @@ public class SplashScreenBehavior : MonoBehaviour {
 
     IEnumerator LoadStartScene()
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("main_menu");
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("1");
         asyncLoad.allowSceneActivation = false;
 
         while (!_hasAnimationFinished) {

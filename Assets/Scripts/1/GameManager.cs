@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour {
 
     private void Awake()
     {
+        AkSoundEngine.PostEvent("Play_Game1_Music", gameObject);
         Time.timeScale = 1f;
     }
 
@@ -17,6 +18,7 @@ public class GameManager : MonoBehaviour {
 
     public void Exit()
     {
-        SceneManager.LoadScene("main_menu");
+        // SceneManager.LoadScene("main_menu");
+        Application.Quit();
     }
 }

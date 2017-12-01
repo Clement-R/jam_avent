@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8D4261FF-3105-4F79-A10D-383E7E07657E}" SchemaVersion="80">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{8D4261FF-3105-4F79-A10D-383E7E07657E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Game1_Music" ID="{F3F72FFC-3FC6-4195-9E4C-FC45C9193703}" ShortID="224988201">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Juhani Junkala [Retro Game Music Pack] Level 3" ID="{16C93CDE-DD6A-421B-85E5-A83A7A1DE7B5}" ShortID="43566909">
+							<Language>SFX</Language>
+							<AudioFile>Juhani Junkala [Retro Game Music Pack] Level 3.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Juhani Junkala [Retro Game Music Pack] Level 3" ID="{16C93CDE-DD6A-421B-85E5-A83A7A1DE7B5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Game1_lose" ID="{65C89446-066F-4D78-A558-A78F542197BF}" ShortID="847625871">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="lose" ID="{49E8CA98-406A-4C01-86F5-77E22AC16C4F}" ShortID="385419800">
+							<Language>SFX</Language>
+							<AudioFile>lose.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="lose" ID="{49E8CA98-406A-4C01-86F5-77E22AC16C4F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Game1_win" ID="{F6474392-E777-4F58-9013-4EB210B55132}" ShortID="775680263">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="win" ID="{9114D6D6-FAF1-45D7-9817-A3C2966BCD21}" ShortID="478511704">
+							<Language>SFX</Language>
+							<AudioFile>win.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="win" ID="{9114D6D6-FAF1-45D7-9817-A3C2966BCD21}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Game1_Shoot" ID="{5F4EB0A9-C661-4842-BDFB-8D2B6D1BB421}" ShortID="1018342716">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Laser_Shoot6" ID="{59E3EBD8-4335-40E5-9E0E-DE9E0474470B}" ShortID="370164740">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Laser_Shoot6" ID="{EE265CEE-8D93-4811-9600-9A60ECB15148}" ShortID="899766368">
+									<Language>SFX</Language>
+									<AudioFile>Laser_Shoot6.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Laser_Shoot6" ID="{EE265CEE-8D93-4811-9600-9A60ECB15148}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Laser_Shoot4" ID="{E27EC573-C13A-408E-A250-E90560619304}" ShortID="100215358">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Laser_Shoot4" ID="{148AC734-1568-4EA2-8AD9-842EEA6EC953}" ShortID="766096183">
+									<Language>SFX</Language>
+									<AudioFile>Laser_Shoot4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Laser_Shoot4" ID="{148AC734-1568-4EA2-8AD9-842EEA6EC953}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Laser_Shoot3" ID="{F1D4AC7D-5629-47E0-8E8D-A33060C5C739}" ShortID="344866732">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Laser_Shoot3" ID="{1EE962BE-7735-4E85-A95E-322C8C370357}" ShortID="810355837">
+									<Language>SFX</Language>
+									<AudioFile>Laser_Shoot3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Laser_Shoot3" ID="{1EE962BE-7735-4E85-A95E-322C8C370357}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Game1_Hit" ID="{815659A4-CA30-4BE5-B7F8-D11F9DD61977}" ShortID="962819555">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Hit_Hurt3" ID="{F3E0948A-00F4-4184-A994-0420908B11E6}" ShortID="127837583">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit_Hurt3" ID="{3F543F5C-19F4-4709-9639-141FA74B4615}" ShortID="990306815">
+									<Language>SFX</Language>
+									<AudioFile>Hit_Hurt3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit_Hurt3" ID="{3F543F5C-19F4-4709-9639-141FA74B4615}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit_Hurt14" ID="{C3150BCA-C76C-4A86-BF33-54DF5EC0DD85}" ShortID="667742477">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit_Hurt14" ID="{F3B50CEE-E411-46AC-870D-B91840E94A4C}" ShortID="332660716">
+									<Language>SFX</Language>
+									<AudioFile>Hit_Hurt14.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit_Hurt14" ID="{F3B50CEE-E411-46AC-870D-B91840E94A4C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit_Hurt" ID="{011E573A-DEE8-4D8F-9821-0458EC2B0061}" ShortID="826112358">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit_Hurt" ID="{7F37CA85-0592-45A3-8C1A-D107BE778D1F}" ShortID="721715918">
+									<Language>SFX</Language>
+									<AudioFile>Hit_Hurt.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit_Hurt" ID="{7F37CA85-0592-45A3-8C1A-D107BE778D1F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit_Hurt8" ID="{2FE320A2-1093-4C94-848F-DFA64BB5D7B5}" ShortID="660149956">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit_Hurt8" ID="{CC18B46E-5919-410A-91BF-745C92D764AC}" ShortID="171640505">
+									<Language>SFX</Language>
+									<AudioFile>Hit_Hurt8.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit_Hurt8" ID="{CC18B46E-5919-410A-91BF-745C92D764AC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

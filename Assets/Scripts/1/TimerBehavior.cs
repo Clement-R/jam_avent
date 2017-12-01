@@ -23,6 +23,7 @@ public class TimerBehavior : MonoBehaviour {
 
         if (_timer <= 0f)
         {
+            AkSoundEngine.PostEvent("Play_Game1_win", gameObject);
             timerText.text = ("0.000");
             winPanel.SetActive(true);
             Time.timeScale = 0f;

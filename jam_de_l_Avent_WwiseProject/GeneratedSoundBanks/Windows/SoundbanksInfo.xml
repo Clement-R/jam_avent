@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2625812547" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game1</ObjectPath>
+			<ShortName>SndBnk_Game1</ShortName>
+			<Path>SndBnk_Game1.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4080010287" Name="Play_Game1_Hit" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_Hit"/>
+				<Event Id="2973929163" Name="Play_Game1_lose" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_lose"/>
+				<Event Id="3567852873" Name="Play_Game1_Music" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_Music"/>
+				<Event Id="3569208093" Name="Play_Game1_Shoot" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_Shoot"/>
+				<Event Id="4214084146" Name="Play_Game1_win" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_win"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="43566909" Language="SFX">
+					<ShortName>Juhani Junkala [Retro Game Music Pack] Level 3.wav</ShortName>
+					<Path>SFX\Juhani Junkala [Retro Game Music Pack] Level 3_F17FB28C.wem</Path>
+				</File>
+				<File Id="171640505" Language="SFX">
+					<ShortName>Hit_Hurt8.wav</ShortName>
+					<Path>SFX\Hit_Hurt8_1C9C67B2.wem</Path>
+				</File>
+				<File Id="332660716" Language="SFX">
+					<ShortName>Hit_Hurt14.wav</ShortName>
+					<Path>SFX\Hit_Hurt14_1C9C67B2.wem</Path>
+				</File>
+				<File Id="385419800" Language="SFX">
+					<ShortName>lose.wav</ShortName>
+					<Path>SFX\lose_1C9C67B2.wem</Path>
+				</File>
+				<File Id="478511704" Language="SFX">
+					<ShortName>win.wav</ShortName>
+					<Path>SFX\win_1C9C67B2.wem</Path>
+				</File>
+				<File Id="721715918" Language="SFX">
+					<ShortName>Hit_Hurt.wav</ShortName>
+					<Path>SFX\Hit_Hurt_1C9C67B2.wem</Path>
+				</File>
+				<File Id="766096183" Language="SFX">
+					<ShortName>Laser_Shoot4.wav</ShortName>
+					<Path>SFX\Laser_Shoot4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="810355837" Language="SFX">
+					<ShortName>Laser_Shoot3.wav</ShortName>
+					<Path>SFX\Laser_Shoot3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="899766368" Language="SFX">
+					<ShortName>Laser_Shoot6.wav</ShortName>
+					<Path>SFX\Laser_Shoot6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="990306815" Language="SFX">
+					<ShortName>Hit_Hurt3.wav</ShortName>
+					<Path>SFX\Hit_Hurt3_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

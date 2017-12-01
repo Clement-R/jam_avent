@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2973929163	Play_Game1_lose			\Default Work Unit\Game1\Play_Game1_lose	
+	3567852873	Play_Game1_Music			\Default Work Unit\Game1\Play_Game1_Music	
+	3569208093	Play_Game1_Shoot			\Default Work Unit\Game1\Play_Game1_Shoot	
+	4080010287	Play_Game1_Hit			\Default Work Unit\Game1\Play_Game1_Hit	
+	4214084146	Play_Game1_win			\Default Work Unit\Game1\Play_Game1_win	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	43566909	Game1_Music	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\Juhani Junkala [Retro Game Music Pack] Level 3_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game1_Music		14446476
+	171640505	Hit_Hurt8	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\Hit_Hurt8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game1_Hit\Hit_Hurt8		10208
+	332660716	Hit_Hurt14	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\Hit_Hurt14_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game1_Hit\Hit_Hurt14		11676
+	385419800	Game1_lose	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\lose_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game1_lose		41056
+	478511704	Game1_win	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\win_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game1_win		34966
+	721715918	Hit_Hurt	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\Hit_Hurt_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game1_Hit\Hit_Hurt		10208
+	766096183	Laser_Shoot4	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\Laser_Shoot4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game1_Shoot\Laser_Shoot4		10994
+	810355837	Laser_Shoot3	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\Laser_Shoot3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game1_Shoot\Laser_Shoot3		13922
+	899766368	Laser_Shoot6	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\Laser_Shoot6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game1_Shoot\Laser_Shoot6		15162
+	990306815	Hit_Hurt3	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\Hit_Hurt3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game1_Hit\Hit_Hurt3		21662
+
