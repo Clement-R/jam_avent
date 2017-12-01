@@ -9,8 +9,13 @@ public class TimerBehavior : MonoBehaviour {
     public GameObject winPanel;
 
     private static float _timer = 24f;
-    
-	private void Update()
+
+    private void Start()
+    {
+        _timer = 24f;
+    }
+
+    private void Update()
     {
         _timer -= Time.deltaTime;
 
