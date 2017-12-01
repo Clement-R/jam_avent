@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -44,4 +45,16 @@ TagManager:
     locked: 0
   - name: intro_animation_particle_system
     uniqueID: 2981473663
+    locked: 0
+  - name: game_background
+    uniqueID: 2237030619
+    locked: 0
+  - name: game_props
+    uniqueID: 682723335
+    locked: 0
+  - name: game_npcs
+    uniqueID: 2459119917
+    locked: 0
+  - name: game_borders
+    uniqueID: 1037201961
     locked: 0

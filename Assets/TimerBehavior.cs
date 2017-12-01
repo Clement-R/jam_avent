@@ -1,16 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TimerBehavior : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public Text timerText;
+    private float _timer = 24f;
+    
+	private void Update()
+    {
+        _timer -= Time.deltaTime;
+
+        timerText.text = _timer.ToString("0.000");
+
+        if (_timer <= 0f)
+        {
+            Debug.Log("You win !");
+        }
+    }
 }
