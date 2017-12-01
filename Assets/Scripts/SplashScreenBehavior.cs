@@ -19,6 +19,8 @@ public class SplashScreenBehavior : MonoBehaviour {
     [SerializeField]
     private Image _endPanel;
 
+    private float _lastKzlkzlPosition = 0f;
+
     private bool _hasAnimationFinished = false;
 
     void Start ()
@@ -29,7 +31,7 @@ public class SplashScreenBehavior : MonoBehaviour {
 	void Update ()
     {
         print(_kzlkzl.transform.position.x);
-		if(_kzlkzl.transform.position.x >= -25f && _kzlkzl.transform.position.x <= -24f && _particleSystem != null)
+		if(_kzlkzl.transform.position.x == _lastKzlkzlPosition && _particleSystem != null)
         {
             print("In position");
             if(!_particleSystem.isPlaying)
@@ -39,7 +41,9 @@ public class SplashScreenBehavior : MonoBehaviour {
                 StartCoroutine(ShowNames());
             }
         }
-	}
+
+        _lastKzlkzlPosition = _kzlkzl.transform.position.x;
+    }
 
     IEnumerator ShowNames()
     {
