@@ -6,7 +6,9 @@ using UnityEngine.UI;
 public class TimerBehavior : MonoBehaviour {
 
     public Text timerText;
-    private float _timer = 24f;
+    public GameObject winPanel;
+
+    private static float _timer = 24f;
     
 	private void Update()
     {
@@ -16,7 +18,18 @@ public class TimerBehavior : MonoBehaviour {
 
         if (_timer <= 0f)
         {
-            Debug.Log("You win !");
+            timerText.text = ("0.000");
+            winPanel.SetActive(true);
+            Time.timeScale = 0f;
         }
+        else
+        {
+            timerText.text = _timer.ToString("0.000");
+        }
+    }
+
+    public static float GetTimer()
+    {
+        return _timer;
     }
 }

@@ -25,7 +25,7 @@ public class EnemyBehavior : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Player")
         {
-            print("You lose");
+            collision.gameObject.GetComponent<PlayerController>().Lose();
         }
     }
 }
