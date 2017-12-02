@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -15,6 +15,25 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2625812544" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game2</ObjectPath>
+			<ShortName>SndBnk_Game2</ShortName>
+			<Path>SndBnk_Game2.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4214084146" Name="Play_Game1_win" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_win"/>
+				<Event Id="3481224838" Name="Play_Game2_Music" ObjectPath="\Events\Default Work Unit\Game2\Play_Game2_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="6218845" Language="SFX">
+					<ShortName>bensound-cute.wav</ShortName>
+					<Path>SFX\bensound-cute_F17FB28C.wem</Path>
+				</File>
+				<File Id="478511704" Language="SFX">
+					<ShortName>win.wav</ShortName>
+					<Path>SFX\win_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="2625812547" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game1</ObjectPath>

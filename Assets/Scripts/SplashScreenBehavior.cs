@@ -73,7 +73,7 @@ public class SplashScreenBehavior : MonoBehaviour {
 
     IEnumerator LoadStartScene()
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("1");
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("2");
         asyncLoad.allowSceneActivation = false;
 
         while (!_hasAnimationFinished) {

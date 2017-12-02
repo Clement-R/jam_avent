@@ -16,14 +16,14 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{A710DE66-4291-4ABC-BEF5-9D41C31A9467}'
-    m_lastTimePsrt1: 608437056
-    m_lastTimePart2: -1999292150
+    m_lastTimePsrt1: 1831613967
+    m_lastTimePart2: -1999291952
     List: []
   - PhysicalPath: Events\Game1.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{E85ECF67-23AF-4CD1-A413-FBA513D5879C}'
-    m_lastTimePsrt1: -1350493649
-    m_lastTimePart2: -1999292148
+    m_lastTimePsrt1: 1831653969
+    m_lastTimePart2: -1999291952
     List:
     - Name: Play_Game1_Hit
       Path: Default Work Unit\Game1\Play_Game1_Hit
@@ -85,33 +85,51 @@ MonoBehaviour:
       ID: -80883150
       Guid: b083bfb2e973d94b9551b9db7d9402ab
       maxAttenuation: 0
+  - PhysicalPath: Events\Game2.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    Guid: '{A248C12D-DB05-4F22-8B79-D03463B8C272}'
+    m_lastTimePsrt1: 1831713973
+    m_lastTimePart2: -1999291952
+    List:
+    - Name: Play_Game2_Music
+      Path: Default Work Unit\Game2\Play_Game2_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game2
+        ObjectType: 12
+      - ElementName: Play_Game2_Music
+        ObjectType: 3
+      ID: -813742458
+      Guid: db37746f00a2f7419bc588287ea12a0c
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FACB1810-1367-497F-A6B1-AA76852501DF}'
-    m_lastTimePsrt1: -1101926649
-    m_lastTimePart2: -1999292153
+    m_lastTimePsrt1: -975646513
+    m_lastTimePart2: -1999292008
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{D6EEC0EF-92BB-4DA2-8D47-832A9C5B3C55}'
-    m_lastTimePsrt1: -1101946663
-    m_lastTimePart2: -1999292153
+    m_lastTimePsrt1: -972926358
+    m_lastTimePart2: -1999292008
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FE32996E-DCDD-410B-A69D-4E6150A26C1D}'
-    m_lastTimePsrt1: -1101896619
-    m_lastTimePart2: -1999292153
+    m_lastTimePsrt1: -972906357
+    m_lastTimePart2: -1999292008
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{4F62B987-CCF6-4B01-AE53-B880E4EE2E5C}'
-    m_lastTimePsrt1: 608457079
-    m_lastTimePart2: -1999292150
+    m_lastTimePsrt1: 1936639974
+    m_lastTimePart2: -1999291952
     List:
     - Name: SndBnk_Game1
       Path: Default Work Unit\SndBnk_Game1
@@ -122,27 +140,34 @@ MonoBehaviour:
         ObjectType: 7
       ID: -1669154749
       Guid: c6975bc98f8cad47bb44d95a9859e0bd
+    - Name: SndBnk_Game2
+      Path: Default Work Unit\SndBnk_Game2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SndBnk_Game2
+        ObjectType: 7
+      ID: -1669154752
+      Guid: 0bf46891fb1c3e41b24166817855c127
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{206586C5-1A1B-49AE-AEAB-E08555A61FB9}'
-    m_lastTimePsrt1: -1101866587
-    m_lastTimePart2: -1999292153
+    m_lastTimePsrt1: -980886813
+    m_lastTimePart2: -1999292008
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FEDE0912-DA6F-444E-B742-C213973D87CC}'
-    m_lastTimePsrt1: -1101806531
-    m_lastTimePart2: -1999292153
+    m_lastTimePsrt1: -972896356
+    m_lastTimePart2: -1999292008
     List: []
   ExpandedItems:
   - /jam_de_l_Avent_WwiseProject
   - /jam_de_l_Avent_WwiseProject/Events
   - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit
-  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit/Game1
-  - /jam_de_l_Avent_WwiseProject/SoundBanks
-  - /jam_de_l_Avent_WwiseProject/SoundBanks/Default Work Unit
+  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit/Game2
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
