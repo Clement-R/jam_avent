@@ -36,7 +36,6 @@ public class SplashScreenBehavior : MonoBehaviour {
             print("In position");
             if(!_particleSystem.isPlaying)
             {
-                print("Go!");
                 AkSoundEngine.PostEvent("Play_Game1_win", gameObject);
                 _particleSystem.Play();
                 StartCoroutine(ShowNames());

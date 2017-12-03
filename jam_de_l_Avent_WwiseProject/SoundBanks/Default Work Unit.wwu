@@ -18,6 +18,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="SndBnk_Game3" ID="{55ECB924-AAB3-452B-8B9F-057FA2397502}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Game1_lose" ID="{B281ADAD-CA97-47A9-9551-7EB3A95B7F8E}" WorkUnitID="{E85ECF67-23AF-4CD1-A413-FBA513D5879C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Game3" ID="{0D46C416-BA9D-4BAC-9F63-28950ED049A2}" WorkUnitID="{0D46C416-BA9D-4BAC-9F63-28950ED049A2}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

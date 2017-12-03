@@ -29,6 +29,8 @@ public class SockController : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("PickUp"))
         {
+            AkSoundEngine.PostEvent("Play_Game3_Score", gameObject);
+
             Destroy(other.gameObject);           
             score++;
             SetScoreText();

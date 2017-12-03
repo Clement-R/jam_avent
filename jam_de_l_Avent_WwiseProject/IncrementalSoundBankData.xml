@@ -6,11 +6,12 @@
 				<File Name="Init" Hash="2403855257" Timestamp="131567122052179921"/>
 				<File Name="SndBnk_Game1" Hash="1786137134" Timestamp="131567122052139919"/>
 				<File Name="SndBnk_Game2" Hash="3016155164" Timestamp="131567258839003680"/>
+				<File Name="SndBnk_Game3" Hash="2554508204" Timestamp="131568083624890018"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3626218500" Timestamp="131567258839053683"/>
+				<File Name="" Hash="1696746770" Timestamp="131568084251075833"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -20,11 +21,12 @@
 				<File Name="Init" Hash="580030591" Timestamp="131567122046169577"/>
 				<File Name="SndBnk_Game1" Hash="1786137134" Timestamp="131567122046129575"/>
 				<File Name="SndBnk_Game2" Hash="3016155164" Timestamp="131567258906287528"/>
+				<File Name="SndBnk_Game3" Hash="2554508204" Timestamp="131568084393944005"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2790831074" Timestamp="131567258906347532"/>
+				<File Name="" Hash="2548524664" Timestamp="131568084394014009"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

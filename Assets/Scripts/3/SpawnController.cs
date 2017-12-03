@@ -31,6 +31,8 @@ public class SpawnController : MonoBehaviour {
 
         spawnTimeMax = startTimeMax;
         spawnTimeMin = startTimeMin;
+
+        AkSoundEngine.PostEvent("Play_Game3_Music", gameObject);
     }
 
     IEnumerator Spawn ()

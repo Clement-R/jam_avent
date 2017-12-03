@@ -35,6 +35,30 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="2625812545" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game3</ObjectPath>
+			<ShortName>SndBnk_Game3</ShortName>
+			<Path>SndBnk_Game3.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2973929163" Name="Play_Game1_lose" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_lose"/>
+				<Event Id="3227454031" Name="Play_Game3_Music" ObjectPath="\Events\Default Work Unit\Game3\Play_Game3_Music"/>
+				<Event Id="3611563548" Name="Play_Game3_Score" ObjectPath="\Events\Default Work Unit\Game3\Play_Game3_Score"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="385419800" Language="SFX">
+					<ShortName>lose.wav</ShortName>
+					<Path>SFX\lose_1C9C67B2.wem</Path>
+				</File>
+				<File Id="493974370" Language="SFX">
+					<ShortName>Pickup_Coin11.wav</ShortName>
+					<Path>SFX\Pickup_Coin11_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1032006896" Language="SFX">
+					<ShortName>bensound-jazzyfrenchy.wav</ShortName>
+					<Path>SFX\bensound-jazzyfrenchy_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="2625812547" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game1</ObjectPath>
 			<ShortName>SndBnk_Game1</ShortName>

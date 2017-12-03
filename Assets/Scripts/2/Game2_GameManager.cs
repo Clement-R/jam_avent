@@ -22,6 +22,8 @@ public class Game2_GameManager : MonoBehaviour {
         paperSprite.sprite = papers[paperIndex];
         ribbonSprite.sprite = ribbons[ribbonIndex];
         designSprite.sprite = designs[designIndex];
+
+        AkSoundEngine.PostEvent("Play_Game2_Music", gameObject);
     }
 
     private void PlaySound()

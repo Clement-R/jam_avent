@@ -353,7 +353,7 @@ RectTransform:
   m_GameObject: {fileID: 550465624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.426156, y: 0.426156, z: 0.426156}
+  m_LocalScale: {x: 0.4814815, y: 0.4814815, z: 0.4814815}
   m_Children:
   - {fileID: 220409370}
   - {fileID: 1116857537}
@@ -3802,6 +3802,7 @@ GameObject:
   - component: {fileID: 1011253215}
   - component: {fileID: 1011253214}
   - component: {fileID: 1011253217}
+  - component: {fileID: 1011253219}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -3822,9 +3823,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   basePath: Audio\GeneratedSoundBanks
   language: English(US)
-  defaultPoolSize: 4096
-  lowerPoolSize: 2048
-  streamingPoolSize: 1024
+  defaultPoolSize: 8192
+  lowerPoolSize: 4096
+  streamingPoolSize: 2048
   preparePoolSize: 0
   memoryCutoffThreshold: 0.95
   monitorPoolSize: 128
@@ -3870,6 +3871,25 @@ MonoBehaviour:
   useOtherObject: 0
   valueGuid: c6975bc98f8cad47bb44d95a9859e0bd
   bankName: SndBnk_Game1
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+--- !u!114 &1011253219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1011253213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea84abdaded0df4bb09e839a6580c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: 0bf46891fb1c3e41b24166817855c127
+  bankName: SndBnk_Game2
   loadAsynchronous: 0
   decodeBank: 0
   saveDecodedBank: 0

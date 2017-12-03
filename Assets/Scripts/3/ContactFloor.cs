@@ -16,12 +16,15 @@ public class ContactFloor : MonoBehaviour {
 	void Start ()
     {
         lives = 3;
+        Time.timeScale = 1f;
 	}
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("PickUp"))
         {
+            AkSoundEngine.PostEvent("Play_Game1_lose", gameObject);
+
             Destroy(other.gameObject);
             lives--;
             Lose();
@@ -44,6 +47,7 @@ public class ContactFloor : MonoBehaviour {
     {
 		if (lives == 0)
         {
+            Time.timeScale = 0f;
             sp.canSpawn = false;
             b_Retry.SetActive(true);
             LoseText.SetActive(true);
