@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: [Enemy, Enemy, Wall]
+  tags:
+  - Enemy
+  - Enemy
+  - Wall
+  - PickUp
   layers:
   - Default
   - TransparentFX
