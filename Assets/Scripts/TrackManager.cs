@@ -47,7 +47,7 @@ public class TrackManager : MonoBehaviour {
             {
                 gm.Exit();
             }
-            else if(Input.anyKeyDown)
+            else if(Input.GetKeyDown(KeyCode.Space))
             {
                 gm.Retry();
             }
