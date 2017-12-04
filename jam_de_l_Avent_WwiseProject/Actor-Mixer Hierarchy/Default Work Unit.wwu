@@ -283,6 +283,58 @@
 						<ActiveSource Name="Pickup_Coin11" ID="{2C09FDDC-6BAD-4E44-9046-5E3244391ACD}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Game4_Music" ID="{4C199538-6887-4B61-9240-0B407B676ECC}" ShortID="102812208">
+					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DST-RailJet-LongSeamlessLoop" ID="{CEAD168A-1E7A-4577-BEE6-D262542C9833}" ShortID="640286286">
+							<Language>SFX</Language>
+							<AudioFile>DST-RailJet-LongSeamlessLoop.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DST-RailJet-LongSeamlessLoop" ID="{CEAD168A-1E7A-4577-BEE6-D262542C9833}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DST-TowerDefenseTheme" ID="{03DF345E-84B6-4011-ABE5-C7888883C790}" ShortID="951829822">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DST-TowerDefenseTheme" ID="{EE3AB1E6-684A-45F1-9467-8EA2CE8C6A40}" ShortID="816054254">
+							<Language>SFX</Language>
+							<AudioFile>DST-TowerDefenseTheme.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DST-TowerDefenseTheme" ID="{EE3AB1E6-684A-45F1-9467-8EA2CE8C6A40}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

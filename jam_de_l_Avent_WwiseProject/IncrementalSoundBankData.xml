@@ -3,30 +3,32 @@
 	<Platform GUID="{A715E896-37B4-4112-86B5-3995DD812CD6}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="2403855257" Timestamp="131567122052179921"/>
-				<File Name="SndBnk_Game1" Hash="1786137134" Timestamp="131567122052139919"/>
-				<File Name="SndBnk_Game2" Hash="3016155164" Timestamp="131567258839003680"/>
-				<File Name="SndBnk_Game3" Hash="2554508204" Timestamp="131568083624890018"/>
+				<File Name="Init" Hash="2403855257" Timestamp="131568936467872223"/>
+				<File Name="SndBnk_Game1" Hash="2522794632" Timestamp="131568936599412985"/>
+				<File Name="SndBnk_Game2" Hash="3069835055" Timestamp="131568936599828382"/>
+				<File Name="SndBnk_Game3" Hash="3646039434" Timestamp="131568936600268803"/>
+				<File Name="SndBnk_Game4" Hash="132429619" Timestamp="131568939661626606"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1696746770" Timestamp="131568084251075833"/>
+				<File Name="" Hash="843533292" Timestamp="131568939661666644"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{9C10CF7D-9A25-47EA-9390-7C82D0D039B8}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="580030591" Timestamp="131567122046169577"/>
-				<File Name="SndBnk_Game1" Hash="1786137134" Timestamp="131567122046129575"/>
-				<File Name="SndBnk_Game2" Hash="3016155164" Timestamp="131567258906287528"/>
-				<File Name="SndBnk_Game3" Hash="2554508204" Timestamp="131568084393944005"/>
+				<File Name="Init" Hash="580030591" Timestamp="131568936597911554"/>
+				<File Name="SndBnk_Game1" Hash="2522794632" Timestamp="131568936596675370"/>
+				<File Name="SndBnk_Game2" Hash="3069835055" Timestamp="131568936597411071"/>
+				<File Name="SndBnk_Game3" Hash="3646039434" Timestamp="131568936597841486"/>
+				<File Name="SndBnk_Game4" Hash="3906888964" Timestamp="131568938307483690"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2548524664" Timestamp="131568084394014009"/>
+				<File Name="" Hash="2430028454" Timestamp="131568938307523731"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -27,11 +27,11 @@
 			<IncludedMemoryFiles>
 				<File Id="6218845" Language="SFX">
 					<ShortName>bensound-cute.wav</ShortName>
-					<Path>SFX\bensound-cute_F17FB28C.wem</Path>
+					<Path>SFX\bensound-cute_AD29F36A.wem</Path>
 				</File>
 				<File Id="478511704" Language="SFX">
 					<ShortName>win.wav</ShortName>
-					<Path>SFX\win_1C9C67B2.wem</Path>
+					<Path>SFX\win_F7D0E330.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -47,15 +47,15 @@
 			<IncludedMemoryFiles>
 				<File Id="385419800" Language="SFX">
 					<ShortName>lose.wav</ShortName>
-					<Path>SFX\lose_1C9C67B2.wem</Path>
+					<Path>SFX\lose_F7D0E330.wem</Path>
 				</File>
 				<File Id="493974370" Language="SFX">
 					<ShortName>Pickup_Coin11.wav</ShortName>
-					<Path>SFX\Pickup_Coin11_1C9C67B2.wem</Path>
+					<Path>SFX\Pickup_Coin11_F7D0E330.wem</Path>
 				</File>
 				<File Id="1032006896" Language="SFX">
 					<ShortName>bensound-jazzyfrenchy.wav</ShortName>
-					<Path>SFX\bensound-jazzyfrenchy_F17FB28C.wem</Path>
+					<Path>SFX\bensound-jazzyfrenchy_AD29F36A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -73,43 +73,67 @@
 			<IncludedMemoryFiles>
 				<File Id="43566909" Language="SFX">
 					<ShortName>Juhani Junkala [Retro Game Music Pack] Level 3.wav</ShortName>
-					<Path>SFX\Juhani Junkala [Retro Game Music Pack] Level 3_F17FB28C.wem</Path>
+					<Path>SFX\Juhani Junkala [Retro Game Music Pack] Level 3_AD29F36A.wem</Path>
 				</File>
 				<File Id="171640505" Language="SFX">
 					<ShortName>Hit_Hurt8.wav</ShortName>
-					<Path>SFX\Hit_Hurt8_1C9C67B2.wem</Path>
+					<Path>SFX\Hit_Hurt8_F7D0E330.wem</Path>
 				</File>
 				<File Id="332660716" Language="SFX">
 					<ShortName>Hit_Hurt14.wav</ShortName>
-					<Path>SFX\Hit_Hurt14_1C9C67B2.wem</Path>
+					<Path>SFX\Hit_Hurt14_F7D0E330.wem</Path>
 				</File>
 				<File Id="385419800" Language="SFX">
 					<ShortName>lose.wav</ShortName>
-					<Path>SFX\lose_1C9C67B2.wem</Path>
+					<Path>SFX\lose_F7D0E330.wem</Path>
 				</File>
 				<File Id="478511704" Language="SFX">
 					<ShortName>win.wav</ShortName>
-					<Path>SFX\win_1C9C67B2.wem</Path>
+					<Path>SFX\win_F7D0E330.wem</Path>
 				</File>
 				<File Id="721715918" Language="SFX">
 					<ShortName>Hit_Hurt.wav</ShortName>
-					<Path>SFX\Hit_Hurt_1C9C67B2.wem</Path>
+					<Path>SFX\Hit_Hurt_F7D0E330.wem</Path>
 				</File>
 				<File Id="766096183" Language="SFX">
 					<ShortName>Laser_Shoot4.wav</ShortName>
-					<Path>SFX\Laser_Shoot4_1C9C67B2.wem</Path>
+					<Path>SFX\Laser_Shoot4_F7D0E330.wem</Path>
 				</File>
 				<File Id="810355837" Language="SFX">
 					<ShortName>Laser_Shoot3.wav</ShortName>
-					<Path>SFX\Laser_Shoot3_1C9C67B2.wem</Path>
+					<Path>SFX\Laser_Shoot3_F7D0E330.wem</Path>
 				</File>
 				<File Id="899766368" Language="SFX">
 					<ShortName>Laser_Shoot6.wav</ShortName>
-					<Path>SFX\Laser_Shoot6_1C9C67B2.wem</Path>
+					<Path>SFX\Laser_Shoot6_F7D0E330.wem</Path>
 				</File>
 				<File Id="990306815" Language="SFX">
 					<ShortName>Hit_Hurt3.wav</ShortName>
-					<Path>SFX\Hit_Hurt3_1C9C67B2.wem</Path>
+					<Path>SFX\Hit_Hurt3_F7D0E330.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2625812550" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game4</ObjectPath>
+			<ShortName>SndBnk_Game4</ShortName>
+			<Path>SndBnk_Game4.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2973929163" Name="Play_Game1_lose" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_lose"/>
+				<Event Id="4214084146" Name="Play_Game1_win" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_win"/>
+				<Event Id="2856697628" Name="Play_Game4_Music" ObjectPath="\Events\Default Work Unit\Game4\Play_Game4_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="385419800" Language="SFX">
+					<ShortName>lose.wav</ShortName>
+					<Path>SFX\lose_F7D0E330.wem</Path>
+				</File>
+				<File Id="478511704" Language="SFX">
+					<ShortName>win.wav</ShortName>
+					<Path>SFX\win_F7D0E330.wem</Path>
+				</File>
+				<File Id="640286286" Language="SFX">
+					<ShortName>DST-RailJet-LongSeamlessLoop.wav</ShortName>
+					<Path>SFX\DST-RailJet-LongSeamlessLoop_F7D0E330.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

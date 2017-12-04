@@ -122,6 +122,8 @@ GameObject:
   - component: {fileID: 113528540}
   - component: {fileID: 113528539}
   - component: {fileID: 113528538}
+  - component: {fileID: 113528542}
+  - component: {fileID: 113528541}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -175,6 +177,44 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &113528541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 113528537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea84abdaded0df4bb09e839a6580c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: e0770f747c0bfa439d1ed0351b776a9b
+  bankName: SndBnk_Game4
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+--- !u!114 &113528542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 113528537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea84abdaded0df4bb09e839a6580c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: c6975bc98f8cad47bb44d95a9859e0bd
+  bankName: SndBnk_Game1
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
 --- !u!1 &328331311
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,6 +473,7 @@ GameObject:
   - component: {fileID: 449404188}
   - component: {fileID: 449404191}
   - component: {fileID: 449404187}
+  - component: {fileID: 449404193}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -528,6 +569,25 @@ MonoBehaviour:
     initialListenerList: []
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &449404193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 449404186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea84abdaded0df4bb09e839a6580c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: e0770f747c0bfa439d1ed0351b776a9b
+  bankName: SndBnk_Game4
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
 --- !u!1 &481940281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1369,6 +1429,11 @@ Prefab:
       propertyPath: m_Size.x
       value: 31.92745
       objectReference: {fileID: 0}
+    - target: {fileID: 114722799212383208, guid: f7b9a009a720fe244aa25711ec0a85a9,
+        type: 2}
+      propertyPath: gm
+      value: 
+      objectReference: {fileID: 1993837206}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f7b9a009a720fe244aa25711ec0a85a9, type: 2}
   m_IsPrefabParent: 0

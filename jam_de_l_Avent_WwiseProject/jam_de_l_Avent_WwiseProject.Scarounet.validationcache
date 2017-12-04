@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="80">
-	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="531049569" DateHigh="30632693"/>
+	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="15107208" DateHigh="30633280"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="2614926628" DateHigh="30632688"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="2614986684" DateHigh="30632688"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="463527484" DateHigh="30632690"/>
-	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="2615006702" DateHigh="30632688"/>
+	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="15057161" DateHigh="30633280"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="443702892" DateHigh="30625237"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="2614906605" DateHigh="30632688"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Effects\Default Work Unit.wwu" DateLow="2614996693" DateHigh="30632688"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Effects\Factory Effects.wwu" DateLow="443767957" DateHigh="30625237"/>
-	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Events\Default Work Unit.wwu" DateLow="30212928" DateHigh="30632691"/>
+	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Events\Default Work Unit.wwu" DateLow="126449179" DateHigh="30633280"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Events\Game1.wwu" DateLow="2366249519" DateHigh="30632693"/>
+	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Events\Game2.wwu" DateLow="1076319208" DateHigh="30633254"/>
+	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Events\Game3.wwu" DateLow="1076319208" DateHigh="30633254"/>
+	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Events\Game4.wwu" DateLow="2512257942" DateHigh="30633280"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="2614876581" DateHigh="30632688"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2614866566" DateHigh="30632688"/>
-	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\jam_de_l_Avent_WwiseProject.Scarounet.wsettings" DateLow="3777929935" DateHigh="30632691"/>
-	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\jam_de_l_Avent_WwiseProject.wproj" DateLow="421144477" DateHigh="30632692"/>
+	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\jam_de_l_Avent_WwiseProject.Scarounet.wsettings" DateLow="2730087855" DateHigh="30632693"/>
+	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\jam_de_l_Avent_WwiseProject.wproj" DateLow="1088480839" DateHigh="30633254"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2614816519" DateHigh="30632688"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="2614946646" DateHigh="30632688"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="2614896596" DateHigh="30632688"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Presets\Default Work Unit.wwu" DateLow="2614976678" DateHigh="30632688"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Queries\Default Work Unit.wwu" DateLow="2614856561" DateHigh="30632688"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Queries\Factory Queries.wwu" DateLow="443958136" DateHigh="30625237"/>
-	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="30232951" DateHigh="30632691"/>
+	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="627863653" DateHigh="30633280"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2614886587" DateHigh="30632688"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\States\Default Work Unit.wwu" DateLow="2614796505" DateHigh="30632688"/>
 	<ValidationCacheItem File="E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\Switches\Default Work Unit.wwu" DateLow="2614846549" DateHigh="30632688"/>

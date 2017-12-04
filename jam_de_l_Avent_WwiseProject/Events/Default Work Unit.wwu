@@ -6,6 +6,7 @@
 				<WorkUnit Name="Game1" ID="{E85ECF67-23AF-4CD1-A413-FBA513D5879C}" PersistMode="Reference"/>
 				<WorkUnit Name="Game2" ID="{A248C12D-DB05-4F22-8B79-D03463B8C272}" PersistMode="Reference"/>
 				<WorkUnit Name="Game3" ID="{0D46C416-BA9D-4BAC-9F63-28950ED049A2}" PersistMode="Reference"/>
+				<WorkUnit Name="Game4" ID="{67BF29A1-285C-42A5-AE46-690641595342}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

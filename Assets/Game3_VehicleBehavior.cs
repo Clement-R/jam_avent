@@ -13,8 +13,6 @@ public class Game3_VehicleBehavior : MonoBehaviour {
         _rb = GetComponent<Rigidbody2D>();
         _trackManager = GameObject.FindGameObjectWithTag("Player").GetComponent<TrackManager>();
 
-        print(GameObject.FindGameObjectWithTag("Player"));
-
         speed.y -= Time.time * 10;
 
         if(speed.y <= -800)

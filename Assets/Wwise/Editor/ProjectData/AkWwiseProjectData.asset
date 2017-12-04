@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{A710DE66-4291-4ABC-BEF5-9D41C31A9467}'
-    m_lastTimePsrt1: 1654533327
-    m_lastTimePart2: -1999291587
+    m_lastTimePsrt1: 704673307
+    m_lastTimePart2: -1999291561
     List: []
   - PhysicalPath: Events\Game1.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
@@ -133,6 +133,24 @@ MonoBehaviour:
       ID: -683403748
       Guid: b21d7dd9853d764d922ab2f48764e5fc
       maxAttenuation: 0
+  - PhysicalPath: Events\Game4.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    Guid: '{67BF29A1-285C-42A5-AE46-690641595342}'
+    m_lastTimePsrt1: 1590979
+    m_lastTimePart2: -1999291560
+    List:
+    - Name: Play_Game4_Music
+      Path: Default Work Unit\Game4\Play_Game4_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game4
+        ObjectType: 12
+      - ElementName: Play_Game4_Music
+        ObjectType: 3
+      ID: -1438269668
+      Guid: fd3255559120c64483d266722f0cb765
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -158,8 +176,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{4F62B987-CCF6-4B01-AE53-B880E4EE2E5C}'
-    m_lastTimePsrt1: 1666684943
-    m_lastTimePart2: -1999291587
+    m_lastTimePsrt1: 1206087781
+    m_lastTimePart2: -1999291561
     List:
     - Name: SndBnk_Game1
       Path: Default Work Unit\SndBnk_Game1
@@ -188,6 +206,15 @@ MonoBehaviour:
         ObjectType: 7
       ID: -1669154751
       Guid: 24b9ec55b3aa2b458b9f057fa2397502
+    - Name: SndBnk_Game4
+      Path: Default Work Unit\SndBnk_Game4
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SndBnk_Game4
+        ObjectType: 7
+      ID: -1669154746
+      Guid: e0770f747c0bfa439d1ed0351b776a9b
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 

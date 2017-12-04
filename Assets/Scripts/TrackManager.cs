@@ -9,6 +9,7 @@ public class TrackManager : MonoBehaviour {
     public Text scoreText;
     public GameObject losePanel;
     public Text loseScore;
+    public GameManager gm;
 
     private int trackIndex = 1;
     private int _score = 0;
@@ -16,7 +17,8 @@ public class TrackManager : MonoBehaviour {
 	void Start ()
     {
         Time.timeScale = 1f;
-        transform.position = tracks[trackIndex];	
+        transform.position = tracks[trackIndex];
+        AkSoundEngine.PostEvent("Play_Game4_Music", gameObject);
 	}
 	
 	void Update ()
@@ -38,10 +40,23 @@ public class TrackManager : MonoBehaviour {
                 transform.position = tracks[trackIndex];
             }
         }
+
+        if(losePanel.activeSelf)
+        {
+            if(Input.GetKeyDown(KeyCode.Escape))
+            {
+                gm.Exit();
+            }
+            else if(Input.anyKeyDown)
+            {
+                gm.Retry();
+            }
+        }
     }
 
     public void Lose()
     {
+        AkSoundEngine.PostEvent("Play_Game1_lose", gameObject);
         losePanel.SetActive(true);
         loseScore.text = "Score : " + _score.ToString();
         scoreText.gameObject.SetActive(false);
