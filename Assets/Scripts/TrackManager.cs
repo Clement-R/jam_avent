@@ -1,12 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TrackManager : MonoBehaviour {
     
     public Vector2[] tracks;
+    public Text scoreText;
+    public GameObject losePanel;
+    public Text loseScore;
 
     private int trackIndex = 1;
+    private int _score = 0;
 
 	void Start ()
     {
@@ -37,7 +42,15 @@ public class TrackManager : MonoBehaviour {
 
     public void Lose()
     {
+        losePanel.SetActive(true);
+        loseScore.text = "Score : " + _score.ToString();
+        scoreText.gameObject.SetActive(false);
         Time.timeScale = 0f;
-        print("Lose");
+    }
+
+    public void AddScore()
+    {
+        _score++;
+        scoreText.text = _score.ToString();
     }
 }

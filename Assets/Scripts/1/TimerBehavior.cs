@@ -13,6 +13,7 @@ public class TimerBehavior : MonoBehaviour {
     private void Start()
     {
         _timer = 24f;
+        AkSoundEngine.PostEvent("Play_Game1_Music", gameObject);
     }
 
     private void Update()

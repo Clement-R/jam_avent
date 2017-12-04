@@ -6,12 +6,21 @@ public class Game3_VehicleBehavior : MonoBehaviour {
     public Vector2 speed;
 
     private Rigidbody2D _rb;
-    private TrackManager _trackManger;
+    public TrackManager _trackManager;
 
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
-        _trackManger = GameObject.FindGameObjectWithTag("GameController").GetComponent<TrackManager>();
+        _trackManager = GameObject.FindGameObjectWithTag("Player").GetComponent<TrackManager>();
+
+        print(GameObject.FindGameObjectWithTag("Player"));
+
+        speed.y -= Time.time * 10;
+
+        if(speed.y <= -800)
+        {
+            speed.y = -800;
+        }
     }
     
 	void Update () {
@@ -20,7 +29,14 @@ public class Game3_VehicleBehavior : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        print(collider.name);
-        _trackManger.Lose();
+        if(collider.tag == "Player")
+        {
+            _trackManager.Lose();
+        }
+        else
+        {
+            _trackManager.AddScore();
+            Destroy(gameObject, 1f);
+        }
     }
 }

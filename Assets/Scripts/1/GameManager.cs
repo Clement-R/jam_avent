@@ -7,7 +7,6 @@ public class GameManager : MonoBehaviour {
 
     private void Awake()
     {
-        AkSoundEngine.PostEvent("Play_Game1_Music", gameObject);
         Time.timeScale = 1f;
     }
 

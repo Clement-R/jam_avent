@@ -10,11 +10,11 @@ public class ScrollingObject : MonoBehaviour {
     void Start()
     {
         _rb2d = GetComponent<Rigidbody2D>();
-        _rb2d.velocity = new Vector2(-scrollSpeed, 0);
+        _rb2d.velocity = new Vector2(0, -scrollSpeed);
     }
 
     public void UpdateSpeed(float scrollSpeed)
     {
-        _rb2d.velocity = new Vector2(-scrollSpeed, 0);
+        _rb2d.velocity = new Vector2(0, -scrollSpeed);
     }
 }
