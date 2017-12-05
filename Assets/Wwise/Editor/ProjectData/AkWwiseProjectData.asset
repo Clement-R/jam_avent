@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{A710DE66-4291-4ABC-BEF5-9D41C31A9467}'
-    m_lastTimePsrt1: 704673307
-    m_lastTimePart2: -1999291561
+    m_lastTimePsrt1: 495624611
+    m_lastTimePart2: -1999291343
     List: []
   - PhysicalPath: Events\Game1.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
@@ -151,6 +151,36 @@ MonoBehaviour:
       ID: -1438269668
       Guid: fd3255559120c64483d266722f0cb765
       maxAttenuation: 0
+  - PhysicalPath: Events\Game5.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    Guid: '{0B3A781F-B31E-4AD8-B31A-B6FBA08E99EA}'
+    m_lastTimePsrt1: 495744726
+    m_lastTimePart2: -1999291343
+    List:
+    - Name: Play_Game5_Click
+      Path: Default Work Unit\Game5\Play_Game5_Click
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game5
+        ObjectType: 12
+      - ElementName: Play_Game5_Click
+        ObjectType: 3
+      ID: 1614010812
+      Guid: c618aab4dc1abf4880553c0d12e3c808
+      maxAttenuation: 0
+    - Name: Play_Game5_Music
+      Path: Default Work Unit\Game5\Play_Game5_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game5
+        ObjectType: 12
+      - ElementName: Play_Game5_Music
+        ObjectType: 3
+      ID: 1395483389
+      Guid: 8f625035aa239448b23038ce3c4f0d6b
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -176,8 +206,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{4F62B987-CCF6-4B01-AE53-B880E4EE2E5C}'
-    m_lastTimePsrt1: 1206087781
-    m_lastTimePart2: -1999291561
+    m_lastTimePsrt1: 693544429
+    m_lastTimePart2: -1999291343
     List:
     - Name: SndBnk_Game1
       Path: Default Work Unit\SndBnk_Game1
@@ -215,6 +245,15 @@ MonoBehaviour:
         ObjectType: 7
       ID: -1669154746
       Guid: e0770f747c0bfa439d1ed0351b776a9b
+    - Name: SndBnk_Game5
+      Path: Default Work Unit\SndBnk_Game5
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SndBnk_Game5
+        ObjectType: 7
+      ID: -1669154745
+      Guid: 3cce1b8e062d594aad1fb7d1a43bc06f
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -233,8 +272,10 @@ MonoBehaviour:
   - /jam_de_l_Avent_WwiseProject
   - /jam_de_l_Avent_WwiseProject/Events
   - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit
+  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit/Game1
   - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit/Game2
   - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit/Game3
+  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit/Game5
   - /jam_de_l_Avent_WwiseProject/SoundBanks
   - /jam_de_l_Avent_WwiseProject/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0

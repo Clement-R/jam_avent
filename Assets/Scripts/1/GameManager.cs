@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
     private void Awake()
     {
         Time.timeScale = 1f;
+        DontDestroyOnLoad(gameObject);
     }
 
     public void Retry()

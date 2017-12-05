@@ -60,3 +60,6 @@ TagManager:
   - name: game_borders
     uniqueID: 1037201961
     locked: 0
+  - name: UI
+    uniqueID: 1222747153
+    locked: 0

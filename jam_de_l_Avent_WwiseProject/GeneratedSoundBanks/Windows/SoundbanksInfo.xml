@@ -137,5 +137,29 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="2625812551" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game5</ObjectPath>
+			<ShortName>SndBnk_Game5</ShortName>
+			<Path>SndBnk_Game5.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2973929163" Name="Play_Game1_lose" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_lose"/>
+				<Event Id="1614010812" Name="Play_Game5_Click" ObjectPath="\Events\Default Work Unit\Game5\Play_Game5_Click"/>
+				<Event Id="1395483389" Name="Play_Game5_Music" ObjectPath="\Events\Default Work Unit\Game5\Play_Game5_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="385419800" Language="SFX">
+					<ShortName>lose.wav</ShortName>
+					<Path>SFX\lose_F7D0E330.wem</Path>
+				</File>
+				<File Id="1011678436" Language="SFX">
+					<ShortName>cardPlace2.wav</ShortName>
+					<Path>SFX\cardPlace2_F7D0E330.wem</Path>
+				</File>
+				<File Id="1017736613" Language="SFX">
+					<ShortName>207637__setuniman__christmas-loop-1d69.wav</ShortName>
+					<Path>SFX\207637__setuniman__christmas-loop-1d69_AD29F36A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
