@@ -1586,7 +1586,7 @@ MonoBehaviour:
   orderManager: {fileID: 193979830}
   scoreText: {fileID: 1491803043}
   timeText: {fileID: 1978215536}
-  timeToMakeOrders: 5
+  timeToMakeOrders: 60
   losePanel: {fileID: 813945110}
   loseScoreText: {fileID: 813945108}
 --- !u!4 &1046648509
