@@ -22,6 +22,7 @@ public class Game6_OrderManager : MonoBehaviour {
     {
         public KeyCode key;
         public Sprite sprite;
+        public string name;
     }
 
     [SerializeField]
@@ -46,7 +47,7 @@ public class Game6_OrderManager : MonoBehaviour {
     void Update ()
     {
         // If the player press the SEND input, check the chosen Content and Topping
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if (_actualOrder.content == _chosenContent && _actualOrder.topping == _chosenTopping)
             {
@@ -117,5 +118,10 @@ public class Game6_OrderManager : MonoBehaviour {
     public Ingredient GetTopping(int id)
     {
         return _toppings[id];
+    }
+
+    public Order GetActualOrder()
+    {
+        return _actualOrder;
     }
 }
