@@ -11,12 +11,14 @@ public class Game6_GameManager : MonoBehaviour {
     public Text scoreText;
     public float timeToMakeOrders = 50f;
 
+    public GameObject losePanel;
+    public Text loseScoreText;
+
     private float _gameEndTimer;
 
     void Start ()
     {
-        contentSprite = null;
-        toppingSprite = null;
+        Time.timeScale = 1f;
 
         _gameEndTimer = Time.time + timeToMakeOrders;
     }
@@ -25,12 +27,14 @@ public class Game6_GameManager : MonoBehaviour {
     {
         if (Time.time >= _gameEndTimer)
         {
-            // TODO : End of the game
+            losePanel.SetActive(true);
+            Time.timeScale = 0f;
         }
-
-        this.contentSprite.sprite = orderManager.GetChosenContent().sprite;
-        this.toppingSprite.sprite = orderManager.GetChosenTopping().sprite;
-
+        
+        this.contentSprite.sprite = orderManager.GetChosenContentSprite();
+        this.toppingSprite.sprite = orderManager.GetChosenToppingSprite();
+            
         scoreText.text = orderManager.GetScore().ToString();
+        loseScoreText.text = "Score : " + scoreText.text;
     }
 }

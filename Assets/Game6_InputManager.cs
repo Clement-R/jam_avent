@@ -5,47 +5,45 @@ using UnityEngine;
 public class Game6_InputManager : MonoBehaviour {
 
     public Game6_OrderManager orderManager;
-
-    void Start () {
-		
-	}
 	
-	void Update () {
-
-        // TODO : Get actual order
-        // TODO : Check if one content key is pressed : if GetChoseContent() == null then set, else ignore
-        // TODO : Same for topping
-
+	void Update ()
+    {
         // Content inputs
-        if (Input.GetKeyDown(KeyCode.Q))
+        if(orderManager.GetChosenContentSprite() == null)
         {
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                orderManager.SetChosenContent(orderManager.GetContent(0));
+            }
 
-        }
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                orderManager.SetChosenContent(orderManager.GetContent(1));
+            }
 
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-
-        }
-
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                orderManager.SetChosenContent(orderManager.GetContent(2));
+            }
         }
 
         // Topping inputs
-        if (Input.GetKeyDown(KeyCode.J))
+        if(orderManager.GetChosenToppingSprite() == null)
         {
+            if (Input.GetKeyDown(KeyCode.J))
+            {
+                orderManager.SetChosenTopping(orderManager.GetTopping(0));
+            }
 
-        }
+            if (Input.GetKeyDown(KeyCode.K))
+            {
+                orderManager.SetChosenTopping(orderManager.GetTopping(1));
+            }
 
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-
-        }
-
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-
+            if (Input.GetKeyDown(KeyCode.L))
+            {
+                orderManager.SetChosenTopping(orderManager.GetTopping(2));
+            }
         }
     }
 }

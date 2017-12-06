@@ -32,12 +32,18 @@ public class Game6_OrderManager : MonoBehaviour {
     private Order _actualOrder;
     private float _gameEndTimer;
 
-    private Ingredient _chosenContent;
-    private Ingredient _chosenTopping;
+    private Ingredient _chosenContent = null;
+    private Ingredient _chosenTopping = null;
 
     private int _score = 0;
-	
-	void Update ()
+
+    private void Start()
+    {
+        // Send first order
+        NewOrder();
+    }
+
+    void Update ()
     {
         // If the player press the SEND input, check the chosen Content and Topping
         if (Input.GetKeyDown(KeyCode.Return))
@@ -78,18 +84,38 @@ public class Game6_OrderManager : MonoBehaviour {
         _chosenTopping = topping;
     }
 
-    public Ingredient GetChosenContent()
+    public Sprite GetChosenContentSprite()
     {
-        return _chosenContent;
+        if(_chosenContent != null)
+        {
+            return _chosenContent.sprite;
+        }
+
+        return null;
     }
 
-    public Ingredient GetChosenTopping()
+    public Sprite GetChosenToppingSprite()
     {
-        return _chosenTopping;
+        if(_chosenTopping != null)
+        {
+            return _chosenTopping.sprite;
+        }
+        
+        return null;
     }
 
     public int GetScore()
     {
         return this._score;
+    }
+
+    public Ingredient GetContent(int id)
+    {
+        return _contents[id];
+    }
+
+    public Ingredient GetTopping(int id)
+    {
+        return _toppings[id];
     }
 }
