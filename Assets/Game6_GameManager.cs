@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Game6_GameManager : MonoBehaviour {
 
@@ -46,5 +45,16 @@ public class Game6_GameManager : MonoBehaviour {
         scoreText.text = orderManager.GetScore().ToString();
         loseScoreText.text = "Score : " + scoreText.text;
         timeText.text = (_gameEndTimer - Time.time).ToString();
+    }
+
+    public void Retry()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void Exit()
+    {
+        // SceneManager.LoadScene("main_menu");
+        Application.Quit();
     }
 }

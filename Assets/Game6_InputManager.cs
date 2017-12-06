@@ -8,41 +8,44 @@ public class Game6_InputManager : MonoBehaviour {
 	
 	void Update ()
     {
-        // Content inputs
-        if(orderManager.GetChosenContentSprite() == null)
+        if(Time.timeScale > 0)
         {
-            if (Input.GetKeyDown(KeyCode.Q))
+            // Content inputs
+            if (orderManager.GetChosenContentSprite() == null)
             {
-                orderManager.SetChosenContent(orderManager.GetContent(0));
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    orderManager.SetChosenContent(orderManager.GetContent(0));
+                }
+
+                if (Input.GetKeyDown(KeyCode.S))
+                {
+                    orderManager.SetChosenContent(orderManager.GetContent(1));
+                }
+
+                if (Input.GetKeyDown(KeyCode.D))
+                {
+                    orderManager.SetChosenContent(orderManager.GetContent(2));
+                }
             }
 
-            if (Input.GetKeyDown(KeyCode.S))
+            // Topping inputs
+            if (orderManager.GetChosenToppingSprite() == null)
             {
-                orderManager.SetChosenContent(orderManager.GetContent(1));
-            }
+                if (Input.GetKeyDown(KeyCode.J))
+                {
+                    orderManager.SetChosenTopping(orderManager.GetTopping(0));
+                }
 
-            if (Input.GetKeyDown(KeyCode.D))
-            {
-                orderManager.SetChosenContent(orderManager.GetContent(2));
-            }
-        }
+                if (Input.GetKeyDown(KeyCode.K))
+                {
+                    orderManager.SetChosenTopping(orderManager.GetTopping(1));
+                }
 
-        // Topping inputs
-        if(orderManager.GetChosenToppingSprite() == null)
-        {
-            if (Input.GetKeyDown(KeyCode.J))
-            {
-                orderManager.SetChosenTopping(orderManager.GetTopping(0));
-            }
-
-            if (Input.GetKeyDown(KeyCode.K))
-            {
-                orderManager.SetChosenTopping(orderManager.GetTopping(1));
-            }
-
-            if (Input.GetKeyDown(KeyCode.L))
-            {
-                orderManager.SetChosenTopping(orderManager.GetTopping(2));
+                if (Input.GetKeyDown(KeyCode.L))
+                {
+                    orderManager.SetChosenTopping(orderManager.GetTopping(2));
+                }
             }
         }
     }
