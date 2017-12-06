@@ -7,8 +7,13 @@ public class Game6_GameManager : MonoBehaviour {
 
     public SpriteRenderer contentSprite;
     public SpriteRenderer toppingSprite;
+
+    public Text contentText;
+    public Text toppingText;
+
     public Game6_OrderManager orderManager;
     public Text scoreText;
+    public Text timeText;
     public float timeToMakeOrders = 50f;
 
     public GameObject losePanel;
@@ -33,8 +38,13 @@ public class Game6_GameManager : MonoBehaviour {
         
         this.contentSprite.sprite = orderManager.GetChosenContentSprite();
         this.toppingSprite.sprite = orderManager.GetChosenToppingSprite();
-            
+
+        Game6_OrderManager.Order order = orderManager.GetActualOrder();
+        contentText.text = order.content.name;
+        toppingText.text = order.topping.name;
+
         scoreText.text = orderManager.GetScore().ToString();
         loseScoreText.text = "Score : " + scoreText.text;
+        timeText.text = (_gameEndTimer - Time.time).ToString();
     }
 }
