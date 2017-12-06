@@ -13,9 +13,8 @@ public class Game6_InputManager : MonoBehaviour {
 	void Update () {
 
         // TODO : Get actual order
-        // TODO : Check if content is ok
-        // TODO : If content is nok, check if one content key is pressed
-        // TODO : If content is ok, check if one topping key is pressed
+        // TODO : Check if one content key is pressed : if GetChoseContent() == null then set, else ignore
+        // TODO : Same for topping
 
         // Content inputs
         if (Input.GetKeyDown(KeyCode.Q))

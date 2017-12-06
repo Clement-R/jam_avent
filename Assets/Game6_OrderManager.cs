@@ -24,8 +24,6 @@ public class Game6_OrderManager : MonoBehaviour {
         public Sprite sprite;
     }
 
-    public float timeToMakeOrders = 50f;
-
     [SerializeField]
     private Ingredient[] _contents;
     [SerializeField]
@@ -38,38 +36,24 @@ public class Game6_OrderManager : MonoBehaviour {
     private Ingredient _chosenTopping;
 
     private int _score = 0;
-
-    void Start ()
-    {
-        _gameEndTimer = Time.time + timeToMakeOrders;
-    }
 	
 	void Update ()
     {
-        if(Time.time >= _gameEndTimer)
-        {
-            // TODO : End of the game
-        }
-
-        // TODO : If the player press the SEND input, check the chosen Content and Topping
+        // If the player press the SEND input, check the chosen Content and Topping
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            print("Hello");
             if (_actualOrder.content == _chosenContent && _actualOrder.topping == _chosenTopping)
             {
-                // TODO : Add score and update text
                 _score++;
             }
             else
             {
-                // TODO : Lose score and update text
                 _score--;
             }
 
             // Send next order
             NewOrder();
-
-            // TODO : Clear screen from previous sprites
+            
             // Clear previous order variables
             _chosenContent = null;
             _chosenTopping = null;
@@ -102,5 +86,10 @@ public class Game6_OrderManager : MonoBehaviour {
     public Ingredient GetChosenTopping()
     {
         return _chosenTopping;
+    }
+
+    public int GetScore()
+    {
+        return this._score;
     }
 }
