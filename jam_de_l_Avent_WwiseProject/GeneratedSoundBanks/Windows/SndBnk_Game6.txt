@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	179773274	Play_Game6_Music			\Default Work Unit\Game6\Play_Game6_Music	
+	4125793869	Play_Game6_SendOrder			\Default Work Unit\Game6\Play_Game6_SendOrder	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	677865667	Game6_Music	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\Loopez_-_03_-_Lost_Tape_1_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game6_Music		2850992
+	963883143	Game6_Success	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\Pickup_Coin5_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game6_Success		4729
+

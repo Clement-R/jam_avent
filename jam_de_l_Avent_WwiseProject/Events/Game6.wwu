@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E31F1386-29AA-4AD6-8B9F-CC35121D601B}" SchemaVersion="80" RootDocumentID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}">
+	<Events>
+		<WorkUnit Name="Game6" ID="{E31F1386-29AA-4AD6-8B9F-CC35121D601B}" OwnerID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Game6_Music" ID="{E51D8849-2EC0-4746-84EB-35E01B84EBF0}">
+					<ChildrenList>
+						<Action Name="" ID="{BA2919BA-AFC9-4960-8E2F-C7C598FCB78A}" ShortID="245180219">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game6_Music" ID="{42CB5999-2DFC-4199-8B9A-70A8BEAFB963}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Game6_SendOrder" ID="{4DA81966-E29A-44C6-9BB1-62338D8C3835}">
+					<ChildrenList>
+						<Action Name="" ID="{8C3F49C7-7C79-4C82-8492-6A8D6E206EEA}" ShortID="728600938">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game6_Success" ID="{E4E98440-1186-4271-B1FA-7F3A53593DD1}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

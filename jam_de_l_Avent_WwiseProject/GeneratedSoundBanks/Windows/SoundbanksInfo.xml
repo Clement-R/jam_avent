@@ -113,6 +113,25 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="2625812548" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game6</ObjectPath>
+			<ShortName>SndBnk_Game6</ShortName>
+			<Path>SndBnk_Game6.bnk</Path>
+			<IncludedEvents>
+				<Event Id="179773274" Name="Play_Game6_Music" ObjectPath="\Events\Default Work Unit\Game6\Play_Game6_Music"/>
+				<Event Id="4125793869" Name="Play_Game6_SendOrder" ObjectPath="\Events\Default Work Unit\Game6\Play_Game6_SendOrder"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="677865667" Language="SFX">
+					<ShortName>Loopez_-_03_-_Lost_Tape_1.wav</ShortName>
+					<Path>SFX\Loopez_-_03_-_Lost_Tape_1_AD29F36A.wem</Path>
+				</File>
+				<File Id="963883143" Language="SFX">
+					<ShortName>Pickup_Coin5.wav</ShortName>
+					<Path>SFX\Pickup_Coin5_F7D0E330.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="2625812550" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game4</ObjectPath>
 			<ShortName>SndBnk_Game4</ShortName>

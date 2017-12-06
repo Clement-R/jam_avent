@@ -15,16 +15,19 @@ public class Game6_InputManager : MonoBehaviour {
             {
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
+                    AkSoundEngine.PostEvent("Play_Game1_Hit", gameObject);
                     orderManager.SetChosenContent(orderManager.GetContent(0));
                 }
 
                 if (Input.GetKeyDown(KeyCode.S))
                 {
+                    AkSoundEngine.PostEvent("Play_Game1_Hit", gameObject);
                     orderManager.SetChosenContent(orderManager.GetContent(1));
                 }
 
                 if (Input.GetKeyDown(KeyCode.D))
                 {
+                    AkSoundEngine.PostEvent("Play_Game1_Hit", gameObject);
                     orderManager.SetChosenContent(orderManager.GetContent(2));
                 }
             }
@@ -34,16 +37,19 @@ public class Game6_InputManager : MonoBehaviour {
             {
                 if (Input.GetKeyDown(KeyCode.J))
                 {
+                    AkSoundEngine.PostEvent("Play_Game1_Hit", gameObject);
                     orderManager.SetChosenTopping(orderManager.GetTopping(0));
                 }
 
                 if (Input.GetKeyDown(KeyCode.K))
                 {
+                    AkSoundEngine.PostEvent("Play_Game1_Hit", gameObject);
                     orderManager.SetChosenTopping(orderManager.GetTopping(1));
                 }
 
                 if (Input.GetKeyDown(KeyCode.L))
                 {
+                    AkSoundEngine.PostEvent("Play_Game1_Hit", gameObject);
                     orderManager.SetChosenTopping(orderManager.GetTopping(2));
                 }
             }

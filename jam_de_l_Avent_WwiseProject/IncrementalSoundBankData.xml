@@ -9,11 +9,12 @@
 				<File Name="SndBnk_Game3" Hash="3646039434" Timestamp="131568936600268803"/>
 				<File Name="SndBnk_Game4" Hash="132429619" Timestamp="131568939661626606"/>
 				<File Name="SndBnk_Game5" Hash="2601806335" Timestamp="131569875246558532"/>
+				<File Name="SndBnk_Game6" Hash="2466546890" Timestamp="131570630963357787"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="4089322853" Timestamp="131569875246608574"/>
+				<File Name="" Hash="4008958425" Timestamp="131570630963397819"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

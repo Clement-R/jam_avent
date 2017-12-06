@@ -22,8 +22,8 @@ public class Game6_GameManager : MonoBehaviour {
 
     void Start ()
     {
+        AkSoundEngine.PostEvent("Play_Game6_Music", gameObject);
         Time.timeScale = 1f;
-
         _gameEndTimer = Time.time + timeToMakeOrders;
     }
 	
@@ -31,8 +31,12 @@ public class Game6_GameManager : MonoBehaviour {
     {
         if (Time.time >= _gameEndTimer)
         {
-            losePanel.SetActive(true);
-            Time.timeScale = 0f;
+            if(Time.timeScale > 0)
+            {
+                AkSoundEngine.PostEvent("Play_Game1_Hit", gameObject);
+                losePanel.SetActive(true);
+                Time.timeScale = 0f;
+            }
         }
         
         this.contentSprite.sprite = orderManager.GetChosenContentSprite();
@@ -54,7 +58,6 @@ public class Game6_GameManager : MonoBehaviour {
 
     public void Exit()
     {
-        // SceneManager.LoadScene("main_menu");
         Application.Quit();
     }
 }

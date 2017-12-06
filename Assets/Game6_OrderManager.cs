@@ -51,10 +51,12 @@ public class Game6_OrderManager : MonoBehaviour {
         {
             if (_actualOrder.content == _chosenContent && _actualOrder.topping == _chosenTopping)
             {
+                AkSoundEngine.PostEvent("Play_Game6_SendOrder", gameObject);
                 _score++;
             }
             else
             {
+                AkSoundEngine.PostEvent("Play_Game1_lose", gameObject);
                 _score--;
             }
 
