@@ -12,7 +12,9 @@ public class Game7_LauncherBehavior : MonoBehaviour {
 
     private float _maxVelocity = 30000;
     private float _minVelocity = 15000;
-    
+    private float _maxDistance = 600;
+    private float _minDistance = 100;
+
     private void Update()
     {
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -27,12 +29,14 @@ public class Game7_LauncherBehavior : MonoBehaviour {
         float distance = Vector2.Distance(transform.position, mousePosition);
         // print(distance);
 
-        if(distance > 600)
+        if(distance >= _maxDistance)
         {
+            line.SetPosition(1, new Vector3(0, 100, 0));
             velocity = _maxVelocity;
         }
-        else if(distance <= 100)
+        else if(distance <= _minDistance)
         {
+            line.SetPosition(1, new Vector3(0, 10, 0));
             velocity = _minVelocity;
         }
         else
@@ -42,8 +46,13 @@ public class Game7_LauncherBehavior : MonoBehaviour {
             {
                 delta = 100;
             }
+            print(delta);
 
             line.SetPosition(1, new Vector3(0, delta, 0));
+
+            // Compute velocity based on the distance
+            velocity = ((distance - _minDistance) / (_maxDistance - _minDistance)) * ((_maxVelocity - _minVelocity));
+            velocity += _minVelocity;
         }
         
         if (Input.GetMouseButtonDown(0))
