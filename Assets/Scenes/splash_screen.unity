@@ -285,7 +285,7 @@ RectTransform:
   m_GameObject: {fileID: 550465624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.48148146, y: 0.48148146, z: 0.48148146}
+  m_LocalScale: {x: 0.48153576, y: 0.48153576, z: 0.48153576}
   m_Children:
   - {fileID: 1116857537}
   - {fileID: 608957854}
@@ -3733,7 +3733,6 @@ GameObject:
   - component: {fileID: 1011253215}
   - component: {fileID: 1011253214}
   - component: {fileID: 1011253217}
-  - component: {fileID: 1011253219}
   - component: {fileID: 1011253218}
   m_Layer: 0
   m_Name: WwiseGlobal
@@ -3820,27 +3819,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerList: f7e1664c
   useOtherObject: 0
-  valueGuid: 3ac05455b1b2944894f4c965d996bf27
-  bankName: SndBnk_Game6
-  loadAsynchronous: 0
-  decodeBank: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
---- !u!114 &1011253219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1011253213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ea84abdaded0df4bb09e839a6580c8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: 0bf46891fb1c3e41b24166817855c127
-  bankName: SndBnk_Game2
+  valueGuid: 24b9ec55b3aa2b458b9f057fa2397502
+  bankName: SndBnk_Game3
   loadAsynchronous: 0
   decodeBank: 0
   saveDecodedBank: 0

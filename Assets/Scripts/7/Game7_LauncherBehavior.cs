@@ -10,10 +10,14 @@ public class Game7_LauncherBehavior : MonoBehaviour {
     public float angle;
     public LineRenderer line;
 
+    public bool playerOne;
+
     private float _maxVelocity = 30000;
     private float _minVelocity = 15000;
     private float _maxDistance = 600;
     private float _minDistance = 100;
+
+    private GameObject _actualBullet = null;
 
     private void Update()
     {
@@ -21,10 +25,11 @@ public class Game7_LauncherBehavior : MonoBehaviour {
 
         // Get angle between tank and mouse position
         Vector2 targetDir = mousePosition - new Vector2(transform.position.x, transform.position.y);
-        angle = Vector2.Angle(targetDir, transform.right);
 
-        line.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
-
+        var dir = mousePosition - new Vector2(transform.position.x, transform.position.y);
+        angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.AngleAxis(angle + 90, Vector3.forward);
+        
         // Get distance between tank and mouse position to set the velocity
         float distance = Vector2.Distance(transform.position, mousePosition);
 
@@ -45,7 +50,6 @@ public class Game7_LauncherBehavior : MonoBehaviour {
             {
                 delta = 100;
             }
-            print(delta);
 
             line.SetPosition(1, new Vector3(0, delta, 0));
 
@@ -54,7 +58,7 @@ public class Game7_LauncherBehavior : MonoBehaviour {
             velocity += _minVelocity;
         }
         
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && _actualBullet == null && Time.timeScale > 0f)
         {
             LaunchProjectile();
         }
@@ -62,14 +66,21 @@ public class Game7_LauncherBehavior : MonoBehaviour {
 
     void LaunchProjectile ()
     {
-        float radianAngle = Mathf.Deg2Rad * angle;
+        float radianAngle;
 
-        print(radianAngle);
-
+        if (playerOne)
+        {
+            radianAngle = Mathf.Deg2Rad * angle;
+        }
+        else
+        {
+            radianAngle = Mathf.Deg2Rad * angle;
+        }
+        
         Vector2 initialVelocity = new Vector2(velocity * Mathf.Cos(radianAngle), velocity * Mathf.Sin(radianAngle));
 
-        GameObject go = Instantiate(bullet, transform.position, Quaternion.identity);
-        Rigidbody2D rb2d = go.GetComponent<Rigidbody2D>();
+        _actualBullet = Instantiate(bullet, transform.position, Quaternion.identity);
+        Rigidbody2D rb2d = _actualBullet.GetComponent<Rigidbody2D>();
 
         rb2d.AddForce(initialVelocity);
 	}

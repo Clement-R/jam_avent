@@ -309,15 +309,6 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /jam_de_l_Avent_WwiseProject
-  - /jam_de_l_Avent_WwiseProject/Events
-  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit
-  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit/Game1
-  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit/Game2
-  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit/Game3
-  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit/Game5
-  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit/Game6
-  - /jam_de_l_Avent_WwiseProject/SoundBanks
-  - /jam_de_l_Avent_WwiseProject/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
