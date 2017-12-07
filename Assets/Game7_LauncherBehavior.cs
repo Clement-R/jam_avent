@@ -27,7 +27,6 @@ public class Game7_LauncherBehavior : MonoBehaviour {
 
         // Get distance between tank and mouse position to set the velocity
         float distance = Vector2.Distance(transform.position, mousePosition);
-        // print(distance);
 
         if(distance >= _maxDistance)
         {
@@ -65,8 +64,7 @@ public class Game7_LauncherBehavior : MonoBehaviour {
     {
         float radianAngle = Mathf.Deg2Rad * angle;
 
-        Mathf.Cos(radianAngle);
-        Mathf.Sin(radianAngle);
+        print(radianAngle);
 
         Vector2 initialVelocity = new Vector2(velocity * Mathf.Cos(radianAngle), velocity * Mathf.Sin(radianAngle));
 
