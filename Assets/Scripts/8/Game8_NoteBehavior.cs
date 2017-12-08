@@ -81,7 +81,7 @@ public class Game8_NoteBehavior : MonoBehaviour {
 
     private void Start()
     {
-        Destroy(gameObject, 5f);
+        Destroy(gameObject, 2f);
     }
 
     private void OnDestroy()

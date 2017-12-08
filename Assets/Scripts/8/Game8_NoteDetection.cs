@@ -10,6 +10,7 @@ public class Game8_NoteDetection : MonoBehaviour {
     public SpriteRenderer rightTree;
     public Sprite leftMove;
     public Sprite rightMove;
+    public ParticleSystem ps;
 
     private Game8_EndZoneBehavior endNormal;
     private Game8_EndZoneBehavior endPerfect;
@@ -42,6 +43,7 @@ public class Game8_NoteDetection : MonoBehaviour {
                 gameManager.AddScore();
                 endPerfect.DeleteNote();
                 print(key.ToString() + " Perfect note detected");
+                ps.Play();
             }
 
             if (endNormal.noteInZone)
@@ -60,6 +62,7 @@ public class Game8_NoteDetection : MonoBehaviour {
                 gameManager.AddScore();
                 endNormal.DeleteNote();
                 print(key.ToString() + " Normal note detected");
+                ps.Play();
             }
         }
     }
