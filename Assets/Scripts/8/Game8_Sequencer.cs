@@ -37,7 +37,7 @@ public class Game8_Sequencer : MonoBehaviour {
             print(item.time + " / " + item.line);
         }
 
-        wwiseEventIdSong = AkSoundEngine.PostEvent("Play_Game1_Music",
+        wwiseEventIdSong = AkSoundEngine.PostEvent("Play_Game8_Music",
                                                    gameObject,
                                                    (uint)AkCallbackType.AK_EndOfEvent | (uint)AkCallbackType.AK_EnableGetSourcePlayPosition,
                                                    OnSoundEnd,
