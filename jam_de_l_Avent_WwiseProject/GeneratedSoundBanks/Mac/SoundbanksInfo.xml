@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -113,6 +113,25 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="2625812548" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game6</ObjectPath>
+			<ShortName>SndBnk_Game6</ShortName>
+			<Path>SndBnk_Game6.bnk</Path>
+			<IncludedEvents>
+				<Event Id="179773274" Name="Play_Game6_Music" ObjectPath="\Events\Default Work Unit\Game6\Play_Game6_Music"/>
+				<Event Id="4125793869" Name="Play_Game6_SendOrder" ObjectPath="\Events\Default Work Unit\Game6\Play_Game6_SendOrder"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="677865667" Language="SFX">
+					<ShortName>Loopez_-_03_-_Lost_Tape_1.wav</ShortName>
+					<Path>SFX\Loopez_-_03_-_Lost_Tape_1_AD29F36A.wem</Path>
+				</File>
+				<File Id="963883143" Language="SFX">
+					<ShortName>Pickup_Coin5.wav</ShortName>
+					<Path>SFX\Pickup_Coin5_F7D0E330.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="2625812550" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game4</ObjectPath>
 			<ShortName>SndBnk_Game4</ShortName>
@@ -134,6 +153,30 @@
 				<File Id="640286286" Language="SFX">
 					<ShortName>DST-RailJet-LongSeamlessLoop.wav</ShortName>
 					<Path>SFX\DST-RailJet-LongSeamlessLoop_F7D0E330.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2625812551" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game5</ObjectPath>
+			<ShortName>SndBnk_Game5</ShortName>
+			<Path>SndBnk_Game5.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2973929163" Name="Play_Game1_lose" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_lose"/>
+				<Event Id="1614010812" Name="Play_Game5_Click" ObjectPath="\Events\Default Work Unit\Game5\Play_Game5_Click"/>
+				<Event Id="1395483389" Name="Play_Game5_Music" ObjectPath="\Events\Default Work Unit\Game5\Play_Game5_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="385419800" Language="SFX">
+					<ShortName>lose.wav</ShortName>
+					<Path>SFX\lose_F7D0E330.wem</Path>
+				</File>
+				<File Id="1011678436" Language="SFX">
+					<ShortName>cardPlace2.wav</ShortName>
+					<Path>SFX\cardPlace2_F7D0E330.wem</Path>
+				</File>
+				<File Id="1017736613" Language="SFX">
+					<ShortName>207637__setuniman__christmas-loop-1d69.wav</ShortName>
+					<Path>SFX\207637__setuniman__christmas-loop-1d69_AD29F36A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

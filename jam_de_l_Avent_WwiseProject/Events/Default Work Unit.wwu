@@ -9,6 +9,20 @@
 				<WorkUnit Name="Game4" ID="{67BF29A1-285C-42A5-AE46-690641595342}" PersistMode="Reference"/>
 				<WorkUnit Name="Game5" ID="{0B3A781F-B31E-4AD8-B31A-B6FBA08E99EA}" PersistMode="Reference"/>
 				<WorkUnit Name="Game6" ID="{E31F1386-29AA-4AD6-8B9F-CC35121D601B}" PersistMode="Reference"/>
+				<Event Name="Play_Game8_Music" ID="{F54C4970-48EC-4A9A-8D93-DFEF071F7817}">
+					<ChildrenList>
+						<Action Name="" ID="{D78E59E3-A215-4A1C-9FDD-011DA78C3178}" ShortID="315079375">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game8_Music" ID="{5C6FAEB5-533D-4F29-AA95-608A79D55755}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
