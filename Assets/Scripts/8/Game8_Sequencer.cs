@@ -31,14 +31,35 @@ public class Game8_Sequencer : MonoBehaviour {
     void Start ()
     {
         _allNotes = EditorOnFireFileParser.EOFFileReader.getNotes();
+
+        foreach (var item in _allNotes)
+        {
+            print(item.time + " / " + item.line);
+        }
+
+        wwiseEventIdSong = AkSoundEngine.PostEvent("Play_Game1_Music",
+                                                   gameObject,
+                                                   (uint)AkCallbackType.AK_EndOfEvent | (uint)AkCallbackType.AK_EnableGetSourcePlayPosition,
+                                                   OnSoundEnd,
+                                                   null);
+
         StartCoroutine(LaunchNotes());
 	}
+
+    void OnSoundEnd(object in_cookie, AkCallbackType in_type, object in_info)
+    {
+        if (in_type == AkCallbackType.AK_EndOfEvent)
+        {
+            _isEnded = true;
+        }
+    }
 
     IEnumerator LaunchNotes()
     {
         // Don't update Sequencer or launch notes if the song is paused (normal pause or rock'or'die pause)
         while (!_isEnded)
         {
+            print("Hello");
             AkSoundEngine.GetSourcePlayPosition(wwiseEventIdSong, out playbackPosition);
             // "Optimization", just check notes that are in the near future, we don't need to check all notes each time
             var aroundNotes = _allNotes.FindAll(note => (note.time - timeToMove + 0.4f <= ((float)playbackPosition / 1000) + 2.0f) && !note.done);

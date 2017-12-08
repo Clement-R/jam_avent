@@ -60,13 +60,13 @@ public class Game8_NoteBehavior : MonoBehaviour {
     private bool _isPerfect = false;
     private bool _isNormal = false;
     private bool _isMissed = false;
-    private bool _canMove = true;
 
     private Vector2 _startPosition;
     private Vector3 _lastPos;
     private Vector2 _end;
 
     private float _speed = 0.0f;
+    private Vector2 _direction;
 
     void Awake()
     {
@@ -89,28 +89,17 @@ public class Game8_NoteBehavior : MonoBehaviour {
 
     void Update()
     {
-        if (_endReached && _canMove)
+        if (_endReached)
         {
             // Get the direction from the two vectors of start and end
             // Move the note in the direction and in the same velocity that the one created by the MoveToPosition coroutine
-            transform.Translate((_end - _startPosition).normalized * Time.deltaTime * _speed);
+            transform.Translate(_direction * Time.deltaTime * _speed);
         }
     }
 
     public void Launch()
     {
         StartCoroutine(MoveToPosition(_end, timeToMove));
-    }
-
-    public void Stop()
-    {
-        SpriteRenderer sr = GetComponent<SpriteRenderer>();
-        if (sr != null)
-        {
-            sr.sprite = null;
-        }
-        StopCoroutine("MoveToPosition");
-        _canMove = false;
     }
 
     public IEnumerator MoveToPosition(Vector3 position, float timeToMove)
@@ -124,6 +113,7 @@ public class Game8_NoteBehavior : MonoBehaviour {
 
             if (t >= 0.5f && t <= 0.6)
             {
+                _direction = (transform.position - _lastPos).normalized;
                 _speed = (transform.position - _lastPos).magnitude;
             }
             _lastPos = currentPos;
