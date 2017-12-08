@@ -280,6 +280,15 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Retry
       objectReference: {fileID: 0}
+    - target: {fileID: 1417706522225904, guid: 91b5afeab658a1a488cff21697693a4b, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114895594366086354, guid: 91b5afeab658a1a488cff21697693a4b,
+        type: 2}
+      propertyPath: m_Text
+      value: Congrats !
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91b5afeab658a1a488cff21697693a4b, type: 2}
   m_IsPrefabParent: 0
@@ -807,7 +816,6 @@ GameObject:
   m_Component:
   - component: {fileID: 513232318}
   - component: {fileID: 513232317}
-  - component: {fileID: 513232319}
   m_Layer: 0
   m_Name: NoteSpawner
   m_TagString: Untagged
@@ -847,25 +855,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &513232319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 513232316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ea84abdaded0df4bb09e839a6580c8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: c6975bc98f8cad47bb44d95a9859e0bd
-  bankName: SndBnk_Game1
-  loadAsynchronous: 0
-  decodeBank: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
 --- !u!1 &559700276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1257,7 +1246,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 1222747153
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!224 &764689441
 RectTransform:
@@ -4713,7 +4702,6 @@ GameObject:
   - component: {fileID: 835187173}
   - component: {fileID: 835187172}
   - component: {fileID: 835187171}
-  - component: {fileID: 835187174}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -4767,25 +4755,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &835187174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 835187170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ea84abdaded0df4bb09e839a6580c8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: a296baff5c17ac458f8251dce23eaa79
-  bankName: SndBnk_Game8
-  loadAsynchronous: 0
-  decodeBank: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
 --- !u!1001 &882467457
 Prefab:
   m_ObjectHideFlags: 0
@@ -9053,7 +9022,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2023889018}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -679, y: 401, z: 0}
+  m_LocalPosition: {x: -685.6, y: 401, z: 0}
   m_LocalScale: {x: 0.9999973, y: 0.9999973, z: 0.9999973}
   m_Children: []
   m_Father: {fileID: 764689441}
@@ -9061,8 +9030,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -679, y: 401}
-  m_SizeDelta: {x: 264.9, y: 162.6}
+  m_AnchoredPosition: {x: -685.6, y: 401}
+  m_SizeDelta: {x: 443.9, y: 162.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2023889020
 MonoBehaviour:

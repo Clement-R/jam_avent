@@ -852,7 +852,9 @@ namespace EditorOnFireFileParser
         {
             {
                 // Read file
-                byte[] file = File.ReadAllBytes("Assets/EditorOnFireFileParser/Resources/notes_2.eof");
+                TextAsset asset = Resources.Load("notes_2") as TextAsset;
+                byte[] file = asset.bytes;
+                // byte[] file = File.ReadAllBytes("Assets/EditorOnFireFileParser/Resources/notes_2.eof");
 
                 // Get file header
                 char[] fileHeader = (from header in file.Take(8) select Convert.ToChar(header)).ToArray();

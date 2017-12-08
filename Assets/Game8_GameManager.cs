@@ -30,7 +30,7 @@ public class Game8_GameManager : MonoBehaviour {
 
         if(sequencer.IsFinished())
         {
-
+            losePanel.SetActive(true);
         }
     }
 
