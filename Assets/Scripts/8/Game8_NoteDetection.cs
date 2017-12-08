@@ -4,25 +4,35 @@ using UnityEngine;
 
 public class Game8_NoteDetection : MonoBehaviour {
 
+    public KeyCode key;
+    public Game8_GameManager gameManager;
+
     private Game8_EndZoneBehavior endNormal;
     private Game8_EndZoneBehavior endPerfect;
 
     void Start ()
     {
-        endNormal = transform.GetChild(0).GetComponent<Game8_EndZoneBehavior>();
-        endPerfect = transform.GetChild(1).GetComponent<Game8_EndZoneBehavior>();
+        endNormal = transform.GetChild(1).GetComponent<Game8_EndZoneBehavior>();
+        endPerfect = transform.GetChild(0).GetComponent<Game8_EndZoneBehavior>();
     }
 	
 	void Update ()
     {
-		if(Input.GetKeyDown(KeyCode.RightArrow))
+		if(Input.GetKeyDown(key))
         {
-            print("R arrow");
-        }
+            if(endPerfect.noteInZone)
+            {
+                gameManager.AddScore();
+                endPerfect.DeleteNote();
+                print(key.ToString() + " Perfect note detected");
+            }
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            print("L arrow");
+            if (endNormal.noteInZone)
+            {
+                gameManager.AddScore();
+                endNormal.DeleteNote();
+                print(key.ToString() + " Normal note detected");
+            }
         }
     }
 }

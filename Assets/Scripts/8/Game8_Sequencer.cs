@@ -8,7 +8,7 @@ public class Game8_Sequencer : MonoBehaviour {
     public int playbackPosition;
     public float timeToMove;
     public Game8_NoteSpawner noteSpawner;
-
+    
     private bool _isEnded;
     private List<NoteData> _allNotes = new List<NoteData>();
 
@@ -46,6 +46,16 @@ public class Game8_Sequencer : MonoBehaviour {
         StartCoroutine(LaunchNotes());
 	}
 
+    public int GetNumberOfNotes()
+    {
+        return _allNotes.Count;
+    }
+
+    public bool IsFinished()
+    {
+        return _isEnded;
+    }
+
     void OnSoundEnd(object in_cookie, AkCallbackType in_type, object in_info)
     {
         if (in_type == AkCallbackType.AK_EndOfEvent)
@@ -59,14 +69,13 @@ public class Game8_Sequencer : MonoBehaviour {
         // Don't update Sequencer or launch notes if the song is paused (normal pause or rock'or'die pause)
         while (!_isEnded)
         {
-            print("Hello");
             AkSoundEngine.GetSourcePlayPosition(wwiseEventIdSong, out playbackPosition);
             // "Optimization", just check notes that are in the near future, we don't need to check all notes each time
-            var aroundNotes = _allNotes.FindAll(note => (note.time - timeToMove + 0.4f <= ((float)playbackPosition / 1000) + 2.0f) && !note.done);
+            var aroundNotes = _allNotes.FindAll(note => (note.time - timeToMove <= ((float)playbackPosition / 1000) + 2.0f) && !note.done);
 
             for (int i = 0; i < aroundNotes.Count; i++)
             {
-                if ((aroundNotes[i].time - timeToMove + 0.4f) <= ((float)playbackPosition / 1000) && !aroundNotes[i].done)
+                if ((aroundNotes[i].time - timeToMove) <= ((float)playbackPosition / 1000) && !aroundNotes[i].done)
                 {
                     noteSpawner.LaunchNote(aroundNotes[i].line);
                     aroundNotes[i].done = true;
