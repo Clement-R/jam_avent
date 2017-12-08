@@ -71,11 +71,11 @@ public class Game8_Sequencer : MonoBehaviour {
         {
             AkSoundEngine.GetSourcePlayPosition(wwiseEventIdSong, out playbackPosition);
             // "Optimization", just check notes that are in the near future, we don't need to check all notes each time
-            var aroundNotes = _allNotes.FindAll(note => (note.time - timeToMove <= ((float)playbackPosition / 1000) + 2.0f) && !note.done);
+            var aroundNotes = _allNotes.FindAll(note => (note.time - timeToMove + 0.4f <= ((float)playbackPosition / 1000) + 2.0f) && !note.done);
 
             for (int i = 0; i < aroundNotes.Count; i++)
             {
-                if ((aroundNotes[i].time - timeToMove) <= ((float)playbackPosition / 1000) && !aroundNotes[i].done)
+                if ((aroundNotes[i].time - timeToMove + 0.4f) <= ((float)playbackPosition / 1000) && !aroundNotes[i].done)
                 {
                     noteSpawner.LaunchNote(aroundNotes[i].line);
                     aroundNotes[i].done = true;
