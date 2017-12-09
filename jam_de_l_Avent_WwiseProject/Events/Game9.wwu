@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7B9C1F24-E3A2-42D8-A18A-DFD4084EC527}" SchemaVersion="80" RootDocumentID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}">
+	<Events>
+		<WorkUnit Name="Game9" ID="{7B9C1F24-E3A2-42D8-A18A-DFD4084EC527}" OwnerID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Game9_Music" ID="{D42C63E6-18C3-49F2-9E0C-2205FC462450}">
+					<ChildrenList>
+						<Action Name="" ID="{73EEFAF5-661B-4B3C-AD01-7936A05B15C5}" ShortID="350217559">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game9_Music" ID="{43196E62-FC5C-484A-BA0E-D351C55148A7}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Game9_Hit" ID="{52355F6E-3C5D-4217-9840-819AC0EFE93F}">
+					<ChildrenList>
+						<Action Name="" ID="{CD7940F2-ACE9-4B6E-88FA-A5301EB790C0}" ShortID="499107462">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game9_Hit" ID="{AA01F943-440E-4805-A2B2-C8D949F0D24C}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -12,7 +12,6 @@
 				</SoundBank>
 				<SoundBank Name="SndBnk_Game2" ID="{9168F40B-1CFB-413E-B241-66817855C127}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Game1_win" ID="{B2BF83B0-73E9-4BD9-9551-B9DB7D9402AB}" WorkUnitID="{E85ECF67-23AF-4CD1-A413-FBA513D5879C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Game2" ID="{A248C12D-DB05-4F22-8B79-D03463B8C272}" WorkUnitID="{A248C12D-DB05-4F22-8B79-D03463B8C272}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -20,7 +19,6 @@
 				</SoundBank>
 				<SoundBank Name="SndBnk_Game3" ID="{55ECB924-AAB3-452B-8B9F-057FA2397502}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Game1_lose" ID="{B281ADAD-CA97-47A9-9551-7EB3A95B7F8E}" WorkUnitID="{E85ECF67-23AF-4CD1-A413-FBA513D5879C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Game3" ID="{0D46C416-BA9D-4BAC-9F63-28950ED049A2}" WorkUnitID="{0D46C416-BA9D-4BAC-9F63-28950ED049A2}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -28,16 +26,13 @@
 				</SoundBank>
 				<SoundBank Name="SndBnk_Game4" ID="{740F77E0-0B7C-43FA-9D1E-D0351B776A9B}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Game4_Music" ID="{555532FD-2091-44C6-83D2-66722F0CB765}" WorkUnitID="{67BF29A1-285C-42A5-AE46-690641595342}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Game1_lose" ID="{B281ADAD-CA97-47A9-9551-7EB3A95B7F8E}" WorkUnitID="{E85ECF67-23AF-4CD1-A413-FBA513D5879C}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Game1_win" ID="{B2BF83B0-73E9-4BD9-9551-B9DB7D9402AB}" WorkUnitID="{E85ECF67-23AF-4CD1-A413-FBA513D5879C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Game4" ID="{67BF29A1-285C-42A5-AE46-690641595342}" WorkUnitID="{67BF29A1-285C-42A5-AE46-690641595342}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="SndBnk_Game5" ID="{8E1BCE3C-2D06-4A59-AD1F-B7D1A43BC06F}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Game1_lose" ID="{B281ADAD-CA97-47A9-9551-7EB3A95B7F8E}" WorkUnitID="{E85ECF67-23AF-4CD1-A413-FBA513D5879C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Game5" ID="{0B3A781F-B31E-4AD8-B31A-B6FBA08E99EA}" WorkUnitID="{0B3A781F-B31E-4AD8-B31A-B6FBA08E99EA}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -52,15 +47,21 @@
 				</SoundBank>
 				<SoundBank Name="SndBnk_Game8" ID="{FFBA96A2-175C-45AC-8F82-51DCE23EAA79}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Game8_Music" ID="{F54C4970-48EC-4A9A-8D93-DFEF071F7817}" WorkUnitID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Game8" ID="{10D55B7F-4989-42D7-B614-763400B679B8}" WorkUnitID="{10D55B7F-4989-42D7-B614-763400B679B8}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="SndBnk_Game15" ID="{83FC0214-BB28-4A4F-A53B-E92F110C8F1F}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Game15_Music" ID="{05AB90C6-DD81-4ECA-A05E-A531941B183A}" WorkUnitID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Game15_Hit" ID="{2D0EEDB1-4B37-4F83-B693-9C957B7F654A}" WorkUnitID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Game15" ID="{F71C91B6-A8DA-46D7-B63E-5425CB1D3F8A}" WorkUnitID="{F71C91B6-A8DA-46D7-B63E-5425CB1D3F8A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SndBnk_Game9" ID="{070858A6-3BB0-47DF-BAB4-A2383F07CE57}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Game9" ID="{7B9C1F24-E3A2-42D8-A18A-DFD4084EC527}" WorkUnitID="{7B9C1F24-E3A2-42D8-A18A-DFD4084EC527}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

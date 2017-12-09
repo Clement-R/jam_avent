@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F71C91B6-A8DA-46D7-B63E-5425CB1D3F8A}" SchemaVersion="80" RootDocumentID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}">
+	<Events>
+		<WorkUnit Name="Game15" ID="{F71C91B6-A8DA-46D7-B63E-5425CB1D3F8A}" OwnerID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Game15_Hit" ID="{2D0EEDB1-4B37-4F83-B693-9C957B7F654A}">
+					<ChildrenList>
+						<Action Name="" ID="{29B3E94F-E2FF-4491-BDB9-2C0BC36045CF}" ShortID="169434807">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="snow" ID="{9589537A-3CA3-46C9-8D04-0DC199384C92}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Game15_Music" ID="{05AB90C6-DD81-4ECA-A05E-A531941B183A}">
+					<ChildrenList>
+						<Action Name="" ID="{4E56FEAC-574F-49E5-8D81-0E8F65EBAC8A}" ShortID="8910045">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="happy" ID="{B493773E-9697-45A5-AFD0-AEA1A998621C}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

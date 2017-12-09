@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,17 +21,12 @@
 			<ShortName>SndBnk_Game2</ShortName>
 			<Path>SndBnk_Game2.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4214084146" Name="Play_Game1_win" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_win"/>
 				<Event Id="3481224838" Name="Play_Game2_Music" ObjectPath="\Events\Default Work Unit\Game2\Play_Game2_Music"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="6218845" Language="SFX">
 					<ShortName>bensound-cute.wav</ShortName>
 					<Path>SFX\bensound-cute_AD29F36A.wem</Path>
-				</File>
-				<File Id="478511704" Language="SFX">
-					<ShortName>win.wav</ShortName>
-					<Path>SFX\win_F7D0E330.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -40,15 +35,10 @@
 			<ShortName>SndBnk_Game3</ShortName>
 			<Path>SndBnk_Game3.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2973929163" Name="Play_Game1_lose" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_lose"/>
 				<Event Id="3227454031" Name="Play_Game3_Music" ObjectPath="\Events\Default Work Unit\Game3\Play_Game3_Music"/>
 				<Event Id="3611563548" Name="Play_Game3_Score" ObjectPath="\Events\Default Work Unit\Game3\Play_Game3_Score"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="385419800" Language="SFX">
-					<ShortName>lose.wav</ShortName>
-					<Path>SFX\lose_F7D0E330.wem</Path>
-				</File>
 				<File Id="493974370" Language="SFX">
 					<ShortName>Pickup_Coin11.wav</ShortName>
 					<Path>SFX\Pickup_Coin11_F7D0E330.wem</Path>
@@ -137,19 +127,9 @@
 			<ShortName>SndBnk_Game4</ShortName>
 			<Path>SndBnk_Game4.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2973929163" Name="Play_Game1_lose" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_lose"/>
-				<Event Id="4214084146" Name="Play_Game1_win" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_win"/>
 				<Event Id="2856697628" Name="Play_Game4_Music" ObjectPath="\Events\Default Work Unit\Game4\Play_Game4_Music"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="385419800" Language="SFX">
-					<ShortName>lose.wav</ShortName>
-					<Path>SFX\lose_F7D0E330.wem</Path>
-				</File>
-				<File Id="478511704" Language="SFX">
-					<ShortName>win.wav</ShortName>
-					<Path>SFX\win_F7D0E330.wem</Path>
-				</File>
 				<File Id="640286286" Language="SFX">
 					<ShortName>DST-RailJet-LongSeamlessLoop.wav</ShortName>
 					<Path>SFX\DST-RailJet-LongSeamlessLoop_F7D0E330.wem</Path>
@@ -161,15 +141,10 @@
 			<ShortName>SndBnk_Game5</ShortName>
 			<Path>SndBnk_Game5.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2973929163" Name="Play_Game1_lose" ObjectPath="\Events\Default Work Unit\Game1\Play_Game1_lose"/>
 				<Event Id="1614010812" Name="Play_Game5_Click" ObjectPath="\Events\Default Work Unit\Game5\Play_Game5_Click"/>
 				<Event Id="1395483389" Name="Play_Game5_Music" ObjectPath="\Events\Default Work Unit\Game5\Play_Game5_Music"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="385419800" Language="SFX">
-					<ShortName>lose.wav</ShortName>
-					<Path>SFX\lose_F7D0E330.wem</Path>
-				</File>
 				<File Id="1011678436" Language="SFX">
 					<ShortName>cardPlace2.wav</ShortName>
 					<Path>SFX\cardPlace2_F7D0E330.wem</Path>
@@ -185,7 +160,7 @@
 			<ShortName>SndBnk_Game8</ShortName>
 			<Path>SndBnk_Game8.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3185519488" Name="Play_Game8_Music" ObjectPath="\Events\Default Work Unit\Play_Game8_Music"/>
+				<Event Id="3185519488" Name="Play_Game8_Music" ObjectPath="\Events\Default Work Unit\Game8\Play_Game8_Music"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="150914306" Language="SFX">
@@ -194,13 +169,32 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="2625812555" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game9</ObjectPath>
+			<ShortName>SndBnk_Game9</ShortName>
+			<Path>SndBnk_Game9.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1391184439" Name="Play_Game9_Hit" ObjectPath="\Events\Default Work Unit\Game9\Play_Game9_Hit"/>
+				<Event Id="1402952529" Name="Play_Game9_Music" ObjectPath="\Events\Default Work Unit\Game9\Play_Game9_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="381848003" Language="SFX">
+					<ShortName>Hit_Hurt29.wav</ShortName>
+					<Path>SFX\Hit_Hurt29_F7D0E330.wem</Path>
+				</File>
+				<File Id="544658720" Language="SFX">
+					<ShortName>POL-battle-march-short (1).wav</ShortName>
+					<Path>SFX\POL-battle-march-short (1)_AD29F36A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="2764575052" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game15</ObjectPath>
 			<ShortName>SndBnk_Game15</ShortName>
 			<Path>SndBnk_Game15.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3455469300" Name="Play_Game15_Hit" ObjectPath="\Events\Default Work Unit\Play_Game15_Hit"/>
-				<Event Id="1433383906" Name="Play_Game15_Music" ObjectPath="\Events\Default Work Unit\Play_Game15_Music"/>
+				<Event Id="3455469300" Name="Play_Game15_Hit" ObjectPath="\Events\Default Work Unit\Game15\Play_Game15_Hit"/>
+				<Event Id="1433383906" Name="Play_Game15_Music" ObjectPath="\Events\Default Work Unit\Game15\Play_Game15_Music"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="590058678" Language="SFX">

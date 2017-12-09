@@ -16,39 +16,9 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{A710DE66-4291-4ABC-BEF5-9D41C31A9467}'
-    m_lastTimePsrt1: -545883915
-    m_lastTimePart2: -1999290584
-    List:
-    - Name: Play_Game15_Hit
-      Path: Default Work Unit\Play_Game15_Hit
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Play_Game15_Hit
-        ObjectType: 3
-      ID: -839497996
-      Guid: b1ed0e2d374b834fb6939c957b7f654a
-      maxAttenuation: 0
-    - Name: Play_Game15_Music
-      Path: Default Work Unit\Play_Game15_Music
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Play_Game15_Music
-        ObjectType: 3
-      ID: 1433383906
-      Guid: c690ab0581ddca4ea05ea531941b183a
-      maxAttenuation: 0
-    - Name: Play_Game8_Music
-      Path: Default Work Unit\Play_Game8_Music
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Play_Game8_Music
-        ObjectType: 3
-      ID: -1109447808
-      Guid: 70494cf5ec489a4a8d93dfef071f7817
-      maxAttenuation: 0
+    m_lastTimePsrt1: 1845611136
+    m_lastTimePart2: -1999290553
+    List: []
   - PhysicalPath: Events\Game1.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{E85ECF67-23AF-4CD1-A413-FBA513D5879C}'
@@ -114,6 +84,36 @@ MonoBehaviour:
         ObjectType: 3
       ID: -80883150
       Guid: b083bfb2e973d94b9551b9db7d9402ab
+      maxAttenuation: 0
+  - PhysicalPath: Events\Game15.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    Guid: '{F71C91B6-A8DA-46D7-B63E-5425CB1D3F8A}'
+    m_lastTimePsrt1: 288352238
+    m_lastTimePart2: -1999290553
+    List:
+    - Name: Play_Game15_Hit
+      Path: Default Work Unit\Game15\Play_Game15_Hit
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game15
+        ObjectType: 12
+      - ElementName: Play_Game15_Hit
+        ObjectType: 3
+      ID: -839497996
+      Guid: b1ed0e2d374b834fb6939c957b7f654a
+      maxAttenuation: 0
+    - Name: Play_Game15_Music
+      Path: Default Work Unit\Game15\Play_Game15_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game15
+        ObjectType: 12
+      - ElementName: Play_Game15_Music
+        ObjectType: 3
+      ID: 1433383906
+      Guid: c690ab0581ddca4ea05ea531941b183a
       maxAttenuation: 0
   - PhysicalPath: Events\Game2.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
@@ -241,6 +241,54 @@ MonoBehaviour:
       ID: -169173427
       Guid: 6619a84d9ae2c6449bb162338d8c3835
       maxAttenuation: 0
+  - PhysicalPath: Events\Game8.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    Guid: '{10D55B7F-4989-42D7-B614-763400B679B8}'
+    m_lastTimePsrt1: -32681399
+    m_lastTimePart2: -1999290554
+    List:
+    - Name: Play_Game8_Music
+      Path: Default Work Unit\Game8\Play_Game8_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game8
+        ObjectType: 12
+      - ElementName: Play_Game8_Music
+        ObjectType: 3
+      ID: -1109447808
+      Guid: 70494cf5ec489a4a8d93dfef071f7817
+      maxAttenuation: 0
+  - PhysicalPath: Events\Game9.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    Guid: '{7B9C1F24-E3A2-42D8-A18A-DFD4084EC527}'
+    m_lastTimePsrt1: 1845631153
+    m_lastTimePart2: -1999290553
+    List:
+    - Name: Play_Game9_Hit
+      Path: Default Work Unit\Game9\Play_Game9_Hit
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game9
+        ObjectType: 12
+      - ElementName: Play_Game9_Hit
+        ObjectType: 3
+      ID: 1391184439
+      Guid: 6e5f35525d3c17429840819ac0efe93f
+      maxAttenuation: 0
+    - Name: Play_Game9_Music
+      Path: Default Work Unit\Game9\Play_Game9_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game9
+        ObjectType: 12
+      - ElementName: Play_Game9_Music
+        ObjectType: 3
+      ID: 1402952529
+      Guid: e6632cd4c318f2499e0c2205fc462450
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -266,8 +314,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{4F62B987-CCF6-4B01-AE53-B880E4EE2E5C}'
-    m_lastTimePsrt1: -545833912
-    m_lastTimePart2: -1999290584
+    m_lastTimePsrt1: 517769949
+    m_lastTimePart2: -1999290553
     List:
     - Name: SndBnk_Game1
       Path: Default Work Unit\SndBnk_Game1
@@ -341,6 +389,15 @@ MonoBehaviour:
         ObjectType: 7
       ID: -1669154742
       Guid: a296baff5c17ac458f8251dce23eaa79
+    - Name: SndBnk_Game9
+      Path: Default Work Unit\SndBnk_Game9
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SndBnk_Game9
+        ObjectType: 7
+      ID: -1669154741
+      Guid: a6580807b03bdf47bab4a2383f07ce57
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -357,10 +414,6 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /jam_de_l_Avent_WwiseProject
-  - /jam_de_l_Avent_WwiseProject/Events
-  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit
-  - /jam_de_l_Avent_WwiseProject/SoundBanks
-  - /jam_de_l_Avent_WwiseProject/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

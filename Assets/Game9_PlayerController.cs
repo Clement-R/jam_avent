@@ -29,44 +29,51 @@ public class Game9_PlayerController : MonoBehaviour {
     
     void Start()
     {
+        Time.timeScale = 1f;
         _rb2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
     }
 	
 	void Update ()
     {
-		if(Input.GetKeyDown(attackKey) && _canAttack)
+        if(Time.timeScale > 0)
         {
-            StartCoroutine(Attack());
-        }
+            if (Input.GetKeyDown(attackKey) && _canAttack)
+            {
+                StartCoroutine(Attack());
+            }
 
-        if (Input.GetKey(leftMove) && _canAttack)
-        {
-            _rb2D.velocity = new Vector2(-moveSpeed, 0f);
-            _animator.SetBool("isRunning", true);
-        }
-        else if (Input.GetKey(rightMove) && _canAttack)
-        {
-            _rb2D.velocity = new Vector2(moveSpeed, 0f);
-            _animator.SetBool("isRunning", true);
-        }
-        else
-        {
-            _rb2D.velocity = new Vector2(0f, 0f);
-            _animator.SetBool("isRunning", false);
-        }
+            if (Input.GetKey(leftMove) && _canAttack)
+            {
+                _rb2D.velocity = new Vector2(-moveSpeed, 0f);
+                _animator.SetBool("isRunning", true);
+            }
+            else if (Input.GetKey(rightMove) && _canAttack)
+            {
+                _rb2D.velocity = new Vector2(moveSpeed, 0f);
+                _animator.SetBool("isRunning", true);
+            }
+            else
+            {
+                _rb2D.velocity = new Vector2(0f, 0f);
+                _animator.SetBool("isRunning", false);
+            }
 
-        if(life <= 0)
-        {
-            // Activate lose panel
-            loseText.text = enemy.name + " wins !";
-            losePanel.SetActive(true);
-            Destroy(gameObject);
+            if (life <= 0)
+            {
+                // Activate lose panel
+                AkSoundEngine.PostEvent("Play_Game1_lose", gameObject);
+                loseText.text = enemy.name + " wins !";
+                losePanel.SetActive(true);
+                Destroy(gameObject);
+                Time.timeScale = 0f;
+            }
         }
     }
 
     private IEnumerator Attack()
     {
+        AkSoundEngine.PostEvent("Play_Game9_Hit", gameObject);
         _canAttack = false;
         _animator.SetBool("isAttacking", true);
 
@@ -85,8 +92,8 @@ public class Game9_PlayerController : MonoBehaviour {
 
     public void TakeDamage()
     {
+        AkSoundEngine.PostEvent("Play_Game1_Hit", gameObject);
         life -= damage;
-
         lifeBar.fillAmount = life / 100f;
     }
 }

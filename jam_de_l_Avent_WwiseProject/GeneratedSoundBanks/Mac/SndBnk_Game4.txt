@@ -1,10 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2856697628	Play_Game4_Music			\Default Work Unit\Game4\Play_Game4_Music	
-	2973929163	Play_Game1_lose			\Default Work Unit\Game1\Play_Game1_lose	
-	4214084146	Play_Game1_win			\Default Work Unit\Game1\Play_Game1_win	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	385419800	Game1_lose	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\lose_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game1_lose		7321
-	478511704	Game1_win	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\win_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game1_win		4315
-	640286286	Game4_Music	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\DST-RailJet-LongSeamlessLoop_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game4_Music		4529386
+	640286286	Game4_Music	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\DST-RailJet-LongSeamlessLoop_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game4_Music		4529386
 
