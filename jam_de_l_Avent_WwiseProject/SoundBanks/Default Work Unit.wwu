@@ -57,6 +57,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="SndBnk_Game15" ID="{83FC0214-BB28-4A4F-A53B-E92F110C8F1F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Game15_Music" ID="{05AB90C6-DD81-4ECA-A05E-A531941B183A}" WorkUnitID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Game15_Hit" ID="{2D0EEDB1-4B37-4F83-B693-9C957B7F654A}" WorkUnitID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

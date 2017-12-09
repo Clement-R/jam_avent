@@ -180,5 +180,38 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="2625812554" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game8</ObjectPath>
+			<ShortName>SndBnk_Game8</ShortName>
+			<Path>SndBnk_Game8.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3185519488" Name="Play_Game8_Music" ObjectPath="\Events\Default Work Unit\Play_Game8_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="150914306" Language="SFX">
+					<ShortName>game8_song.wav</ShortName>
+					<Path>SFX\game8_song_F7D0E330.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2764575052" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game15</ObjectPath>
+			<ShortName>SndBnk_Game15</ShortName>
+			<Path>SndBnk_Game15.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3455469300" Name="Play_Game15_Hit" ObjectPath="\Events\Default Work Unit\Play_Game15_Hit"/>
+				<Event Id="1433383906" Name="Play_Game15_Music" ObjectPath="\Events\Default Work Unit\Play_Game15_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="590058678" Language="SFX">
+					<ShortName>happy.wav</ShortName>
+					<Path>SFX\happy_AD29F36A.wem</Path>
+				</File>
+				<File Id="901487032" Language="SFX">
+					<ShortName>snow.wav</ShortName>
+					<Path>SFX\snow_F7D0E330.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

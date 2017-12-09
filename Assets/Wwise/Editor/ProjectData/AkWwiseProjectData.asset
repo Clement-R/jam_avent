@@ -16,9 +16,29 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{A710DE66-4291-4ABC-BEF5-9D41C31A9467}'
-    m_lastTimePsrt1: 95095756
-    m_lastTimePart2: -1999290749
+    m_lastTimePsrt1: -545883915
+    m_lastTimePart2: -1999290584
     List:
+    - Name: Play_Game15_Hit
+      Path: Default Work Unit\Play_Game15_Hit
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Game15_Hit
+        ObjectType: 3
+      ID: -839497996
+      Guid: b1ed0e2d374b834fb6939c957b7f654a
+      maxAttenuation: 0
+    - Name: Play_Game15_Music
+      Path: Default Work Unit\Play_Game15_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Game15_Music
+        ObjectType: 3
+      ID: 1433383906
+      Guid: c690ab0581ddca4ea05ea531941b183a
+      maxAttenuation: 0
     - Name: Play_Game8_Music
       Path: Default Work Unit\Play_Game8_Music
       PathAndIcons:
@@ -246,8 +266,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{4F62B987-CCF6-4B01-AE53-B880E4EE2E5C}'
-    m_lastTimePsrt1: 109424463
-    m_lastTimePart2: -1999290749
+    m_lastTimePsrt1: -545833912
+    m_lastTimePart2: -1999290584
     List:
     - Name: SndBnk_Game1
       Path: Default Work Unit\SndBnk_Game1
@@ -258,6 +278,15 @@ MonoBehaviour:
         ObjectType: 7
       ID: -1669154749
       Guid: c6975bc98f8cad47bb44d95a9859e0bd
+    - Name: SndBnk_Game15
+      Path: Default Work Unit\SndBnk_Game15
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SndBnk_Game15
+        ObjectType: 7
+      ID: -1530392244
+      Guid: 1402fc8328bb4f4aa53be92f110c8f1f
     - Name: SndBnk_Game2
       Path: Default Work Unit\SndBnk_Game2
       PathAndIcons:
@@ -328,6 +357,8 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /jam_de_l_Avent_WwiseProject
+  - /jam_de_l_Avent_WwiseProject/Events
+  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit
   - /jam_de_l_Avent_WwiseProject/SoundBanks
   - /jam_de_l_Avent_WwiseProject/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0

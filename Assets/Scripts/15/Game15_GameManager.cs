@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Game15_GameManager : MonoBehaviour {
 
+    public Vector3 smashScale;
     public SpriteRenderer snowSprite;
     public Sprite[] snows;
 
@@ -15,17 +16,22 @@ public class Game15_GameManager : MonoBehaviour {
     public Text timer;
 
     private int snowIndex = 0;
-
+    private Vector3 baseScale;
     private int score = 0;
-    
-
 
 	void Start ()
     {
+        baseScale = snowSprite.gameObject.transform.localScale;
         Time.timeScale = 1f;
         snowSprite.sprite = snows[snowIndex];
     }
 	
+    IEnumerator SmashEffect()
+    {
+        snowSprite.gameObject.transform.localScale = smashScale;
+        yield return new WaitForSeconds(0.05f);
+        snowSprite.gameObject.transform.localScale = baseScale;
+    }
 
 	void Update ()
     {
@@ -33,12 +39,14 @@ public class Game15_GameManager : MonoBehaviour {
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                AkSoundEngine.PostEvent("Play_Game15_Hit", gameObject);
+                StartCoroutine(SmashEffect());
                 score++;
                 AddScore();
                 CheckForEnd();
             }
-
-            timer.text = Time.time.ToString("0.00");
+            
+            timer.text = Time.timeSinceLevelLoad.ToString("0.00");
         }
 	}
 
@@ -56,7 +64,7 @@ public class Game15_GameManager : MonoBehaviour {
         if (snowIndex == snows.Length -1)
         {
             losePanel.SetActive(true);
-            endTimer.text = "Time : " + Time.time.ToString("0.00");
+            endTimer.text = "Time : " + Time.timeSinceLevelLoad.ToString("0.00");
             Time.timeScale = 0f;
         }
     }

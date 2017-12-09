@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1433383906	Play_Game15_Music			\Default Work Unit\Play_Game15_Music	
+	3455469300	Play_Game15_Hit			\Default Work Unit\Play_Game15_Hit	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	590058678	happy	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\happy_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\happy		3195172
+	901487032	snow	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\snow_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\snow		6870
+
