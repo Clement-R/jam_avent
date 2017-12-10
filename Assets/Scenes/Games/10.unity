@@ -128,7 +128,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &79789247
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1739,6 +1739,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1111589375}
   - component: {fileID: 1111589376}
+  - component: {fileID: 1111589378}
+  - component: {fileID: 1111589377}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1770,7 +1772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6570317e0ac5a54da40bfa3c996075a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToLive: 5
+  timeToLive: 60
   startPanel: {fileID: 1032867546}
   losePanelEarlyShoo: {fileID: 1214333342}
   losePanelUncleSpoke: {fileID: 540953249}
@@ -1814,6 +1816,50 @@ MonoBehaviour:
   eyesShoo: {fileID: 21300000, guid: d2fdea1c789663142948af69ae88c24d, type: 3}
   mouthShoo: {fileID: 21300000, guid: 3a23cf4dfb48a7244b1d14f93eff719c, type: 3}
   timer: {fileID: 550763694}
+--- !u!114 &1111589377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1111589374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b91ba5a21cc1a14690b2cc85340224e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: 7f3cf6579fb9df4ea2d391d3043a43d3
+  eventID: -1414974250
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
+  multiPositionTypeLabel: 0
+  multiPositionArray: []
+--- !u!114 &1111589378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1111589374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7a2de6aa65f124498c0e6ff4296e58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_positionOffsetData:
+    positionOffset: {x: 0, y: 0, z: 0}
+    KeepMe: 0
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_listeners:
+    initialListenerList: []
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1162847745
 GameObject:
   m_ObjectHideFlags: 0

@@ -188,6 +188,11 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="2764575049" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game10</ObjectPath>
+			<ShortName>SndBnk_Game10</ShortName>
+			<Path>SndBnk_Game10.bnk</Path>
+		</SoundBank>
 		<SoundBank Id="2764575052" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game15</ObjectPath>
 			<ShortName>SndBnk_Game15</ShortName>

@@ -188,6 +188,25 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="2764575049" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game10</ObjectPath>
+			<ShortName>SndBnk_Game10</ShortName>
+			<Path>SndBnk_Game10.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2879993046" Name="Play_Game10_Ambient" ObjectPath="\Events\Default Work Unit\Game10\Play_Game10_Ambient"/>
+				<Event Id="1494693749" Name="Play_Game10_Shh" ObjectPath="\Events\Default Work Unit\Game10\Play_Game10_Shh"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="280121892" Language="SFX">
+					<ShortName>b66BgwHzX0U.wav</ShortName>
+					<Path>SFX\b66BgwHzX0U_0BA5EDEA.wem</Path>
+				</File>
+				<File Id="848353035" Language="SFX">
+					<ShortName>family-meal-babbling-sound-effect.wav</ShortName>
+					<Path>SFX\family-meal-babbling-sound-effect_AD29F36A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="2764575052" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game15</ObjectPath>
 			<ShortName>SndBnk_Game15</ShortName>

@@ -47,6 +47,7 @@ public class Game10_GameManager : MonoBehaviour {
 
     IEnumerator Shoo()
     {
+        AkSoundEngine.PostEvent("Play_Game10_Shh", gameObject);
         playerFinger.SetActive(true);
         eyes.sprite = eyesShoo;
         mouth.sprite = mouthShoo;
