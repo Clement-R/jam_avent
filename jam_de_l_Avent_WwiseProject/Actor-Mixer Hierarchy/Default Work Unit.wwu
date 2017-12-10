@@ -573,6 +573,25 @@
 						<ActiveSource Name="Hit_Hurt29" ID="{2887F679-18BC-4CDB-8D80-D44F9F9123A3}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Jump15" ID="{EB8CF90B-8FBF-4DBD-B384-0E7F912A1D8E}" ShortID="344863778">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37A52BF4-A628-4A4E-A116-D45C28033CC0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB1810-1367-497F-A6B1-AA76852501DF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Jump15" ID="{7773E46E-E92D-4FA6-A62F-98AE14B4E5BF}" ShortID="610131409">
+							<Language>SFX</Language>
+							<AudioFile>Jump15.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Jump15" ID="{7773E46E-E92D-4FA6-A62F-98AE14B4E5BF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

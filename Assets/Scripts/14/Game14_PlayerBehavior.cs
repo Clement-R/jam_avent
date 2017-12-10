@@ -21,7 +21,7 @@ public class Game14_PlayerBehavior : MonoBehaviour {
 
         if (transform.position.y < Camera.main.transform.position.y - Camera.main.orthographicSize)
         {
-            print("You lose");
+            GameObject.FindGameObjectWithTag("GameController").GetComponent<Game14_GameManager>().Lose();
         }
 	}
 

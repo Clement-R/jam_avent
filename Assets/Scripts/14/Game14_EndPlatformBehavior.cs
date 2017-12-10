@@ -2,11 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Game14_PlatformBehavior : MonoBehaviour {
-    
-    public float jumpForce;
+public class Game14_EndPlatformBehavior : MonoBehaviour {
 
-    void OnCollisionEnter2D(Collision2D collision)
+       void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.relativeVelocity.y <= 0f)
         {
@@ -14,12 +12,8 @@ public class Game14_PlatformBehavior : MonoBehaviour {
 
             if (rb != null)
             {
-                Vector2 velocity = rb.velocity;
-                velocity.y = jumpForce;
-                rb.velocity = velocity;
+                GameObject.FindGameObjectWithTag("GameController").GetComponent<Game14_GameManager>().Win();
             }
-        }        
+        }
     }
-
-
 }
