@@ -995,6 +995,8 @@ GameObject:
   - component: {fileID: 695421717}
   - component: {fileID: 695421716}
   - component: {fileID: 695421715}
+  - component: {fileID: 695421719}
+  - component: {fileID: 695421718}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -1048,6 +1050,44 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &695421718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 695421714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea84abdaded0df4bb09e839a6580c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: e0770f747c0bfa439d1ed0351b776a9b
+  bankName: SndBnk_Game4
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+--- !u!114 &695421719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 695421714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea84abdaded0df4bb09e839a6580c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: 667e2c045356f14f9f3cfbf02592c10d
+  bankName: SndBnk_Game14
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
 --- !u!1 &700606152
 GameObject:
   m_ObjectHideFlags: 0

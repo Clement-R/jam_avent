@@ -3,6 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1614010812	Play_Game5_Click			\Default Work Unit\Game5\Play_Game5_Click	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	1011678436	Game5_Click	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\cardPlace2_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game5_Click		7344
-	1017736613	Game5_Music	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\207637__setuniman__christmas-loop-1d69_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game5_Music		255029
+	1011678436	Game5_Click	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\cardPlace2_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game5_Click		7344
+	1017736613	Game5_Music	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\207637__setuniman__christmas-loop-1d69_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game5_Music		255029
 
