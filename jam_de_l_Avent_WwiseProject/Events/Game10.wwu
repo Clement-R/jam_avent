@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A0AE7C69-5B17-41CC-9BB1-2CE78FBB9F6D}" SchemaVersion="80" RootDocumentID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}">
+	<Events>
+		<WorkUnit Name="Game10" ID="{A0AE7C69-5B17-41CC-9BB1-2CE78FBB9F6D}" OwnerID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Game10_Ambient" ID="{57F63C7F-B99F-4EDF-A2D3-91D3043A43D3}">
+					<ChildrenList>
+						<Action Name="" ID="{F9A95D45-29F3-4F8D-A555-1CF552C394BF}" ShortID="982758998">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game10_Ambient" ID="{0355C706-1090-42F6-B1C7-641FC7C7CC9F}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Game10_Shh" ID="{77FAAF14-53EE-4935-9A9B-050ABB5AD7C3}">
+					<ChildrenList>
+						<Action Name="" ID="{A3A4450F-0711-4F27-ACA3-C2C1B38C922B}" ShortID="458832356">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game10_Shh" ID="{0C3D34E8-129C-48C4-BC1D-29368A821D43}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
