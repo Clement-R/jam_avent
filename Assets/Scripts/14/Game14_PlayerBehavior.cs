@@ -18,6 +18,11 @@ public class Game14_PlayerBehavior : MonoBehaviour {
 	void Update ()
     {
         movement = Input.GetAxis("Horizontal") * movementSpeed;
+
+        if (transform.position.y < Camera.main.transform.position.y - Camera.main.orthographicSize)
+        {
+            print("You lose");
+        }
 	}
 
     private void FixedUpdate()
