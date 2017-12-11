@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	1751908879	Game14_Jump			\Default Work Unit\Game14\Game14_Jump	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	509615148	Jump15	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\Jump15_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump15		2682
+	509615148	Jump15	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\Jump15_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump15		2682
 

@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	3185519488	Play_Game8_Music			\Default Work Unit\Game8\Play_Game8_Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	150914306	Game8_Music	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\game8_song_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game8_Music		955059
+	150914306	Game8_Music	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\game8_song_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game8_Music		955059
 

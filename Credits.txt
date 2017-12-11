@@ -1,23 +1,23 @@
 Game 1
 Assets : Kenney
-Music : 
+Music :
 Sound Effects :
 
 Game 2
-Music : 
+Music :
 Sound Effects :
 
 Game 3
-Music : 
+Music :
 Sound Effects :
 
-Game 4 
+Game 4
 Assets : Kenney
-Music : 
+Music :
 Sound Effects :
 
 Game 5
-Music : 
+Music :
 Sound Effects :
 
 Game 6
@@ -29,36 +29,39 @@ Sound Effects
 
 Game 7
 Assets : Kenney
-Music : 
+Music :
 Sound Effects :
 
 Game 8
 Assets : Kenney & Opreem
-Music : 
+Music :
 Sound Effects :
 
 Game 9
 Assets : Kenney & Opreem
-Music : 
+Music :
 Sound Effects :
 
 Game 10
-Music : 
+Music :
 Sound Effects :
 
 Game 11
 Assets :
-Music : 
+Music : https://opengameart.org/content/h3ll0-fr0m-th3-futur3
+Licensed under a Creative Commons Attribution 4.0 International License.
+Copyright/Attribution Notice:
+H3LL0 FR0M TH3 FUTUR3 by Girliearchy
 Sound Effects :
 
 Game 12
 Assets :
-Music : 
+Music :
 Sound Effects :
 
 Game 13
 Assets :
-Music : 
+Music :
 Sound Effects :
 
 Game 14
@@ -66,50 +69,50 @@ Music : Game4
 Sound Effects : Bfxr
 
 Game 15
-Music : 
+Music :
 Sound Effects :
 
 Game 16
 Assets :
-Music : 
+Music :
 Sound Effects :
 
 Game 17
 Assets :
-Music : 
+Music :
 Sound Effects :
 
 Game 18
 Assets :
-Music : 
+Music :
 Sound Effects :
 
 Game 19
 Assets :
-Music : 
+Music :
 Sound Effects :
 
 Game 20
 Assets :
-Music : 
+Music :
 Sound Effects :
 
 Game 21
 Assets :
-Music : 
+Music :
 Sound Effects :
 
 Game 22
 Assets :
-Music : 
+Music :
 Sound Effects :
 
 Game 23
 Assets :
-Music : 
+Music :
 Sound Effects :
 
 Game 24
 Assets :
-Music : 
+Music :
 Sound Effects :

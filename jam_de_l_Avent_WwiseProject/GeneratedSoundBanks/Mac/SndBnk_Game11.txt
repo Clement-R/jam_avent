@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	794032462	Play_Game11_Music			\Default Work Unit\Game11\Play_Game11_Music	
+	797605923	Play_Game11_Click			\Default Work Unit\Game11\Play_Game11_Click	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	638387595	Game11_Click	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\Powerup6_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game11_Click		2240
+	979139157	Game11_Music	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\H3LL0_FR0M_TH3_FUTUR3_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game11_Music		1533314
+

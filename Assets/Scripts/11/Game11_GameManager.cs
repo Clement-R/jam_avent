@@ -13,7 +13,9 @@ public class Game11_GameManager : MonoBehaviour {
 
     public Text playerTurn;
     public GameObject tooSmall;
+    public GameObject startPanel;
     public GameObject endPanel;
+    public Text winner;
 
     private Vector2 _startLine = new Vector2(-9999, -9999);
     private Vector2 _endLine = new Vector2(-9999, -9999);
@@ -34,7 +36,12 @@ public class Game11_GameManager : MonoBehaviour {
     {
         playerTurn.text = "Player " + _playerTurn.ToString();
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && Time.time >= 1f)
+        {
+            startPanel.SetActive(false);
+        }
+
+        if (Input.GetMouseButtonDown(0) && !startPanel.activeSelf)
         {
             if(_startLine.x == -9999)
             {
@@ -48,13 +55,16 @@ public class Game11_GameManager : MonoBehaviour {
                 line.material = sr.material;
                 line.startColor = _playerTurn == 1 ? p1Color : p2Color;
                 line.endColor = _playerTurn == 1 ? p1Color : p2Color;
+
+                AkSoundEngine.PostEvent("Play_Game11_Click", gameObject);
             }
             else if (_endLine.x == -9999)
             {
                 Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 print(Vector2.Distance(_startLine, mousePos));
+                AkSoundEngine.PostEvent("Play_Game11_Click", gameObject);
 
-                if(Vector2.Distance(_startLine, mousePos) > 200)
+                if (Vector2.Distance(_startLine, mousePos) > 200)
                 {
                     _endLine = mousePos;
 
@@ -77,12 +87,12 @@ public class Game11_GameManager : MonoBehaviour {
                         if (!crossedALine)
                         {
                             _allLines.Add(this.line);
-                            print("Is okay");
                         }
                         else
                         {
-                            print("Lose");
-                            // TODO : show lose panel
+                            _playerTurn = _playerTurn == 1 ? 2 : 1;
+                            winner.text = "Player " + _playerTurn.ToString() + " wins !";
+                            endPanel.SetActive(true);
                             Time.timeScale = 0f;
                         }
                     }

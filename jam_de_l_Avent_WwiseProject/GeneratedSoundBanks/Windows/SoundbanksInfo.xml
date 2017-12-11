@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -185,6 +185,25 @@
 				<File Id="544658720" Language="SFX">
 					<ShortName>POL-battle-march-short (1).wav</ShortName>
 					<Path>SFX\POL-battle-march-short (1)_AD29F36A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2764575048" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game11</ObjectPath>
+			<ShortName>SndBnk_Game11</ShortName>
+			<Path>SndBnk_Game11.bnk</Path>
+			<IncludedEvents>
+				<Event Id="797605923" Name="Play_Game11_Click" ObjectPath="\Events\Default Work Unit\Game11\Play_Game11_Click"/>
+				<Event Id="794032462" Name="Play_Game11_Music" ObjectPath="\Events\Default Work Unit\Game11\Play_Game11_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="638387595" Language="SFX">
+					<ShortName>Powerup6.wav</ShortName>
+					<Path>SFX\Powerup6_F7D0E330.wem</Path>
+				</File>
+				<File Id="979139157" Language="SFX">
+					<ShortName>H3LL0_FR0M_TH3_FUTUR3.wav</ShortName>
+					<Path>SFX\H3LL0_FR0M_TH3_FUTUR3_AD29F36A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

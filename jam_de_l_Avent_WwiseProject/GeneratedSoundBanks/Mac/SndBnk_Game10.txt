@@ -3,6 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	2879993046	Play_Game10_Ambient			\Default Work Unit\Game10\Play_Game10_Ambient	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	280121892	Game10_Shh	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\b66BgwHzX0U_3469B11A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game10_Shh		22328
-	848353035	Game10_Ambient	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\family-meal-babbling-sound-effect_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game10_Ambient		715196
+	280121892	Game10_Shh	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\b66BgwHzX0U_3469B11A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game10_Shh		22328
+	848353035	Game10_Ambient	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\family-meal-babbling-sound-effect_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game10_Ambient		715196
 
