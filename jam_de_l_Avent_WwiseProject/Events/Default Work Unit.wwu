@@ -13,6 +13,21 @@
 				<WorkUnit Name="Game8" ID="{10D55B7F-4989-42D7-B614-763400B679B8}" PersistMode="Reference"/>
 				<WorkUnit Name="Game15" ID="{F71C91B6-A8DA-46D7-B63E-5425CB1D3F8A}" PersistMode="Reference"/>
 				<WorkUnit Name="Game10" ID="{A0AE7C69-5B17-41CC-9BB1-2CE78FBB9F6D}" PersistMode="Reference"/>
+				<Event Name="Play_Jump15" ID="{73447363-6754-4031-8E65-6C1AFD5290ED}">
+					<ChildrenList>
+						<Action Name="" ID="{B992DF30-8D15-4523-94BC-1270BAE07C36}" ShortID="273800210">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump15" ID="{0EA6CA61-1FE7-4016-956E-2D227948FCDC}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<WorkUnit Name="Game14" ID="{EDF9E028-84B6-4CF8-8104-88D4BE19E140}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

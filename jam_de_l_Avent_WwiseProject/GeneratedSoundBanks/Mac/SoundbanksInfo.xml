@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -192,6 +192,20 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game10</ObjectPath>
 			<ShortName>SndBnk_Game10</ShortName>
 			<Path>SndBnk_Game10.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2879993046" Name="Play_Game10_Ambient" ObjectPath="\Events\Default Work Unit\Game10\Play_Game10_Ambient"/>
+				<Event Id="1494693749" Name="Play_Game10_Shh" ObjectPath="\Events\Default Work Unit\Game10\Play_Game10_Shh"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="280121892" Language="SFX">
+					<ShortName>b66BgwHzX0U.wav</ShortName>
+					<Path>SFX\b66BgwHzX0U_3469B11A.wem</Path>
+				</File>
+				<File Id="848353035" Language="SFX">
+					<ShortName>family-meal-babbling-sound-effect.wav</ShortName>
+					<Path>SFX\family-meal-babbling-sound-effect_AD29F36A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="2764575052" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game15</ObjectPath>
@@ -209,6 +223,20 @@
 				<File Id="901487032" Language="SFX">
 					<ShortName>snow.wav</ShortName>
 					<Path>SFX\snow_F7D0E330.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2764575053" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game14</ObjectPath>
+			<ShortName>SndBnk_Game14</ShortName>
+			<Path>SndBnk_Game14.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1751908879" Name="Game14_Jump" ObjectPath="\Events\Default Work Unit\Game14\Game14_Jump"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="509615148" Language="SFX">
+					<ShortName>Jump15.wav</ShortName>
+					<Path>SFX\Jump15_F7D0E330.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

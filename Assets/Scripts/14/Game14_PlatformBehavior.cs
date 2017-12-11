@@ -14,11 +14,14 @@ public class Game14_PlatformBehavior : MonoBehaviour {
 
             if (rb != null)
             {
+                AkSoundEngine.PostEvent("Game14_Jump",gameObject);
+
                 Vector2 velocity = rb.velocity;
                 velocity.y = jumpForce;
                 rb.velocity = velocity;
             }
         }        
     }
+
 
 }

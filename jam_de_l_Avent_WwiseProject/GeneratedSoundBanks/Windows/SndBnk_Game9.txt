@@ -3,6 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1402952529	Play_Game9_Music			\Default Work Unit\Game9\Play_Game9_Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	381848003	Game9_Hit	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\Hit_Hurt29_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game9_Hit		1700
-	544658720	Game9_Music	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\POL-battle-march-short (1)_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game9_Music		100218
+	381848003	Game9_Hit	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\Hit_Hurt29_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game9_Hit		1700
+	544658720	Game9_Music	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\POL-battle-march-short (1)_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game9_Music		100218
 

@@ -3,6 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3611563548	Play_Game3_Score			\Default Work Unit\Game3\Play_Game3_Score	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	493974370	Game3_Score	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\Pickup_Coin11_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game3_Score		2052
-	1032006896	Game3_Music	E:\_Dev\Gamedev\jam_de_l_Avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\bensound-jazzyfrenchy_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game3_Music		1759038
+	493974370	Game3_Score	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\Pickup_Coin11_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game3_Score		2052
+	1032006896	Game3_Music	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\bensound-jazzyfrenchy_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game3_Music		1759038
 
