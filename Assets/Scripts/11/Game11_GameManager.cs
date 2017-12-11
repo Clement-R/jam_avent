@@ -1,8 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Game11_GameManager : MonoBehaviour {
+
+    public Color p1Color;
+    public Color p2Color;
+
+    public SpriteRenderer sr;
+
+    public Text playerTurn;
+    public GameObject tooSmall;
+    public GameObject endPanel;
 
     private Vector2 _startLine = new Vector2(-9999, -9999);
     private Vector2 _endLine = new Vector2(-9999, -9999);
@@ -11,63 +22,85 @@ public class Game11_GameManager : MonoBehaviour {
     private LineRenderer line;
 
     private List<LineRenderer> _allLines = new List<LineRenderer>();
-    
+
+    private int _playerTurn = 1;
+
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
+
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        playerTurn.text = "Player " + _playerTurn.ToString();
+
+        if (Input.GetMouseButtonDown(0))
         {
             if(_startLine.x == -9999)
             {
                 _startLine = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                print(_startLine);
 
                 lineObject = new GameObject();
                 line = lineObject.AddComponent<LineRenderer>();
                 line.SetPosition(0, _startLine);
                 line.startWidth = 1f;
                 line.endWidth = 1f;
+                line.material = sr.material;
+                line.startColor = _playerTurn == 1 ? p1Color : p2Color;
+                line.endColor = _playerTurn == 1 ? p1Color : p2Color;
             }
             else if (_endLine.x == -9999)
             {
-                _endLine = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                print(_endLine);
+                Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                print(Vector2.Distance(_startLine, mousePos));
 
-                line.SetPosition(1, _endLine);
-                
-                // If there is at least 2 lines
-                if (_allLines.Count >= 1)
+                if(Vector2.Distance(_startLine, mousePos) > 200)
                 {
-                    // Check if we cross other lines
-                    bool crossedALine = false;
-                    foreach (var line in _allLines)
-                    {
-                        if (doIntersect(this.line, line))
-                        {
-                            crossedALine = true;
-                            break;
-                        }
-                    }
+                    _endLine = mousePos;
 
-                    if (!crossedALine)
+                    line.SetPosition(1, _endLine);
+
+                    // If there is at least 2 lines
+                    if (_allLines.Count >= 1)
                     {
-                        _allLines.Add(this.line);
-                        print("Is okay");
+                        // Check if we cross other lines
+                        bool crossedALine = false;
+                        foreach (var line in _allLines)
+                        {
+                            if (doIntersect(this.line, line))
+                            {
+                                crossedALine = true;
+                                break;
+                            }
+                        }
+
+                        if (!crossedALine)
+                        {
+                            _allLines.Add(this.line);
+                            print("Is okay");
+                        }
+                        else
+                        {
+                            print("Lose");
+                            // TODO : show lose panel
+                            Time.timeScale = 0f;
+                        }
                     }
                     else
                     {
-                        print("Lose");
-                        // TODO : show lose panel
+                        _allLines.Add(this.line);
                     }
+
+                    _startLine = new Vector2(-9999, -9999);
+                    _endLine = new Vector2(-9999, -9999);
+                    lineObject = null;
+                    line = null;
+                    _playerTurn = _playerTurn == 1 ? 2 : 1;
                 }
                 else
                 {
-                    _allLines.Add(this.line);
+                    StartCoroutine(ShowWarning());
                 }
-
-                _startLine = new Vector2(-9999, -9999);
-                _endLine = new Vector2(-9999, -9999);
-                lineObject = null;
-                line = null;
             }
         }
 
@@ -76,6 +109,13 @@ public class Game11_GameManager : MonoBehaviour {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             line.SetPosition(1, mousePos);
         }
+    }
+
+    IEnumerator ShowWarning()
+    {
+        tooSmall.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        tooSmall.SetActive(false);
     }
 
     // Check if two segments line intersect, code by geeksforgeeks modified for c#
@@ -139,5 +179,16 @@ public class Game11_GameManager : MonoBehaviour {
         if (o4 == 0 && onSegment(p2, q1, q2)) return true;
 
         return false; // Doesn't fall in any of the above cases
+    }
+
+    public void Retry()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void Exit()
+    {
+        // SceneManager.LoadScene("main_menu");
+        Application.Quit();
     }
 }
