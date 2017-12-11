@@ -87,6 +87,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="SndBnk_Game12" ID="{97C32FC4-E43B-4E34-8AF2-7938CB58E8A8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Game12" ID="{7B6C06DC-6CBC-45D3-8C2F-1FA6876669DA}" WorkUnitID="{7B6C06DC-6CBC-45D3-8C2F-1FA6876669DA}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

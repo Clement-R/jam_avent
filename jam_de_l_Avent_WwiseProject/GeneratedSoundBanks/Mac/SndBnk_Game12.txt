@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	959033361	Play_Game12_Music			\Default Work Unit\Game12\Play_Game12_Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	12069918	mushroom_dance_0	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Mac\SFX\mushroom_dance_0_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\mushroom_dance_0		1202042
+

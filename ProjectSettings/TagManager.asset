@@ -11,6 +11,7 @@ TagManager:
   - Note
   - Player1
   - Player2
+  - Present
   layers:
   - Default
   - TransparentFX

@@ -47,7 +47,6 @@ Music :
 Sound Effects :
 
 Game 11
-Assets :
 Music : https://opengameart.org/content/h3ll0-fr0m-th3-futur3
 Licensed under a Creative Commons Attribution 4.0 International License.
 Copyright/Attribution Notice:
@@ -55,9 +54,8 @@ H3LL0 FR0M TH3 FUTUR3 by Girliearchy
 Sound Effects :
 
 Game 12
-Assets :
-Music :
-Sound Effects :
+Music : Mushroom dance by Bart on https://opengameart.org/content/mushroom-dance
+Sound Effects : Game11
 
 Game 13
 Assets :
