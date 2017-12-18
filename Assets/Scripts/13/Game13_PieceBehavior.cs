@@ -18,7 +18,9 @@ public class Game13_PieceBehavior : MonoBehaviour
     {
         score = 0;
         _rb = GetComponent<Rigidbody2D>();
-        SetScoreText();        
+        SetScoreText();
+
+        gameManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<Game13_GameManager>();
     }
 
     void Update()
@@ -26,29 +28,28 @@ public class Game13_PieceBehavior : MonoBehaviour
         _rb.velocity = new Vector2(-350, 0);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             //AkSoundEngine.PostEvent("Play_Game1_win", gameObject);
 
-            Destroy(other.gameObject);
+            Destroy(gameObject);
             score++;
             SetScoreText();
         }
 
-        if (other.gameObject.CompareTag("Wall"))
+        if (collision.gameObject.CompareTag("Wall"))
         {
             //AkSoundEngine.PostEvent("Play_Game1_lose", gameObject);
 
-            Destroy(other.gameObject);
+            Destroy(collision.gameObject);
             gameManager.Lose();
-        }               
-
+        }
     }
 
     void SetScoreText()
     {
-        //scoreText.text = score.ToString();
+        scoreText.text = score.ToString();
     }
 }

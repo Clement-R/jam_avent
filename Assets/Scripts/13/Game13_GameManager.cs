@@ -9,7 +9,7 @@ public class Game13_GameManager : MonoBehaviour {
     public GameObject losePanel;
     //public Text endScore;
 
-    public Game13_PieceBehavior score;
+    public Text score;
 
     public void Lose()
     {

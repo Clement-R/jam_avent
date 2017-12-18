@@ -7,6 +7,7 @@ public class Game13_PlayerBehavior : MonoBehaviour {
     public float jumpForce;
 
     private Rigidbody2D _rb;
+    private bool _isGrounded = true;
 
     void Start ()
     {
@@ -15,10 +16,18 @@ public class Game13_PlayerBehavior : MonoBehaviour {
 	
 	void Update ()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && _isGrounded)
         {
-            _rb.velocity = new Vector2(0, 300);
+            _rb.AddForce(new Vector2(0, 400000));
+            _isGrounded = false;
         }
+    }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.name == "Floor")
+        {
+            _isGrounded = true;
+        }
     }
 }
