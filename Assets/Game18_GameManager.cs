@@ -28,8 +28,8 @@ public class Game18_GameManager : MonoBehaviour {
 
     IEnumerator Up()
     {
-        _numberOfElf += (int)Mathf.Ceil(_ratePerMs * Time.deltaTime);
-        numberOfElves.text = _numberOfElf.ToString();
+        _numberOfElf += _ratePerMs * Time.deltaTime * 1000;
+        numberOfElves.text = _numberOfElf.ToString("0");
         yield return null;
         StartCoroutine(Up());
     }
@@ -37,5 +37,24 @@ public class Game18_GameManager : MonoBehaviour {
     public void Click()
     {
         _numberOfElf += _elfPerClick;
+    }
+
+    public void AddRate(int rate, int price)
+    {
+        if(_numberOfElf - price >= 0)
+        {
+            _ratePerSecond += rate;
+            ComputeRatePerMs();
+            _numberOfElf -= price;
+        }
+    }
+
+    public void AddClickValue(int value, int price)
+    {
+        if (_numberOfElf - price >= 0)
+        {
+            _elfPerClick += value;
+            _numberOfElf -= price;
+        }
     }
 }
