@@ -11,6 +11,7 @@
 				<File Name="SndBnk_Game14" Hash="825625560" Timestamp="131574998836194942"/>
 				<File Name="SndBnk_Game15" Hash="333249215" Timestamp="131574998843805378"/>
 				<File Name="SndBnk_Game2" Hash="473855637" Timestamp="131574999474881473"/>
+				<File Name="SndBnk_Game21" Hash="4194707557" Timestamp="131583630150698044"/>
 				<File Name="SndBnk_Game3" Hash="1100324799" Timestamp="131574999477441620"/>
 				<File Name="SndBnk_Game4" Hash="2181464321" Timestamp="131575009527866471"/>
 				<File Name="SndBnk_Game5" Hash="2890444010" Timestamp="131574999482601915"/>
@@ -21,7 +22,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="459969308" Timestamp="131575009528166488"/>
+				<File Name="" Hash="1214184202" Timestamp="131583630150818051"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -32,12 +33,13 @@
 				<File Name="SndBnk_Game1" Hash="3824407637" Timestamp="131574999416068109"/>
 				<File Name="SndBnk_Game10" Hash="1315268294" Timestamp="131574999440379500"/>
 				<File Name="SndBnk_Game11" Hash="3755137893" Timestamp="131574999441439560"/>
-				<File Name="SndBnk_Game12" Hash="3837301198" Timestamp="131574999441489563"/>
+				<File Name="SndBnk_Game12" Hash="2520215185" Timestamp="131583630268034755"/>
 				<File Name="SndBnk_Game14" Hash="825625560" Timestamp="131574999440569511"/>
 				<File Name="SndBnk_Game15" Hash="333249215" Timestamp="131574999438839412"/>
 				<File Name="SndBnk_Game2" Hash="473855637" Timestamp="131574999420778379"/>
+				<File Name="SndBnk_Game21" Hash="4194707557" Timestamp="131583630268074757"/>
 				<File Name="SndBnk_Game3" Hash="1100324799" Timestamp="131574999422768492"/>
-				<File Name="SndBnk_Game4" Hash="98295696" Timestamp="131574999429428873"/>
+				<File Name="SndBnk_Game4" Hash="2181464321" Timestamp="131583630266674677"/>
 				<File Name="SndBnk_Game5" Hash="2890444010" Timestamp="131574999430098912"/>
 				<File Name="SndBnk_Game6" Hash="1917282158" Timestamp="131574999434359155"/>
 				<File Name="SndBnk_Game8" Hash="4128609764" Timestamp="131574999435399215"/>
@@ -46,7 +48,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2705142046" Timestamp="131574999441559567"/>
+				<File Name="" Hash="1446921772" Timestamp="131583630268124760"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

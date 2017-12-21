@@ -96,9 +96,8 @@ Music :
 Sound Effects :
 
 Game 21
-Assets :
-Music :
-Sound Effects :
+Assets : Kenney
+Music : Happy synths loop with slight christmas feeling by Pant0don (OpenGameArt)
 
 Game 22
 Assets :

@@ -16,6 +16,7 @@
 				<WorkUnit Name="Game14" ID="{EDF9E028-84B6-4CF8-8104-88D4BE19E140}" PersistMode="Reference"/>
 				<WorkUnit Name="Game11" ID="{5F911B39-4A8B-4A0A-90FD-C184A78BABCA}" PersistMode="Reference"/>
 				<WorkUnit Name="Game12" ID="{7B6C06DC-6CBC-45D3-8C2F-1FA6876669DA}" PersistMode="Reference"/>
+				<WorkUnit Name="Game21" ID="{174106E0-5940-4BB7-B29C-E533DE2E48A7}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

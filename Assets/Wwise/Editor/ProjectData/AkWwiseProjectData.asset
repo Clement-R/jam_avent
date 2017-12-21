@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{A710DE66-4291-4ABC-BEF5-9D41C31A9467}'
-    m_lastTimePsrt1: 375551362
-    m_lastTimePart2: -1999288181
+    m_lastTimePsrt1: 1835969352
+    m_lastTimePart2: -1999288140
     List: []
   - PhysicalPath: Events\Game1.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
@@ -229,6 +229,24 @@ MonoBehaviour:
       ID: -813742458
       Guid: db37746f00a2f7419bc588287ea12a0c
       maxAttenuation: 0
+  - PhysicalPath: Events\Game21.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    Guid: '{174106E0-5940-4BB7-B29C-E533DE2E48A7}'
+    m_lastTimePsrt1: 1836049357
+    m_lastTimePart2: -1999288140
+    List:
+    - Name: Game21_Music
+      Path: Default Work Unit\Game21\Game21_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game21
+        ObjectType: 12
+      - ElementName: Game21_Music
+        ObjectType: 3
+      ID: 291909712
+      Guid: 5d5684dc52c293489f76083a89a714d0
+      maxAttenuation: 0
   - PhysicalPath: Events\Game3.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{0D46C416-BA9D-4BAC-9F63-28950ED049A2}'
@@ -410,8 +428,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{4F62B987-CCF6-4B01-AE53-B880E4EE2E5C}'
-    m_lastTimePsrt1: 377746142
-    m_lastTimePart2: -1999288181
+    m_lastTimePsrt1: 1836029356
+    m_lastTimePart2: -1999288140
     List:
     - Name: SndBnk_Game1
       Path: Default Work Unit\SndBnk_Game1
@@ -476,6 +494,15 @@ MonoBehaviour:
         ObjectType: 7
       ID: -1669154752
       Guid: 0bf46891fb1c3e41b24166817855c127
+    - Name: SndBnk_Game21
+      Path: Default Work Unit\SndBnk_Game21
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SndBnk_Game21
+        ObjectType: 7
+      ID: -1580725007
+      Guid: 93af4b15bc3c9042aea07c9a9d3cd148
     - Name: SndBnk_Game3
       Path: Default Work Unit\SndBnk_Game3
       PathAndIcons:
@@ -547,6 +574,8 @@ MonoBehaviour:
   ExpandedItems:
   - /jam_de_l_Avent_WwiseProject
   - /jam_de_l_Avent_WwiseProject/Events
+  - /jam_de_l_Avent_WwiseProject/SoundBanks
+  - /jam_de_l_Avent_WwiseProject/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

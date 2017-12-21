@@ -9,7 +9,6 @@ using System.IO;
 */
 namespace EditorOnFireFileParser
 {
-
     public class ChartProperties
     {
         public string projectRevisionNumber;

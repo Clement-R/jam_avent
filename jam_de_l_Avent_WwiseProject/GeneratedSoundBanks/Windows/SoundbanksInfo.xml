@@ -188,6 +188,20 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="2714242289" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game21</ObjectPath>
+			<ShortName>SndBnk_Game21</ShortName>
+			<Path>SndBnk_Game21.bnk</Path>
+			<IncludedEvents>
+				<Event Id="291909712" Name="Game21_Music" ObjectPath="\Events\Default Work Unit\Game21\Game21_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="55219263" Language="SFX">
+					<ShortName>game21_song.wav</ShortName>
+					<Path>SFX\game21_song_F7D0E330.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="2764575048" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game11</ObjectPath>
 			<ShortName>SndBnk_Game11</ShortName>
