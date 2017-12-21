@@ -7,10 +7,12 @@ public class Game21_NoteDetection : MonoBehaviour
 
     public KeyCode key;
     public Game21_GameManager gameManager;
-    public SpriteRenderer leftTree;
-    public SpriteRenderer rightTree;
-    public Sprite leftMove;
-    public Sprite rightMove;
+    public SpriteRenderer leftSanta;
+    public SpriteRenderer rightSanta;
+    public Sprite idleL;
+    public Sprite kissL;
+    public Sprite idleR;
+    public Sprite kissR;
     public ParticleSystem ps;
 
     private Game21_EndZoneBehavior endNormal;
@@ -32,13 +34,11 @@ public class Game21_NoteDetection : MonoBehaviour
 
                 if (key.ToString().Contains("Right"))
                 {
-                    leftTree.sprite = rightMove;
-                    rightTree.sprite = rightMove;
+                    StartCoroutine(Kiss(rightSanta));
                 }
                 else if (key.ToString().Contains("Left"))
                 {
-                    leftTree.sprite = leftMove;
-                    rightTree.sprite = leftMove;
+                    StartCoroutine(Kiss(leftSanta));
                 }
 
                 gameManager.AddScore();
@@ -51,13 +51,11 @@ public class Game21_NoteDetection : MonoBehaviour
             {
                 if (key.ToString().Contains("Right"))
                 {
-                    leftTree.sprite = rightMove;
-                    rightTree.sprite = rightMove;
+                    StartCoroutine(Kiss(rightSanta));
                 }
                 else if (key.ToString().Contains("Left"))
                 {
-                    leftTree.sprite = leftMove;
-                    rightTree.sprite = leftMove;
+                    StartCoroutine(Kiss(leftSanta));
                 }
 
                 gameManager.AddScore();
@@ -65,6 +63,22 @@ public class Game21_NoteDetection : MonoBehaviour
                 print(key.ToString() + " Normal note detected");
                 ps.Play();
             }
+        }
+    }
+
+    IEnumerator Kiss(SpriteRenderer sr)
+    {
+        if(sr == leftSanta)
+        {
+            sr.sprite = kissL;
+            yield return new WaitForSeconds(0.2f);
+            sr.sprite = idleL;
+        }
+        else
+        {
+            sr.sprite = kissR;
+            yield return new WaitForSeconds(0.2f);
+            sr.sprite = idleR;
         }
     }
 }
