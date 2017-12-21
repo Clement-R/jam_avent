@@ -1,102 +1,78 @@
+Use of Bfxr
+
 Game 1
 Assets : Kenney
-Music :
-Sound Effects :
+Music :  [Retro Game Music Pack] - Level 3 by Juhani Junkala (OpenGameArt)
 
 Game 2
-Music :
-Sound Effects :
+Music : www.bensound.com
 
 Game 3
-Music :
-Sound Effects :
+Music : www.bensound.com
 
 Game 4
 Assets : Kenney
-Music :
-Sound Effects :
+Music : RailJet / Long Seamless Loop by Deceased Superior Technician (DST), http://www.nosoapradio.us (OpenGameArt)
 
 Game 5
-Music :
-Sound Effects :
+Music :  Christmas loop 1D69 by Setuniman (Freesound)
 
 Game 6
 Assets : Opreem
-Music :
-http://freemusicarchive.org/music/Loopez/Free/
-Free by Loopez is licensed under a Attribution-NonCommercial 3.0 International License.
-Sound Effects
+Music : http://freemusicarchive.org/music/Loopez/Free/
 
 Game 7
 Assets : Kenney
 Music :
-Sound Effects :
 
 Game 8
 Assets : Kenney & Opreem
-Music :
-Sound Effects :
+Music : Merry Xmas 2016 by MattRach
 
 Game 9
 Assets : Kenney & Opreem
-Music :
-Sound Effects :
+Music : Battle March - Epic Orchestral Music Loop by Playonloop.com (OpenGameArt)
 
 Game 10
-Music :
-Sound Effects :
+Sound Effects : SOUND Effects Public Domain
 
 Game 11
-Music : https://opengameart.org/content/h3ll0-fr0m-th3-futur3
-Licensed under a Creative Commons Attribution 4.0 International License.
-Copyright/Attribution Notice:
-H3LL0 FR0M TH3 FUTUR3 by Girliearchy
-Sound Effects :
+Music : https://opengameart.org/content/h3ll0-fr0m-th3-futur3, H3LL0 FR0M TH3 FUTUR3 by Girliearchy (OpenGameArt)
 
 Game 12
-Music : Mushroom dance by Bart on https://opengameart.org/content/mushroom-dance
-Sound Effects : Game11
+Music : Mushroom dance by Bart on https://opengameart.org/content/mushroom-dance (OpenGameArt)
 
 Game 13
-Assets :
+Assets : Kenney
 Music :
-Sound Effects :
 
 Game 14
-Music : Game4
-Sound Effects : Bfxr
+Music : RailJet / Long Seamless Loop by Deceased Superior Technician (DST), http://www.nosoapradio.us (OpenGameArt)
 
 Game 15
-Music :
-Sound Effects :
+Music : Happy Arcade Tune by rezoner, https://soundcloud.com/rezoner (OpenGameArt)
 
 Game 16
-Assets :
 Music :
 Sound Effects :
 
 Game 17
-Assets :
 Music :
 Sound Effects :
 
 Game 18
-Assets :
 Music :
 Sound Effects :
 
 Game 19
-Assets :
-Music :
-Sound Effects :
+Music : Happy Arcade Tune by rezoner, https://soundcloud.com/rezoner (OpenGameArt)
 
 Game 20
-Assets :
+Assets : ?
 Music :
-Sound Effects :
 
 Game 21
-Assets : Kenney
+Assets : Kenney & Opreem
 Music : Happy synths loop with slight christmas feeling by Pant0don (OpenGameArt)
 
 Game 22
