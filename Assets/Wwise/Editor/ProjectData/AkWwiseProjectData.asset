@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{A710DE66-4291-4ABC-BEF5-9D41C31A9467}'
-    m_lastTimePsrt1: -1330301313
-    m_lastTimePart2: -1999290150
+    m_lastTimePsrt1: 375551362
+    m_lastTimePart2: -1999288181
     List: []
   - PhysicalPath: Events\Game1.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
@@ -148,8 +148,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Game12.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{7B6C06DC-6CBC-45D3-8C2F-1FA6876669DA}'
-    m_lastTimePsrt1: -1330231309
-    m_lastTimePart2: -1999290150
+    m_lastTimePsrt1: 375556362
+    m_lastTimePart2: -1999288181
     List:
     - Name: Play_Game12_Music
       Path: Default Work Unit\Game12\Play_Game12_Music
@@ -410,8 +410,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{4F62B987-CCF6-4B01-AE53-B880E4EE2E5C}'
-    m_lastTimePsrt1: -880895608
-    m_lastTimePart2: -1999290150
+    m_lastTimePsrt1: 377746142
+    m_lastTimePart2: -1999288181
     List:
     - Name: SndBnk_Game1
       Path: Default Work Unit\SndBnk_Game1
@@ -546,6 +546,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /jam_de_l_Avent_WwiseProject
+  - /jam_de_l_Avent_WwiseProject/Events
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
