@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Game13_PieceBehavior : MonoBehaviour
 {
@@ -9,17 +8,10 @@ public class Game13_PieceBehavior : MonoBehaviour
 
     public Vector2 speed;
     private Rigidbody2D _rb;
-
-    public Text scoreText;
-
-    private int score;
-
+    
     void Start()
     {
-        score = 0;
         _rb = GetComponent<Rigidbody2D>();
-        SetScoreText();
-
         gameManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<Game13_GameManager>();
     }
 
@@ -33,23 +25,16 @@ public class Game13_PieceBehavior : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             //AkSoundEngine.PostEvent("Play_Game1_win", gameObject);
-
+            collision.gameObject.GetComponent<Game13_PlayerBehavior>().AddScore();
             Destroy(gameObject);
-            score++;
-            SetScoreText();
         }
 
         if (collision.gameObject.CompareTag("Wall"))
         {
             //AkSoundEngine.PostEvent("Play_Game1_lose", gameObject);
 
-            Destroy(collision.gameObject);
+            Destroy(gameObject);
             gameManager.Lose();
         }
-    }
-
-    void SetScoreText()
-    {
-        scoreText.text = score.ToString();
     }
 }

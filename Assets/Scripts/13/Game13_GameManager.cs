@@ -7,13 +7,19 @@ using UnityEngine.SceneManagement;
 public class Game13_GameManager : MonoBehaviour {
 
     public GameObject losePanel;
-    //public Text endScore;
+    public Text endScore;
 
     public Text score;
+
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
 
     public void Lose()
     {
         losePanel.SetActive(true);
+        endScore.text = GameObject.FindGameObjectWithTag("Player").GetComponent<Game13_PlayerBehavior>().GetScore().ToString();
         Time.timeScale = 0f;
     }
 

@@ -1,16 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Game13_PlayerBehavior : MonoBehaviour {
 
     public float jumpForce;
+    public Text scoreText;
 
     private Rigidbody2D _rb;
     private bool _isGrounded = true;
+    private int _score = 0;
 
     void Start ()
     {
+        scoreText = GameObject.FindGameObjectWithTag("PickUp").GetComponent<Text>();
+        _score = 0;
         _rb = GetComponent<Rigidbody2D>();
     }
 	
@@ -18,7 +23,7 @@ public class Game13_PlayerBehavior : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Space) && _isGrounded)
         {
-            _rb.AddForce(new Vector2(0, 400000));
+            _rb.AddForce(new Vector2(0, jumpForce));
             _isGrounded = false;
         }
     }
@@ -29,5 +34,16 @@ public class Game13_PlayerBehavior : MonoBehaviour {
         {
             _isGrounded = true;
         }
+    }
+
+    public void AddScore()
+    {
+        _score++;
+        scoreText.text = _score.ToString();
+    }
+
+    public int GetScore()
+    {
+        return _score;
     }
 }
