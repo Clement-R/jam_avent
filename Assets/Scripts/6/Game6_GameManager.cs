@@ -58,6 +58,6 @@ public class Game6_GameManager : MonoBehaviour {
 
     public void Exit()
     {
-        Application.Quit();
+        SceneManager.LoadScene("main_menu");
     }
 }

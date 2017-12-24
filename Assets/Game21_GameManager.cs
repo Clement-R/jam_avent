@@ -48,6 +48,6 @@ public class Game21_GameManager : MonoBehaviour
 
     public void Exit()
     {
-        Application.Quit();
+        SceneManager.LoadScene("main_menu");
     }
 }

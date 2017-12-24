@@ -175,7 +175,6 @@ public class Game10_GameManager : MonoBehaviour {
 
     public void Exit()
     {
-        // SceneManager.LoadScene("main_menu");
-        Application.Quit();
+        SceneManager.LoadScene("main_menu");
     }
 }

@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Game17_DialogManager : MonoBehaviour {
 
     public string[] messages;
-    public float clickCooldown = 2f;
+    public SpriteRenderer mouthSr;
+    public Sprite[] mouth;
+    public float clickCooldown = 1f;
     public Text message;
 
     public GameObject button1;
     public GameObject button2;
+    public GameObject endButton;
 
     private int _messageIndex = 0;
     private float _nextMessage = 0f;
@@ -18,6 +22,14 @@ public class Game17_DialogManager : MonoBehaviour {
 	void Start ()
     {
         message.text = messages[_messageIndex];
+        StartCoroutine(ChangeMouth());
+    }
+
+    IEnumerator ChangeMouth()
+    {
+        mouthSr.sprite = mouth[Random.Range(0, mouth.Length)];
+        yield return new WaitForSeconds(0.2f);
+        StartCoroutine(ChangeMouth());
     }
 
     public void NextMessage()
@@ -48,5 +60,11 @@ public class Game17_DialogManager : MonoBehaviour {
         button2.SetActive(false);
         yield return new WaitForSeconds(clickCooldown);
         // TODO : Game end panel
+        endButton.SetActive(true);
+    }
+
+    public void Exit()
+    {
+        SceneManager.LoadScene("main_menu");
     }
 }

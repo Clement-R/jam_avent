@@ -16,17 +16,19 @@ public class Game20_PlayerController : MonoBehaviour {
     private Rigidbody2D _rb;
 
     void Start () {
+        Time.timeScale = 1f;
         _rb = GetComponent<Rigidbody2D>();
         _present = GameObject.FindGameObjectWithTag("PickUp").GetComponent<Game20_PresentBehavior>();
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && IsInPresentRange)
+        if (Input.GetKeyDown(KeyCode.Space) && IsInPresentRange && Time.timeScale > 0f)
         {
             if(IsInSight)
             {
-                print("Lose");
+                _present.Lose();
+                Time.timeScale = 0f;
             }
             else
             {
@@ -38,9 +40,12 @@ public class Game20_PlayerController : MonoBehaviour {
 
     private void FixedUpdate()
     {
-        // Movement
-        float h = Input.GetAxisRaw("Horizontal");
-        float v = Input.GetAxisRaw("Vertical");
-        _rb.velocity = Vector2.Scale(new Vector2(h, v), new Vector2(_hMaxSpeed, _vMaxSpeed));
+        if(Time.timeScale > 0f)
+        {
+            // Movement
+            float h = Input.GetAxisRaw("Horizontal");
+            float v = Input.GetAxisRaw("Vertical");
+            _rb.velocity = Vector2.Scale(new Vector2(h, v), new Vector2(_hMaxSpeed, _vMaxSpeed));
+        }
     }
 }

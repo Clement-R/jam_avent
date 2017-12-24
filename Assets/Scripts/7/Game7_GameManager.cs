@@ -45,7 +45,7 @@ public class Game7_GameManager : MonoBehaviour {
 
     public void Exit()
     {
-        Application.Quit();
+        SceneManager.LoadScene("main_menu");
     }
 
     // TODO : Music, shot sound, touch sound, explosion sound

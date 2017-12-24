@@ -16,14 +16,14 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{A710DE66-4291-4ABC-BEF5-9D41C31A9467}'
-    m_lastTimePsrt1: 1835969352
-    m_lastTimePart2: -1999288140
+    m_lastTimePsrt1: -844400171
+    m_lastTimePart2: -1999287623
     List: []
   - PhysicalPath: Events\Game1.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{E85ECF67-23AF-4CD1-A413-FBA513D5879C}'
-    m_lastTimePsrt1: 1831653969
-    m_lastTimePart2: -1999291952
+    m_lastTimePsrt1: 740876979
+    m_lastTimePart2: -1999291614
     List:
     - Name: Play_Game1_Hit
       Path: Default Work Unit\Game1\Play_Game1_Hit
@@ -88,8 +88,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Game10.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{A0AE7C69-5B17-41CC-9BB1-2CE78FBB9F6D}'
-    m_lastTimePsrt1: 1888956807
-    m_lastTimePart2: -1999290370
+    m_lastTimePsrt1: -658076856
+    m_lastTimePart2: -1999287784
     List:
     - Name: Play_Game10_Ambient
       Path: Default Work Unit\Game10\Play_Game10_Ambient
@@ -118,8 +118,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Game11.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{5F911B39-4A8B-4A0A-90FD-C184A78BABCA}'
-    m_lastTimePsrt1: 713637059
-    m_lastTimePart2: -1999290156
+    m_lastTimePsrt1: -658076856
+    m_lastTimePart2: -1999287784
     List:
     - Name: Play_Game11_Click
       Path: Default Work Unit\Game11\Play_Game11_Click
@@ -148,8 +148,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Game12.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{7B6C06DC-6CBC-45D3-8C2F-1FA6876669DA}'
-    m_lastTimePsrt1: 375556362
-    m_lastTimePart2: -1999288181
+    m_lastTimePsrt1: -657920507
+    m_lastTimePart2: -1999287784
     List:
     - Name: Play_Game12_Music
       Path: Default Work Unit\Game12\Play_Game12_Music
@@ -166,8 +166,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Game14.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{EDF9E028-84B6-4CF8-8104-88D4BE19E140}'
-    m_lastTimePsrt1: -781277495
-    m_lastTimePart2: -1999290255
+    m_lastTimePsrt1: -657917571
+    m_lastTimePart2: -1999287784
     List:
     - Name: Game14_Jump
       Path: Default Work Unit\Game14\Game14_Jump
@@ -184,8 +184,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Game15.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{F71C91B6-A8DA-46D7-B63E-5425CB1D3F8A}'
-    m_lastTimePsrt1: 412682369
-    m_lastTimePart2: -1999290370
+    m_lastTimePsrt1: -657917571
+    m_lastTimePart2: -1999287784
     List:
     - Name: Play_Game15_Hit
       Path: Default Work Unit\Game15\Play_Game15_Hit
@@ -232,8 +232,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Game21.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{174106E0-5940-4BB7-B29C-E533DE2E48A7}'
-    m_lastTimePsrt1: 1836049357
-    m_lastTimePart2: -1999288140
+    m_lastTimePsrt1: -657917571
+    m_lastTimePart2: -1999287784
     List:
     - Name: Game21_Music
       Path: Default Work Unit\Game21\Game21_Music
@@ -280,8 +280,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Game4.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{67BF29A1-285C-42A5-AE46-690641595342}'
-    m_lastTimePsrt1: 2103007728
-    m_lastTimePart2: -1999291558
+    m_lastTimePsrt1: -1403910763
+    m_lastTimePart2: -1999291427
     List:
     - Name: Play_Game4_Music
       Path: Default Work Unit\Game4\Play_Game4_Music
@@ -298,8 +298,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Game5.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{0B3A781F-B31E-4AD8-B31A-B6FBA08E99EA}'
-    m_lastTimePsrt1: 52303058
-    m_lastTimePart2: -1999291178
+    m_lastTimePsrt1: -831248070
+    m_lastTimePart2: -1999291059
     List:
     - Name: Play_Game5_Click
       Path: Default Work Unit\Game5\Play_Game5_Click
@@ -358,8 +358,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Game8.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{10D55B7F-4989-42D7-B614-763400B679B8}'
-    m_lastTimePsrt1: -55961237
-    m_lastTimePart2: -1999290538
+    m_lastTimePsrt1: -657917571
+    m_lastTimePart2: -1999287784
     List:
     - Name: Play_Game8_Music
       Path: Default Work Unit\Game8\Play_Game8_Music
@@ -376,8 +376,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Game9.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{7B9C1F24-E3A2-42D8-A18A-DFD4084EC527}'
-    m_lastTimePsrt1: -55951236
-    m_lastTimePart2: -1999290538
+    m_lastTimePsrt1: -657917571
+    m_lastTimePart2: -1999287784
     List:
     - Name: Play_Game9_Hit
       Path: Default Work Unit\Game9\Play_Game9_Hit
@@ -403,33 +403,51 @@ MonoBehaviour:
       ID: 1402952529
       Guid: e6632cd4c318f2499e0c2205fc462450
       maxAttenuation: 0
+  - PhysicalPath: Events\MainMenuGame.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    Guid: '{7A95BE50-A1F2-42AA-9610-9AA6B3A6C83A}'
+    m_lastTimePsrt1: -1394149911
+    m_lastTimePart2: -1999287621
+    List:
+    - Name: MainMenu
+      Path: Default Work Unit\MainMenuGame\MainMenu
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MainMenuGame
+        ObjectType: 12
+      - ElementName: MainMenu
+        ObjectType: 3
+      ID: -690320037
+      Guid: b143ca973de6904c98934bbfc4e5f4f7
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FACB1810-1367-497F-A6B1-AA76852501DF}'
-    m_lastTimePsrt1: -975646513
-    m_lastTimePart2: -1999292008
+    m_lastTimePsrt1: 753205821
+    m_lastTimePart2: -1999291614
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{D6EEC0EF-92BB-4DA2-8D47-832A9C5B3C55}'
-    m_lastTimePsrt1: -972926358
-    m_lastTimePart2: -1999292008
+    m_lastTimePsrt1: 759759829
+    m_lastTimePart2: -1999291614
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FE32996E-DCDD-410B-A69D-4E6150A26C1D}'
-    m_lastTimePsrt1: -972906357
-    m_lastTimePart2: -1999292008
+    m_lastTimePsrt1: 759764832
+    m_lastTimePart2: -1999291614
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{4F62B987-CCF6-4B01-AE53-B880E4EE2E5C}'
-    m_lastTimePsrt1: 1836029356
-    m_lastTimePart2: -1999288140
+    m_lastTimePsrt1: -844209298
+    m_lastTimePart2: -1999287623
     List:
     - Name: SndBnk_Game1
       Path: Default Work Unit\SndBnk_Game1
@@ -557,25 +575,34 @@ MonoBehaviour:
         ObjectType: 7
       ID: -1669154741
       Guid: a6580807b03bdf47bab4a2383f07ce57
+    - Name: SndBnk_Main
+      Path: Default Work Unit\SndBnk_Main
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SndBnk_Main
+        ObjectType: 7
+      ID: 151275727
+      Guid: c41cc318de3258488e0b01ce1b70a8bc
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{206586C5-1A1B-49AE-AEAB-E08555A61FB9}'
-    m_lastTimePsrt1: -980886813
-    m_lastTimePart2: -1999292008
+    m_lastTimePsrt1: 740897043
+    m_lastTimePart2: -1999291614
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FEDE0912-DA6F-444E-B742-C213973D87CC}'
-    m_lastTimePsrt1: -972896356
-    m_lastTimePart2: -1999292008
+    m_lastTimePsrt1: 759769857
+    m_lastTimePart2: -1999291614
     List: []
   ExpandedItems:
   - /jam_de_l_Avent_WwiseProject
   - /jam_de_l_Avent_WwiseProject/Events
-  - /jam_de_l_Avent_WwiseProject/SoundBanks
-  - /jam_de_l_Avent_WwiseProject/SoundBanks/Default Work Unit
+  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit
+  - /jam_de_l_Avent_WwiseProject/Events/Default Work Unit/MainMenuGame
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

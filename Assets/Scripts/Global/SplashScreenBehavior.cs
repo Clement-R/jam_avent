@@ -25,7 +25,7 @@ public class SplashScreenBehavior : MonoBehaviour {
 
     void Start ()
     {
-        StartCoroutine(LoadStartScene());
+        // StartCoroutine(LoadStartScene());
 	}
 	
 	void Update ()
@@ -68,11 +68,13 @@ public class SplashScreenBehavior : MonoBehaviour {
         }
 
         _hasAnimationFinished = true;
+
+        SceneManager.LoadScene("main_menu");
     }
 
     IEnumerator LoadStartScene()
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("16");
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("main_menu");
         asyncLoad.allowSceneActivation = false;
 
         while (!_hasAnimationFinished) {
