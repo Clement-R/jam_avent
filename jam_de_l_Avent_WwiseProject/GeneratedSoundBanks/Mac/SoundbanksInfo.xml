@@ -122,6 +122,20 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="2625812549" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game7</ObjectPath>
+			<ShortName>SndBnk_Game7</ShortName>
+			<Path>SndBnk_Game7.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4017087187" Name="Play_Game7_Music" ObjectPath="\Events\Default Work Unit\Game7\Play_Game7_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="32327578" Language="SFX">
+					<ShortName>Waiting_II.wav</ShortName>
+					<Path>SFX\Waiting_II_AD29F36A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="2625812550" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game4</ObjectPath>
 			<ShortName>SndBnk_Game4</ShortName>
@@ -185,6 +199,20 @@
 				<File Id="544658720" Language="SFX">
 					<ShortName>POL-battle-march-short (1).wav</ShortName>
 					<Path>SFX\POL-battle-march-short (1)_AD29F36A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2714242288" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game20</ObjectPath>
+			<ShortName>SndBnk_Game20</ShortName>
+			<Path>SndBnk_Game20.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1129975466" Name="Play_Game20_Music" ObjectPath="\Events\Default Work Unit\Game20\Play_Game20_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="406955864" Language="SFX">
+					<ShortName>FASE.wav</ShortName>
+					<Path>SFX\FASE_AD29F36A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -284,6 +312,50 @@
 				<File Id="509615148" Language="SFX">
 					<ShortName>Jump15.wav</ShortName>
 					<Path>SFX\Jump15_F7D0E330.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2764575055" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Game16</ObjectPath>
+			<ShortName>SndBnk_Game16</ShortName>
+			<Path>SndBnk_Game16.bnk</Path>
+			<IncludedEvents>
+				<Event Id="369592389" Name="Play_Game16_Music" ObjectPath="\Events\Default Work Unit\Game16\Play_Game16_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="671947331" Language="SFX">
+					<ShortName>Taking_it_piano.wav</ShortName>
+					<Path>SFX\Taking_it_piano_AD29F36A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2899361055" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SnbBnk_Game18</ObjectPath>
+			<ShortName>SnbBnk_Game18</ShortName>
+			<Path>SnbBnk_Game18.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1018872335" Name="Play_Game18_Music" ObjectPath="\Events\Default Work Unit\Game18\Play_Game18_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="1068828211" Language="SFX">
+					<ShortName>8bit_Bossa.wav</ShortName>
+					<Path>SFX\8bit_Bossa_AD29F36A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3925445133" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SndBnk_Menu</ObjectPath>
+			<ShortName>SndBnk_Menu</ShortName>
+			<Path>SndBnk_Menu.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3604647259" Name="MainMenu" ObjectPath="\Events\Default Work Unit\MainMenu"/>
+				<Event Id="3481224838" Name="Play_Game2_Music" ObjectPath="\Events\Default Work Unit\Game2\Play_Game2_Music"/>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="6218845" Language="SFX">
+					<ShortName>bensound-cute.wav</ShortName>
+					<Path>SFX\bensound-cute_AD29F36A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

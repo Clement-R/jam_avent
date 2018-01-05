@@ -4,22 +4,30 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour {
+
+    public GameObject credits;
     
-    private void Start()
-    {
-        StartCoroutine(StartMusic());
-    }
-
-    IEnumerator StartMusic()
-    {
-        AkSoundEngine.PostEvent("MainMenu", gameObject);
-        yield return new WaitForSeconds(1f);
-        AkSoundEngine.PostEvent("Play_Game2_Music", gameObject);
-    }
-
     public void LoadScene(string sceneName)
     {
         AkSoundEngine.PostEvent("Play_Game1_win", gameObject);
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void Credits()
+    {
+        credits.SetActive(true);
+    }
+
+    private void Update()
+    {
+        if(Input.anyKeyDown)
+        {
+            credits.SetActive(false);
+        }
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
     }
 }

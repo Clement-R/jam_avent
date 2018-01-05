@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IncrementalBankBuild Version="6" Flags="4259130660">
+<IncrementalBankBuild Version="6" Flags="878078161">
 	<Platform GUID="{A715E896-37B4-4112-86B5-3995DD812CD6}">
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Init" Hash="2403855257" Timestamp="131574998843915384"/>
-				<File Name="SndBnk_Game1" Hash="3824407637" Timestamp="131574999470901246"/>
+				<File Name="SnbBnk_Game18" Hash="4011707655" Timestamp="131596652828929955"/>
+				<File Name="SndBnk_Game1" Hash="785161200" Timestamp="131596594201626666"/>
 				<File Name="SndBnk_Game10" Hash="1315268294" Timestamp="131574999489462307"/>
-				<File Name="SndBnk_Game11" Hash="3755137893" Timestamp="131574999489752324"/>
-				<File Name="SndBnk_Game12" Hash="2520215185" Timestamp="131575003584356522"/>
+				<File Name="SndBnk_Game11" Hash="2518510016" Timestamp="131596599593055038"/>
+				<File Name="SndBnk_Game12" Hash="1681361418" Timestamp="131596583439291095"/>
 				<File Name="SndBnk_Game14" Hash="825625560" Timestamp="131574998836194942"/>
 				<File Name="SndBnk_Game15" Hash="333249215" Timestamp="131574998843805378"/>
-				<File Name="SndBnk_Game2" Hash="473855637" Timestamp="131574999474881473"/>
+				<File Name="SndBnk_Game16" Hash="1663427659" Timestamp="131596620479379667"/>
+				<File Name="SndBnk_Game2" Hash="723376594" Timestamp="131596466473921059"/>
+				<File Name="SndBnk_Game20" Hash="3928139157" Timestamp="131596620479509674"/>
 				<File Name="SndBnk_Game21" Hash="4194707557" Timestamp="131583630150698044"/>
 				<File Name="SndBnk_Game3" Hash="1100324799" Timestamp="131574999477441620"/>
 				<File Name="SndBnk_Game4" Hash="2181464321" Timestamp="131575009527866471"/>
 				<File Name="SndBnk_Game5" Hash="2890444010" Timestamp="131574999482601915"/>
 				<File Name="SndBnk_Game6" Hash="1917282158" Timestamp="131574999486442134"/>
+				<File Name="SndBnk_Game7" Hash="3606548362" Timestamp="131596604141945219"/>
 				<File Name="SndBnk_Game8" Hash="4128609764" Timestamp="131574998835914926"/>
 				<File Name="SndBnk_Game9" Hash="296643756" Timestamp="131574999487002166"/>
+				<File Name="SndBnk_Menu" Hash="3743414287" Timestamp="131596469049718386"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1214184202" Timestamp="131583630150818051"/>
+				<File Name="" Hash="630926258" Timestamp="131596652829249974"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -30,25 +35,30 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Init" Hash="580030591" Timestamp="131574999441529566"/>
-				<File Name="SndBnk_Game1" Hash="3824407637" Timestamp="131574999416068109"/>
+				<File Name="SnbBnk_Game18" Hash="4011707655" Timestamp="131596652981948708"/>
+				<File Name="SndBnk_Game1" Hash="785161200" Timestamp="131596604500335718"/>
 				<File Name="SndBnk_Game10" Hash="1315268294" Timestamp="131574999440379500"/>
-				<File Name="SndBnk_Game11" Hash="3755137893" Timestamp="131574999441439560"/>
-				<File Name="SndBnk_Game12" Hash="2520215185" Timestamp="131583630268034755"/>
+				<File Name="SndBnk_Game11" Hash="2518510016" Timestamp="131596604497995584"/>
+				<File Name="SndBnk_Game12" Hash="1681361418" Timestamp="131596583523675922"/>
 				<File Name="SndBnk_Game14" Hash="825625560" Timestamp="131574999440569511"/>
 				<File Name="SndBnk_Game15" Hash="333249215" Timestamp="131574999438839412"/>
-				<File Name="SndBnk_Game2" Hash="473855637" Timestamp="131574999420778379"/>
+				<File Name="SndBnk_Game16" Hash="1663427659" Timestamp="131596652982028712"/>
+				<File Name="SndBnk_Game2" Hash="723376594" Timestamp="131596466549935406"/>
+				<File Name="SndBnk_Game20" Hash="3928139157" Timestamp="131596652982058714"/>
 				<File Name="SndBnk_Game21" Hash="4194707557" Timestamp="131583630268074757"/>
 				<File Name="SndBnk_Game3" Hash="1100324799" Timestamp="131574999422768492"/>
 				<File Name="SndBnk_Game4" Hash="2181464321" Timestamp="131583630266674677"/>
 				<File Name="SndBnk_Game5" Hash="2890444010" Timestamp="131574999430098912"/>
 				<File Name="SndBnk_Game6" Hash="1917282158" Timestamp="131574999434359155"/>
+				<File Name="SndBnk_Game7" Hash="3606548362" Timestamp="131596604498115591"/>
 				<File Name="SndBnk_Game8" Hash="4128609764" Timestamp="131574999435399215"/>
 				<File Name="SndBnk_Game9" Hash="296643756" Timestamp="131574999439149429"/>
+				<File Name="SndBnk_Menu" Hash="3743414287" Timestamp="131596469087890569"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1446921772" Timestamp="131583630268124760"/>
+				<File Name="" Hash="1212160300" Timestamp="131596652982138718"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

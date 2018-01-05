@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Game18_GameManager : MonoBehaviour {
 
@@ -66,5 +67,10 @@ public class Game18_GameManager : MonoBehaviour {
             _elfPerClick += value;
             _numberOfElf -= price;
         }
+    }
+
+    public void Exit()
+    {
+        SceneManager.LoadScene("main_menu");
     }
 }

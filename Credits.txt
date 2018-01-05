@@ -1,5 +1,3 @@
-Use of Bfxr
-
 Game 1
 Assets : Kenney
 Music :  [Retro Game Music Pack] - Level 3 by Juhani Junkala (OpenGameArt)
@@ -23,7 +21,7 @@ Music : http://freemusicarchive.org/music/Loopez/Free/
 
 Game 7
 Assets : Kenney
-Music :
+Music : JazzyFrenchy by www.bensound.com
 
 Game 8
 Assets : Kenney & Opreem
@@ -42,50 +40,30 @@ Music : https://opengameart.org/content/h3ll0-fr0m-th3-futur3, H3LL0 FR0M TH3 FU
 Game 12
 Music : Mushroom dance by Bart on https://opengameart.org/content/mushroom-dance (OpenGameArt)
 
-Game 13
-Assets : Kenney
-Music :
-
 Game 14
-Music : RailJet / Long Seamless Loop by Deceased Superior Technician (DST), http://www.nosoapradio.us (OpenGameArt)
+Music : Waiting II by Joseph Gilbert / Kistol, https://opengameart.org/content/waiting-ii (OpenGameArt)
 
 Game 15
 Music : Happy Arcade Tune by rezoner, https://soundcloud.com/rezoner (OpenGameArt)
 
 Game 16
-Music :
-Sound Effects :
-
-Game 17
-Music :
-Sound Effects :
+Music : Taking It Pinao by Johan Brodd, https://opengameart.org/content/taking-it-piano (OpenGameArt)
 
 Game 18
-Music :
-Sound Effects :
+Music : 8bit Bossa by Joth, https://opengameart.org/content/bossa-nova (OpenGameArt)
 
 Game 19
 Music : Happy Arcade Tune by rezoner, https://soundcloud.com/rezoner (OpenGameArt)
 
 Game 20
-Assets : ?
-Music :
+Music : Phase Zero by Snabisch, https://opengameart.org/content/phase-zero (OpenGameArt)
 
 Game 21
 Assets : Kenney & Opreem
 Music : Happy synths loop with slight christmas feeling by Pant0don (OpenGameArt)
 
 Game 22
-Assets :
-Music :
-Sound Effects :
+Assets : Kenney
+Music : RailJet / Long Seamless Loop by Deceased Superior Technician (DST), http://www.nosoapradio.us (OpenGameArt)
 
-Game 23
-Assets :
-Music :
-Sound Effects :
-
-Game 24
-Assets :
-Music :
-Sound Effects :
+Bfxr

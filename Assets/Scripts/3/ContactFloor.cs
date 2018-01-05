@@ -10,6 +10,7 @@ public class ContactFloor : MonoBehaviour {
     public GameObject[] hearts;
     public GameObject LoseText;
     public GameObject b_Retry;
+    public GameObject b_Exit;
 
     private int lives;
     
@@ -50,6 +51,7 @@ public class ContactFloor : MonoBehaviour {
             Time.timeScale = 0f;
             sp.canSpawn = false;
             b_Retry.SetActive(true);
+            b_Exit.SetActive(true);
             LoseText.SetActive(true);
         }        
 	}
@@ -57,5 +59,10 @@ public class ContactFloor : MonoBehaviour {
     public void Retry ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void Exit()
+    {
+        SceneManager.LoadScene("main_menu");
     }
 }

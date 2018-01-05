@@ -17,6 +17,42 @@
 				<WorkUnit Name="Game11" ID="{5F911B39-4A8B-4A0A-90FD-C184A78BABCA}" PersistMode="Reference"/>
 				<WorkUnit Name="Game12" ID="{7B6C06DC-6CBC-45D3-8C2F-1FA6876669DA}" PersistMode="Reference"/>
 				<WorkUnit Name="Game21" ID="{174106E0-5940-4BB7-B29C-E533DE2E48A7}" PersistMode="Reference"/>
+				<Event Name="MainMenu" ID="{9A7B6FFB-4473-4200-B252-7951DD5843C4}">
+					<ChildrenList>
+						<Action Name="" ID="{4EB671C3-76D8-43D8-93B4-E1484DF68163}" ShortID="743974420">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{6DF7635F-4CC9-4BBE-ACE2-A5B24F08A439}" ShortID="167554525">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game2_Music" ID="{CC3AB0D3-693B-4397-ADCD-710358F8A380}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_All" ID="{BE617505-5973-4F8C-827B-D0CBA1E83BE5}">
+					<ChildrenList>
+						<Action Name="" ID="{EF0D4C2B-13C5-4509-8D3A-DDFE4C9F6FBB}" ShortID="1023215277">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<WorkUnit Name="Game18" ID="{8F8431B9-7EAE-4B5F-BD88-69BFFB871DFC}" PersistMode="Reference"/>
+				<WorkUnit Name="Game7" ID="{F2E31AA7-F7B2-4C61-9290-5CF59FDF31E8}" PersistMode="Reference"/>
+				<WorkUnit Name="Game20" ID="{4B1B1BB1-8063-4A88-80C1-1BE925A88BF9}" PersistMode="Reference"/>
+				<WorkUnit Name="Game16" ID="{A4015062-CED4-4EDB-A787-D79353FCEB61}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

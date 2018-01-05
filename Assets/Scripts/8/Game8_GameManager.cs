@@ -17,6 +17,11 @@ public class Game8_GameManager : MonoBehaviour {
     private int _numNotes = 0;
     private int _numNotesPlayed = 0;
 
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
+
     void Update ()
     {
         if(_numNotes == 0)

@@ -101,6 +101,43 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="SndBnk_Menu" ID="{21A8B6DE-4977-4C01-A066-FAB13F6B5EEE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MainMenu" ID="{9A7B6FFB-4473-4200-B252-7951DD5843C4}" WorkUnitID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Game2_Music" ID="{CC3AB0D3-693B-4397-ADCD-710358F8A380}" WorkUnitID="{8D4261FF-3105-4F79-A10D-383E7E07657E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_All" ID="{BE617505-5973-4F8C-827B-D0CBA1E83BE5}" WorkUnitID="{A710DE66-4291-4ABC-BEF5-9D41C31A9467}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SnbBnk_Game18" ID="{E258DC90-932C-4907-961A-A5169B4D5597}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Game18" ID="{8F8431B9-7EAE-4B5F-BD88-69BFFB871DFC}" WorkUnitID="{8F8431B9-7EAE-4B5F-BD88-69BFFB871DFC}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SndBnk_Game7" ID="{C5D1DF1F-3011-4AB9-A43A-DA1CAAFE6AF3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Game7" ID="{F2E31AA7-F7B2-4C61-9290-5CF59FDF31E8}" WorkUnitID="{F2E31AA7-F7B2-4C61-9290-5CF59FDF31E8}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SndBnk_Game16" ID="{E02759CF-D832-4927-B80A-289ED48EBC92}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Game16" ID="{A4015062-CED4-4EDB-A787-D79353FCEB61}" WorkUnitID="{A4015062-CED4-4EDB-A787-D79353FCEB61}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SndBnk_Game20" ID="{AA6B373D-6FB7-49A3-BDE9-19F1E5C4CFDF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Game20" ID="{4B1B1BB1-8063-4A88-80C1-1BE925A88BF9}" WorkUnitID="{4B1B1BB1-8063-4A88-80C1-1BE925A88BF9}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

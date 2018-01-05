@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	3481224838	Play_Game2_Music			\Default Work Unit\Game2\Play_Game2_Music	
+	3604647259	MainMenu			\Default Work Unit\MainMenu	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	6218845	Game2_Music	C:\Users\Marie Lou\Documents\Unity projects\Jam_avent\jam_de_l_Avent_WwiseProject\.cache\Windows\SFX\bensound-cute_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game2_Music		3278868
+

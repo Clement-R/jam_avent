@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Game2_GameManager : MonoBehaviour {
 
@@ -34,6 +35,11 @@ public class Game2_GameManager : MonoBehaviour {
     public void TakeScreenshot()
     {
         ScreenCapture.CaptureScreenshot("screenshot_your_own_present.png");
+    }
+
+    public void Exit()
+    {
+        SceneManager.LoadScene("main_menu");
     }
 
     public void SwapPaper(int order)
